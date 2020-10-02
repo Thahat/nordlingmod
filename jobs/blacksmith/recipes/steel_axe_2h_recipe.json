@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_axe_2h_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_axe_2h_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_axe_2h_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/weapons/steel_axe_2h/steel_axe_2h.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 2
+      },
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:steel_axe_2h"
+      }
+   ]
+}

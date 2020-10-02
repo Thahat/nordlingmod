@@ -1,0 +1,35 @@
+{
+   "type": "recipe",
+   "effort": 180,
+   "work_units": 30,
+   "recipe_name": "i18n(nordlingmod:jobs.herbalist.recipes.shrine_to_freya_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.herbalist.recipes.shrine_to_freya_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.herbalist.recipes.shrine_to_freya_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/decoration/shrine_to_freya/shrine_to_freya.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 3,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:gold_flakes",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:consumables:energy_tonic",
+         "count": 1
+      },
+      {
+         "material": "seed resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:shrine_to_freya"
+      }
+   ]
+}

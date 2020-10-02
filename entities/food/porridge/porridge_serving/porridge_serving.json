@@ -1,0 +1,44 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(porridge_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 60,
+            "drink_satisfaction": 20
+         },
+         "default": {
+            "satisfaction": 45,
+            "drink_satisfaction": 10
+         },
+         "applied_buffs": [
+            "stonehearth_ace:buffs:consumption:refreshed_belly"
+         ],
+         "quality": 6
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.food.porridge.porridge_serving.display_name)",
+         "description": "i18n(nordlingmod:entities.food.porridge.porridge_serving.description)",
+         "material_tags": [
+            "food",
+            "dairy",
+            "refreshing",
+            "breakfast_time"
+         ],
+         "subject_override": "nordlingmod:food:porridge"
+      }
+   }
+}

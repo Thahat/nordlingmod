@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 3,
+   "recipe_name": "i18n(nordlingmod:jobs.weaver.recipes.ac_tent.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.weaver.recipes.ac_tent.description)",
+   "flavor": "i18n(nordlingmod:jobs.weaver.recipes.ac_tent.flavor)",
+   "portrait": "/nordlingmod/entities/furniture/ac_tent/ac_tent.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "cloth resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:ac_tent"
+      }
+   ]
+}

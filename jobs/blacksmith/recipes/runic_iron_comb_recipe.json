@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.runic_iron_comb.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.runic_iron_comb.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.runic_iron_comb.flavor)",
+   "portrait": "/nordlingmod/entities/armor/runic_iron_comb/runic_iron_comb.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:runic_iron_comb"
+      }
+   ]
+}

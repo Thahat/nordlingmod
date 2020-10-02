@@ -1,0 +1,93 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.05
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(legendary_hammer_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(legendary_hammer_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "additional_equipment": {
+            "nordlingmod:weapon_belt_hanger": true
+         },
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 40,
+         "roles": "ruler_job",
+         "required_job_level": 5,
+         "equip_effect": "stonehearth:effects:lightning_effect",
+         "equipment_types": [
+            "mainhand"
+         ]
+      },
+      "effect_list": {
+         "default": "nordlingmod:effects:lightning_hammer_equip"
+      }
+   },
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "infection": {
+               "uri": "nordlingmod:legendary_hammer_debuff",
+               "chance": 0.3
+            }
+         }
+      },
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 40,
+         "reach": 1.5
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "lightning_forehand",
+            "effect": "lightning_forehand",
+            "active_frame": 16,
+            "cooldown": 100,
+            "priority": 0
+         },
+         {
+            "name": "lightning_backhand",
+            "effect": "lightning_backhand",
+            "active_frame": 16,
+            "cooldown": 1200,
+            "priority": 0
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 400,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.legendary_hammer.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.legendary_hammer.description)",
+         "icon": "file(legendary_hammer.png)",
+         "category": "weapons",
+         "material_tags": [
+            "nordling_made",
+			"onehanded",
+            "metal",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
+      }
+   }
+}

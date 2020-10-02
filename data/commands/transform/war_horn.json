@@ -1,0 +1,12 @@
+{
+   "type": "command",
+   "name": "sculpt_statue",
+   "display_name": "Blow Horn",
+   "description": "Blow the mighty war horn!",
+   "default_enabled": true,
+   "ordinal": -99,
+   "icon": "file(war_horn.png)",
+   "action": "call",
+   "function": "stonehearth_ace:transform_command",
+   "args": []
+}

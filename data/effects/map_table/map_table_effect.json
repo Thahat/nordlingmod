@@ -1,0 +1,110 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "cubemitter_left": {
+			"type": "cubemitter",
+			"cubemitter": "/nordlingmod/data/horde/particles/map_table/candle.cubemitter.json",
+			"loop": true,
+			"transforms": {
+				"x":2.25,
+				"y":1.85,
+				"z":-0.55,
+				"rx":90,
+				"ry":0,
+				"rz":0
+			}
+		},
+		"cubemitter_right_little": {
+			"type": "cubemitter",
+			"cubemitter": "/nordlingmod/data/horde/particles/map_table/candle.cubemitter.json",
+			"loop": true,
+			"transforms": {
+				"x":-2.25,
+				"y":1.85,
+				"z":-0.65,
+				"rx":90,
+				"ry":0,
+				"rz":0
+			}
+		},
+		"cubemitter_right_tall": {
+			"type": "cubemitter",
+			"cubemitter": "/nordlingmod/data/horde/particles/map_table/candle.cubemitter.json",
+			"loop": true,
+			"transforms": {
+				"x":-2.15,
+				"y":2.05,
+				"z":-1.15,
+				"rx":90,
+				"ry":0,
+				"rz":0
+			}
+		},
+		"cubemitter_glow_left": {
+			"type": "cubemitter",
+			"cubemitter": "/nordlingmod/data/horde/particles/map_table/candle_glow.cubemitter.json",
+			"loop": true,
+			"transforms": {
+				"x":2.25,
+				"y":1.85,
+				"z":-0.55,
+				"rx":90,
+				"ry":0,
+				"rz":0
+			}
+		},
+		"cubemitter_glow_right_little": {
+			"type": "cubemitter",
+			"cubemitter": "/nordlingmod/data/horde/particles/map_table/candle_glow.cubemitter.json",
+			"loop": true,
+			"transforms": {
+				"x":-2.25,
+				"y":1.85,
+				"z":-0.65,
+				"rx":90,
+				"ry":0,
+				"rz":0
+			}
+		},
+		"cubemitter_glow_right_tall": {
+			"type": "cubemitter",
+			"cubemitter": "/nordlingmod/data/horde/particles/map_table/candle_glow.cubemitter.json",
+			"loop": true,
+			"transforms": {
+				"x":-2.15,
+				"y":2.05,
+				"z":-1.15,
+				"rx":90,
+				"ry":0,
+				"rz":0
+			}
+		},
+		"light_left": {
+			"type": "light",
+			"light": "/nordlingmod/data/horde/animatedlights/map_table/candle.animatedlight.json",
+			"transforms": {
+				"x":2.25,
+				"y":1.85,
+				"z":-0.55
+			}
+		},
+		"light_right_little": {
+			"type": "light",
+			"light": "/nordlingmod/data/horde/animatedlights/map_table/candle.animatedlight.json",
+			"transforms": {
+				"x":-2.25,
+				"y":1.85,
+				"z":-0.65
+			}
+		},
+		"light_right_tall": {
+			"type": "light",
+			"light": "/nordlingmod/data/horde/animatedlights/map_table/candle.animatedlight.json",
+			"transforms": {
+				"x":-2.15,
+				"y":2.05,
+				"z":-1.15
+			}
+		}
+	}
+}

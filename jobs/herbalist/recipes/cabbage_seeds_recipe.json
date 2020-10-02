@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 4,
+   "recipe_name": "i18n(nordlingmod:jobs.herbalist.recipes.cabbage_seeds_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.herbalist.recipes.cabbage_seeds_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.herbalist.recipes.cabbage_seeds_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/consumables/seeds/cabbage_seeds/cabbage_seeds.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "uri": "nordlingmod:food:cabbage:cabbage_basket",
+         "count": 12
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:consumables:seeds:cabbage_seeds"
+      }
+   ]
+}

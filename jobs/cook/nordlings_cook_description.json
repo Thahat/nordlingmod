@@ -1,0 +1,13 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:cook",
+   "display_order": 6,
+    "equipment": {
+		"torso": "file(cook_outfit)"
+	},
+	"crafter": {
+      "recipe_list": "/nordlingmod/jobs/cook/recipes/recipes.json"
+   },
+	"parent_job": "stonehearth:jobs:worker",
+   "parent_level_requirement": 1,
+}

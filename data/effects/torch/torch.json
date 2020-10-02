@@ -1,0 +1,30 @@
+{
+   "type": "effect",
+   "tracks": {
+      "fire": {
+         "type": "cubemitter",
+         "cubemitter": "/stonehearth/data/horde/particles/fire/torch/torch_fire.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0, "z": -1.3,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "fire_glitter": {
+         "type": "cubemitter",
+         "cubemitter": "/stonehearth/data/horde/particles/fire/torch/torch_fire_glitter.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0, "z": -1.3,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "light": {
+         "type": "light",
+         "light": "/stonehearth/data/horde/animatedlights/fire/torch/torch.animatedlight.json",
+         "transforms": { "x": 0, "y": 0, "z": -1.3 }
+      }
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.silver_helmet_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.silver_helmet_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.silver_helmet_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/armor/runic_silver_comb/runic_silver_comb.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:silver_ingot",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:runic_silver_comb"
+      }
+   ]
+}

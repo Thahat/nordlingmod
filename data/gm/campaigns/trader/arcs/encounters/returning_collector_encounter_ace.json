@@ -1,0 +1,11 @@
+{
+	"can_start": {
+      "test_nordlingmod": {
+			"kingdom_check": {
+            "type": "deny_if_not",
+            "item": "kingdom",
+            "value": "nordlingmod:kingdoms:nordlings"
+         }
+      }
+   }
+}

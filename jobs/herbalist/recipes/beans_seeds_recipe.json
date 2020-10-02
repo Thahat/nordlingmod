@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 4,
+   "recipe_name": "i18n(nordlingmod:jobs.herbalist.recipes.beans_seeds_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.herbalist.recipes.beans_seeds_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.herbalist.recipes.beans_seeds_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/consumables/seeds/beans_seeds/beans_seeds.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "uri": "nordlingmod:food:beans:beans_basket",
+         "count": 12
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:consumables:seeds:beans_seeds"
+      }
+   ]
+}

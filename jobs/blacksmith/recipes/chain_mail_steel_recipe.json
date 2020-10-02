@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.chain_mail_steel.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.chain_mail_steel.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.chain_mail_steel.flavor)",
+   "portrait": "/nordlingmod/entities/armor/chain_mail_steel/chain_mail_steel.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:chain_mail_steel"
+      }
+   ]
+}

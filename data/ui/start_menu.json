@@ -1,0 +1,136 @@
+{
+   "town_menu": {
+		"icon": "/nordlingmod/ui/game/start_menu/images/town.png"
+	},
+	"citizen_manager": {
+		"icon": "/nordlingmod/ui/game/start_menu/images/citizens.png"
+	},
+	"custom_building_new": {
+		"icon": "/nordlingmod/ui/game/start_menu/images/build.png"
+	},
+	"place_menu": {
+		"icon": "/nordlingmod/ui/game/start_menu/images/place_item.png",
+		"items": {
+			"place_item": {
+				"icon": "/nordlingmod/ui/game/start_menu/images/place_item.png"
+			},
+			"build_ladder": {
+				"icon": "/nordlingmod/ui/game/start_menu/images/build_ladder.png"
+			}
+		}
+	},
+	"harvest_menu": {
+		"icon": "/nordlingmod/ui/game/start_menu/images/harvest.png",
+		"items": {
+			"harvest": {
+			"icon": "/nordlingmod/ui/game/start_menu/images/harvest_cmd.png"
+			},
+			"mine_basic": {
+			"icon": "/nordlingmod/ui/game/start_menu/images/mine.png"
+			},
+			"mine_custom": {
+			"icon": "/nordlingmod/ui/game/start_menu/images/mine_block.png"
+			},
+			"cancel_task": {
+			"icon": "/nordlingmod/ui/game/start_menu/images/cancel.png"
+			},
+			"loot_item": {
+			"icon": "/nordlingmod/ui/game/start_menu/images/loot.png"
+			},
+			"clear_item": {
+			 "icon": "/nordlingmod/ui/game/start_menu/images/clear.png"
+			}
+		}
+	},
+	
+   "zone_menu": {
+		"icon": "/nordlingmod/ui/game/start_menu/images/zone.png",
+		"items": {
+			"create_stockpile": {
+				"icon": "/nordlingmod/ui/game/start_menu/images/zone_stockpile.png"
+			},
+			"create_farm": {
+				"name": "i18n(stonehearth:ui.game.menu.zone_menu.items.create_farm.display_name)",
+				"description": "i18n(stonehearth:ui.game.menu.zone_menu.items.create_farm.description)",
+				"required_job": "stonehearth:jobs:worker",
+				"required_job_text": "i18n(stonehearth:ui.game.menu.zone_menu.items.create_farm.required_job_text)",
+				"icon": "/nordlingmod/ui/game/start_menu/images/zone_farm.png"
+			},
+			"create_trapping_grounds": {
+				"icon": "/nordlingmod/ui/game/start_menu/images/zone_trap.png"
+			},
+			"create_pasture": {
+				"icon": "/nordlingmod/ui/game/start_menu/images/zone_pasture.png"
+			} 
+		}
+   },
+   "crafter_menu": {
+		"icon": "/nordlingmod/ui/game/start_menu/images/dock_crafters.png",
+		"items": {
+			"carpenter": {
+				"icon": "/nordlingmod/jobs/carpenter/images/carpenter_menu_icon.png"
+			},
+			"worker": {
+				"name": "Villager Crafting menu",
+				"description": "Basic villager recipes",
+				"class": "button",
+				"required_job": "stonehearth:jobs:worker",
+				"required_job_text": "Requires a Villager",
+				"icon": "/nordlingmod/jobs/worker/images/worker_menu_icon.png",
+				"sticky": true,
+				"menu_action": "show_crafter_ui",
+				"hotkey_action": "craft:cook"
+			},
+			"weaver": {
+				"icon": "/nordlingmod/jobs/weaver/images/weaver_menu_icon.png"
+			},
+			"mason": {
+				"icon": "/nordlingmod/jobs/mason/images/mason_menu_icon.png"
+			},
+			"blacksmith": {
+				"icon": "/nordlingmod/jobs/blacksmith/images/blacksmith_menu_icon.png"
+			},
+			"cook": {
+				"icon": "/nordlingmod/jobs/cook/images/cook_menu_icon.png"
+			},
+			"potter": {
+				"icon": "/nordlingmod/jobs/potter/images/potter_menu_icon.png"
+			},
+			"herbalist": {
+				"icon": "/nordlingmod/jobs/herbalist/images/herbalist_menu_icon.png"
+			},
+			"engineer": {
+				"icon": "/nordlingmod/jobs/engineer/images/engineer_menu_icon.png"
+			},
+			"mixintypes": {
+				"geomancer": "remove"
+	        }
+		}
+	},
+	"fight_menu": {
+		"icon": "/nordlingmod/ui/game/start_menu/images/fight.png",
+		"items": {
+			"town_alert": {
+				"icon": "/nordlingmod/ui/game/start_menu/images/town_defense.png"
+			},
+			"party_1" : {
+				"icon" : "/nordlingmod/ui/game/start_menu/images/party_1.png"
+			},
+			"party_2" : {
+				"icon" : "/nordlingmod/ui/game/start_menu/images/party_2.png"
+			},
+			"party_3" : {
+				"icon" : "/nordlingmod/ui/game/start_menu/images/party_3.png"
+			},
+			"party_4" : {
+				"icon" : "/nordlingmod/ui/game/start_menu/images/party_4.png"
+			}
+		}
+	},
+	"multiplayer_menu": {
+		"icon": "/nordlingmod/ui/game/start_menu/images/multiplayer_menu.png"
+	},
+	"bulletin_manager": {
+		"icon": "/nordlingmod/ui/game/start_menu/images/manage_bulletins.png"
+	}
+}

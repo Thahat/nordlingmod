@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 3,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.blacksmith_workbench_nordlings_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.blacksmith_workbench_nordlings_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.blacksmith_workbench_nordlings_recipe.flavor)",
+   "portrait": "/nordlingmod/jobs/blacksmith/blacksmith_workbench_nordlings/blacksmith_workbench_nordlings.png",
+   "work_effect": "work",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "material": "ingot resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:blacksmith_workbench_nordlings"
+      }
+   ]
+}

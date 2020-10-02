@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "work_units": 4,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_round_shield.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_round_shield.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_round_shield.flavor)",
+   "portrait": "/nordlingmod/entities/armor/steel_round_shield/steel_round_shield.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      	  {
+         "uri": "nordlingmod:wooden_round_shield",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 1
+      }
+	  
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:steel_round_shield"
+      }
+   ]
+}

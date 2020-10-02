@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 4,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.training_roundshield.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.training_roundshield.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.training_roundshield.flavor)",
+   "portrait": "/nordlingmod/entities/armor/training_roundshield/training_roundshield.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:training_roundshield"
+      }
+   ]
+}

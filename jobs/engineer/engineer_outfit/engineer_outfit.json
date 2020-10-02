@@ -1,0 +1,33 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "/nordlingmod/jobs/engineer/engineer_outfit/engineer_outfit.qb"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": false,
+            "models": [
+               "/nordlingmod/jobs/engineer/engineer_outfit/engineer_outfit_female.qb"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:jobs.engineer.engineer_outfit.display_name)",
+         "description": "i18n(stonehearth:jobs.engineer.engineer_outfit.description)",
+         "icon": "file(engineer_outfit.png)"
+      }
+   }
+}

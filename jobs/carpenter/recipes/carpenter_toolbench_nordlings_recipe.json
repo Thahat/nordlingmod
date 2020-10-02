@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.carpenter_toolbench_nordlings_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.carpenter_toolbench_nordlings_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.carpenter_toolbench_nordlings_recipe.flavor)",
+   "portrait": "/nordlingmod/jobs/carpenter/carpenter_toolbench_nordlings/carpenter_toolbench_nordlings.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:carpenter_toolbench_nordlings"
+      }
+   ]
+}

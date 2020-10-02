@@ -1,0 +1,12 @@
+{
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "out_of_balance": {
+               "uri": "stonehearth_ace:buffs:minor_out_of_balance",
+               "chance": 0.1
+            }
+        }
+      }
+	}
+}

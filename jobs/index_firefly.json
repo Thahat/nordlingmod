@@ -1,0 +1,9 @@
+{
+     "jobs": {
+		"nordlingmod:jobs:ruler": {
+			"description": "nordlingmod:jobs:ruler_firefly",
+			"firefly_job":"exclusive"
+		}
+    }
+}
+

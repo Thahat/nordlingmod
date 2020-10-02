@@ -1,0 +1,45 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(hops.qb)"
+            ]
+         }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 6
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.resources.herb.hops.display_name)",
+         "description": "i18n(nordlingmod:entities.resources.herb.hops.description)",
+         "icon": "file(hops.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": [
+            "plant",
+            "herb",
+            "resource",
+            "hops",
+            "stockpile_plant"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      }
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "unlock_recipes_2",
+   "unlock_recipe_info": {
+      "job": "stonehearth:jobs:herbalist",
+      "recipe_key": [
+         "legendary:shrine_to_freya"
+      ],
+      "bulletin_title": "i18n(nordlingmod:data.gm.campaigns.town_progression.unlock_shrine_recipes_2.bulletin_title)"
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.bronze_axe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.bronze_axe.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.bronze_axe.flavor)",
+   "portrait": "/nordlingmod/entities/weapons/bronze_axe/bronze_axe.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 1
+      },
+	  {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:bronze_axe"
+      }
+   ]
+}

@@ -1,0 +1,11 @@
+{
+   "craftable_recipes": {
+	  "furniture": {
+         "recipes": {
+            "tent": {
+               "recipe": "file(na_tent_recipe.json)"
+            }
+         }
+      }
+   }
+}

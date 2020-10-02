@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 4,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.wooden_hill_fort_door.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.wooden_hill_fort_door.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.wooden_hill_fort_door.flavor)",
+   "portrait": "/nordlingmod/entities/construction/wooden_hill_fort_door/wooden_hill_fort_door.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 6
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:hill_fort_door"
+      }
+   ]
+}

@@ -1,0 +1,26 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(bronze_axe_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.bronze_axe.bronze_axe_iconic.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.bronze_axe.bronze_axe_iconic.description)",
+         "icon": "file(bronze_axe.png)",
+         "is_item": true,
+         "category": "weapons",
+         "material_tags": [
+            "bronze",
+            "melee_weapon"
+         ]
+      }
+   }
+}

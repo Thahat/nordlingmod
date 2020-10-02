@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_sleeping_giant_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_sleeping_giant_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/landmark/summon_stone_sleeping_giant/summon_stone_sleeping_giant.png",
+   "level_requirement": 3,
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "uri": "stonehearth:landmark:summon_stone:block:rock",
+         "count": 6
+      },
+      {
+         "uri": "stonehearth:landmark:summon_stone:block:surface",
+         "count": 1
+      },
+      {
+         "material": "earth_essence resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:landmark:summon_stone:minor:sleeping_giant"
+      }
+   ]
+}

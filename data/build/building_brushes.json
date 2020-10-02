@@ -1,0 +1,13 @@
+{
+	"roof": {
+		"wood resource" :{
+			"patterns":{
+			   "nordlingmod/data/build/brushes/roof/pale_thatch_roof/pale_thatch_roof.qb": {
+               "icon": "file(pale_thatch_roof.png)",
+               "display_name": "Pale thatch roof",
+               "type": "peaked"
+            }
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.weaver.recipes.leather_armour.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.weaver.recipes.leather_armour.description)",
+   "flavor": "i18n(nordlingmod:jobs.weaver.recipes.leather_armour.flavor)",
+   "portrait": "/nordlingmod/entities/armor/leather_armour/leather_armour.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "leather resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:leather_armour"
+      }
+   ]
+}

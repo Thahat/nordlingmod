@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_moon_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_moon_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/landmark/summon_stone_moon/summon_stone_moon.png",
+   "level_requirement": 2,
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "uri": "stonehearth:landmark:summon_stone:block:surface",
+         "count": 3
+      },
+      {
+         "material": "earth_essence resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:landmark:summon_stone:minor:moon"
+      }
+   ]
+}

@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "work_units": 60,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_rune_site_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_rune_site_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/landmark/summon_stone_rune_site/summon_stone_rune_site.png",
+   "level_requirement": 4,
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "uri": "stonehearth:landmark:summon_stone:block:surface",
+         "count": 2
+      },
+      {
+         "material": "stone resource",
+         "count": 5
+      },
+      {
+         "material": "earth_essence resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:landmark:summon_stone:major:rune_site"
+      }
+   ]
+}

@@ -1,0 +1,16 @@
+{
+   "mixins": "stonehearth/jobs/knight/knight_abilities/knight_abilities.json",
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "injected_ai": {
+            "ai_packs": [
+               "stonehearth:ai_pack:mining",
+               "stonehearth:ai_pack:place_item",
+               "stonehearth:ai_pack:construction",
+               "stonehearth:ai_pack:ladders"
+            ]
+         }
+      }
+   }
+}

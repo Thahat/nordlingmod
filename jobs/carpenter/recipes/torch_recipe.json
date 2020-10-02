@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.torch.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.torch.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.torch.flavor)",
+   "portrait": "/nordlingmod/entities/armor/torch/torch.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:armor:torch"
+      }
+   ]
+}

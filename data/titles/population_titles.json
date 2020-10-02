@@ -1,0 +1,1020 @@
+{
+	"mixintypes": {
+        "none": "override",
+		"levels": "override",
+		"slayer": "override",
+		"defender": "override",
+		"goblin_killer": "override",
+		"orc_killer": "override",
+		"undead_killer": "override",
+		"forest_killer": "override",
+		"titan_killer": "override",
+		"ogre_killer": "override",
+		"mountain_killer": "override",
+		"varanus_killer": "override",
+		"zilla_killer": "override",
+		"leader_killer": "override",
+		"ogo_killer": "override",
+		"warchief_killer": "override",
+		"hunter": "override",
+		"prolific_crafter": "override",
+		"excellent_crafter": "override",
+		"master_crafter": "override",
+		"starving": "override",
+		"incapacitated": "override",
+		"swimming": "override",
+		"sweet_energy": "override",
+		"drunk": "override",
+		"morning_after": "override",
+		"bee_swarmed": "override"
+    },
+	"none": {
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.none.description)"
+   },
+	"levels": {
+      "ordinal": 0,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.levels.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.levels.description)",
+      "requirement": {
+         "statistics": {
+            "category": "totals",
+            "name": "levels"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.levels.6_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.levels.6_description)",
+            "required_value": 6
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.levels.12_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.levels.12_description)",
+            "required_value": 12
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.levels.18_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.levels.18_description)",
+            "required_value": 18
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.levels.30_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.levels.30_description)",
+            "required_value": 30
+         },
+         {
+            "rank": 5,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.levels.60_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.levels.60_description)",
+            "required_value": 60
+         },
+         {
+            "rank": 6,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.levels.90_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.levels.90_description)",
+            "required_value": 90
+         }
+      ]
+   },
+	"slayer": {
+      "ordinal": 0.8,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.slayer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.slayer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "totals",
+            "name": "kills"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.slayer.40_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.slayer.40_description)",
+            "required_value": 40
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.slayer.100_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.slayer.100_description)",
+            "required_value": 100
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.slayer.250_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.slayer.250_description)",
+            "required_value": 250
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.slayer.600_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.slayer.600_description)",
+            "required_value": 600
+         }
+      ]
+   },
+	"defender": {
+      "ordinal": 0.9,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.defender.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.defender.description)",
+      "requirement": {
+         "statistics": {
+            "category": "totals",
+            "name": "assists"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.defender.25_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.defender.25_description)",
+            "required_value": 25
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.defender.50_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.defender.50_description)",
+            "required_value": 50
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.defender.100_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.defender.100_description)",
+            "required_value": 100
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.defender.500_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.defender.500_description)",
+            "required_value": 500
+         },
+         {
+            "rank": 5,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.defender.1000_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.defender.1000_description)",
+            "required_value": 1000
+         }
+      ]
+   },
+	"goblin_killer": {
+      "ordinal": 1,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "kills",
+            "name": "goblins"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.5_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.5_description)",
+            "required_value": 5
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.10_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.10_description)",
+            "required_value": 10
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.25_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.25_description)",
+            "required_value": 25
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.50_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.50_description)",
+            "required_value": 50
+         },
+         {
+            "rank": 5,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.75_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.75_description)",
+            "required_value": 75
+         },
+         {
+            "rank": 6,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.100_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.goblin_killer.100_description)",
+            "required_value": 100
+         }
+      ]
+   },
+	"orc_killer": {
+      "ordinal": 2,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "kills",
+            "name": "orcs"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.5_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.5_description)",
+            "required_value": 5
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.10_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.10_description)",
+            "required_value": 10
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.25_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.25_description)",
+            "required_value": 25
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.50_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.50_description)",
+            "required_value": 50
+         },
+         {
+            "rank": 5,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.75_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.75_description)",
+            "required_value": 75
+         },
+         {
+            "rank": 6,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.100_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.orc_killer.100_description)",
+            "required_value": 100
+         }
+      ]
+   },
+	"undead_killer": {
+      "ordinal": 3,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.undead_killer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.undead_killer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "kills",
+            "name": "undead"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.undead_killer.3_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.undead_killer.3_description)",
+            "required_value": 3
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.undead_killer.6_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.undead_killer.6_description)",
+            "required_value": 6
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.undead_killer.15_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.undead_killer.15_description)",
+            "required_value": 15
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.undead_killer.25_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.undead_killer.25_description)",
+            "required_value": 25
+         },
+         {
+            "rank": 5,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.undead_killer.50_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.undead_killer.50_description)",
+            "required_value": 50
+         }
+      ]
+   },
+	"forest_killer": {
+      "ordinal": 4,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "kills",
+            "name": "forest"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.5_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.5_description)",
+            "required_value": 5
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.10_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.10_description)",
+            "required_value": 10
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.25_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.25_description)",
+            "required_value": 25
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.50_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.50_description)",
+            "required_value": 50
+         },
+         {
+            "rank": 5,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.75_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.75_description)",
+            "required_value": 75
+         },
+         {
+            "rank": 6,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.100_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.forest_killer.100_description)",
+            "required_value": 100
+         }
+      ]
+   },
+	"titan_killer": {
+      "ordinal": 5,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.titan_killer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.titan_killer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "kills",
+            "name": "titans"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.titan_killer.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.titan_killer.1_description)",
+            "required_value": 1
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.titan_killer.5_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.titan_killer.5_description)",
+            "required_value": 5
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.titan_killer.10_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.titan_killer.10_description)",
+            "required_value": 10
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.titan_killer.15_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.titan_killer.15_description)",
+            "required_value": 15
+         },
+         {
+            "rank": 5,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.titan_killer.25_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.titan_killer.25_description)",
+            "required_value": 25
+         }
+      ]
+   },
+	"ogre_killer": {
+      "ordinal": 9,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.ogre_killer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.ogre_killer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "category_kills",
+            "name": "ogre"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.ogre_killer.3_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.ogre_killer.3_description)",
+            "required_value": 3
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.ogre_killer.6_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.ogre_killer.6_description)",
+            "required_value": 6
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.ogre_killer.12_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.ogre_killer.12_description)",
+            "required_value": 12
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.ogre_killer.30_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.ogre_killer.30_description)",
+            "required_value": 30
+         }
+      ]
+   },
+	"mountain_killer": {
+      "ordinal": 9.01,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.mountain_killer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.mountain_killer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "specific_kills",
+            "name": "ogre_boss"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.mountain_killer.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.mountain_killer.1_description)",
+            "required_value": 1
+         }
+      ]
+   },
+	"varanus_killer": {
+      "ordinal": 9.1,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.varanus_killer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.varanus_killer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "category_kills",
+            "name": "varanus"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.varanus_killer.5_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.varanus_killer.5_description)",
+            "required_value": 5
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.varanus_killer.10_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.varanus_killer.10_description)",
+            "required_value": 10
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.varanus_killer.25_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.varanus_killer.25_description)",
+            "required_value": 25
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.varanus_killer.50_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.varanus_killer.50_description)",
+            "required_value": 50
+         }
+      ]
+   },
+	"zilla_killer": {
+      "ordinal": 9.11,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.zilla_killer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.zilla_killer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "specific_kills",
+            "name": "varanus_boss"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.zilla_killer.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.zilla_killer.1_description)",
+            "required_value": 1
+         }
+      ]
+   },
+	"leader_killer": {
+      "ordinal": 9.2,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.leader_killer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.leader_killer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "specific_kills",
+            "name": "miniboss"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.leader_killer.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.leader_killer.1_description)",
+            "required_value": 1
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.leader_killer.3_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.leader_killer.3_description)",
+            "required_value": 3
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.leader_killer.5_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.leader_killer.5_description)",
+            "required_value": 5
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.leader_killer.10_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.leader_killer.10_description)",
+            "required_value": 10
+         }
+      ]
+   },
+	"ogo_killer": {
+      "ordinal": 9.21,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.ogo_killer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.ogo_killer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "specific_kills",
+            "name": "goblin_boss"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.ogo_killer.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.ogo_killer.1_description)",
+            "required_value": 1
+         }
+      ]
+   },
+	"warchief_killer": {
+      "ordinal": 9.22,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.warchief_killer.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.warchief_killer.description)",
+      "requirement": {
+         "statistics": {
+            "category": "specific_kills",
+            "name": "orc_boss"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.warchief_killer.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.warchief_killer.1_description)",
+            "required_value": 1
+         }
+      ]
+   },
+	"hunter": {
+      "ordinal": 9.99,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.hunter.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.hunter.description)",
+      "requirement": {
+         "statistics": {
+            "category": "kills",
+            "name": "animals"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.hunter.10_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.hunter.10_description)",
+            "required_value": 10
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.hunter.30_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.hunter.30_description)",
+            "required_value": 30
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.hunter.75_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.hunter.75_description)",
+            "required_value": 75
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.hunter.150_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.hunter.150_description)",
+            "required_value": 150
+         },
+         {
+            "rank": 5,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.hunter.300_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.hunter.300_description)",
+            "required_value": 300
+         },
+         {
+            "rank": 6,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.hunter.600_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.hunter.600_description)",
+            "required_value": 600
+         }
+      ]
+   },
+	"prolific_crafter": {
+      "ordinal": 10,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.prolific_crafter.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.prolific_crafter.description)",
+      "requirement": {
+         "statistics": {
+            "category": "totals",
+            "name": "crafts"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.prolific_crafter.100_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.prolific_crafter.100_description)",
+            "required_value": 100
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.prolific_crafter.200_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.prolific_crafter.200_description)",
+            "required_value": 200
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.prolific_crafter.500_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.prolific_crafter.500_description)",
+            "required_value": 500
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.prolific_crafter.1000_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.prolific_crafter.1000_description)",
+            "required_value": 1000
+         }
+      ]
+   },
+	"excellent_crafter": {
+      "ordinal": 11,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.excellent_crafter.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.excellent_crafter.description)",
+      "requirement": {
+         "statistics": {
+            "category": "quality_crafts",
+            "name": 3
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.excellent_crafter.10_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.excellent_crafter.10_description)",
+            "required_value": 10
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.excellent_crafter.25_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.excellent_crafter.25_description)",
+            "required_value": 25
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.excellent_crafter.100_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.excellent_crafter.100_description)",
+            "required_value": 100
+         }
+      ]
+   },
+	"master_crafter": {
+      "ordinal": 12,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.master_crafter.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.master_crafter.description)",
+      "requirement": {
+         "statistics": {
+            "category": "quality_crafts",
+            "name": 4
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.master_crafter.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.master_crafter.1_description)",
+            "required_value": 1
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.master_crafter.10_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.master_crafter.10_description)",
+            "required_value": 10
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.master_crafter.25_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.master_crafter.25_description)",
+            "required_value": 25
+         }
+      ]
+   },
+	"starving": {
+      "ordinal": 20,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.starving.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.starving.description)",
+      "requirement": {
+         "statistics": {
+            "category": "buffs_duration",
+            "name": "starving"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.starving.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.starving.1_description)",
+            "required_value": "4h"
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.starving.2_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.starving.2_description)",
+            "required_value": "2d"
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.starving.3_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.starving.3_description)",
+            "required_value": "10d"
+         }
+      ]
+   },
+	"incapacitated": {
+      "ordinal": 21,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.description)",
+      "requirement": {
+         "statistics": {
+            "category": "buffs_gained",
+            "name": "incapacitated"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.1_description)",
+            "required_value": 1
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.2_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.2_description)",
+            "required_value": 2
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.4_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.4_description)",
+            "required_value": 4
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.8_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.8_description)",
+            "required_value": 8
+         },
+         {
+            "rank": 5,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.12_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.12_description)",
+            "required_value": 12
+         },
+         {
+            "rank": 6,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.20_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.incapacitated.20_description)",
+            "required_value": 20
+         }
+      ]
+   },
+	"swimming": {
+      "ordinal": 22,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.swimming.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.swimming.description)",
+      "requirement": {
+         "statistics": {
+            "category": "buffs_duration",
+            "name": "swimming"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.swimming.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.swimming.1_description)",
+            "required_value": "1d"
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.swimming.2_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.swimming.2_description)",
+            "required_value": "3d"
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.swimming.3_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.swimming.3_description)",
+            "required_value": "7d"
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.swimming.4_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.swimming.4_description)",
+            "required_value": "21d"
+         },
+         {
+            "rank": 5,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.swimming.5_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.swimming.5_description)",
+            "required_value": "42d"
+         }
+      ]
+   },
+	"sweet_energy": {
+      "ordinal": 23,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.description)",
+      "requirement": {
+         "statistics": {
+            "category": "buffs_gained",
+            "name": "sweet_energy"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.1_description)",
+            "required_value": 10
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.2_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.2_description)",
+            "required_value": 25
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.3_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.3_description)",
+            "required_value": 50
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.4_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.4_description)",
+            "required_value": 100
+         },
+         {
+            "rank": 5,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.5_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.5_description)",
+            "required_value": 200
+         },
+         {
+            "rank": 6,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.6_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.sweet_energy.6_description)",
+            "required_value": 500
+         }
+      ]
+   },
+	"drunk": {
+      "ordinal": 24,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.drunk.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.drunk.description)",
+      "requirement": {
+         "statistics": {
+            "category": "buffs_duration",
+            "name": "drunk"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.drunk.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.drunk.1_description)",
+            "required_value": "6d"
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.drunk.2_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.drunk.2_description)",
+            "required_value": "12d"
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.drunk.3_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.drunk.3_description)",
+            "required_value": "20d"
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.drunk.4_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.drunk.4_description)",
+            "required_value": "45d"
+         },
+         {
+            "rank": 5,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.drunk.5_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.drunk.5_description)",
+            "required_value": "84d"
+         }
+      ]
+   },
+	"morning_after": {
+      "ordinal": 25,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.morning_after.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.morning_after.description)",
+      "requirement": {
+         "statistics": {
+            "category": "buffs_gained",
+            "name": "morning_after"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.morning_after.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.morning_after.1_description)",
+            "required_value": 1
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.morning_after.2_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.morning_after.2_description)",
+            "required_value": 6
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.morning_after.3_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.morning_after.3_description)",
+            "required_value": 18
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.morning_after.4_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.morning_after.4_description)",
+            "required_value": 60
+         }
+      ]
+   },
+	"bee_swarmed": {
+      "ordinal": 26,
+      "display_name": "i18n(nordlingmod:data.population.nordlings.titles.bee_swarmed.display_name)",
+      "description": "i18n(nordlingmod:data.population.nordlings.titles.bee_swarmed.description)",
+      "requirement": {
+         "statistics": {
+            "category": "buffs_gained",
+            "name": "bee_swarmed"
+         }
+      },
+      "ranks": [
+         {
+            "rank": 1,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.bee_swarmed.1_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.bee_swarmed.1_description)",
+            "required_value": 1
+         },
+         {
+            "rank": 2,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.bee_swarmed.2_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.bee_swarmed.2_description)",
+            "required_value": 5
+         },
+         {
+            "rank": 3,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.bee_swarmed.3_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.bee_swarmed.3_description)",
+            "required_value": 15
+         },
+         {
+            "rank": 4,
+            "display_name": "i18n(nordlingmod:data.population.nordlings.titles.bee_swarmed.4_display_name)",
+            "description": "i18n(nordlingmod:data.population.nordlings.titles.bee_swarmed.4_description)",
+            "required_value": 30
+         }
+      ]
+   }
+}

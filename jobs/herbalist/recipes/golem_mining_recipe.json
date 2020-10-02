@@ -1,0 +1,37 @@
+{
+   "type": "recipe",
+   "work_units": 80,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.golem_mining_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.golem_mining_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.geomancer.recipes.golem_mining_recipe.flavor)",
+   "portrait": "/stonehearth/entities/monsters/golems/golem_mining/golem_mining.png",
+   "level_requirement": 5,
+   "workshop": "stonehearth:geomancer:golem_workbench",
+   "ingredients": [
+      {
+         "material": "earth_essence resource",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:golem_parts",
+         "count": 6
+      },
+      {
+         "uri": "stonehearth:refined:golem_pick",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:consumables:stamina_tonic",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:consumables:strength_tonic",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:monsters:golems:golem_mining"
+      }
+   ]
+}

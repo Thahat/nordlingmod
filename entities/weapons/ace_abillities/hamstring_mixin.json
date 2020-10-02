@@ -1,0 +1,12 @@
+{
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "hamstrung": {
+               "uri": "stonehearth_ace:buffs:hamstrung",
+               "chance": 0.5
+            }
+        }
+      }
+	}
+}

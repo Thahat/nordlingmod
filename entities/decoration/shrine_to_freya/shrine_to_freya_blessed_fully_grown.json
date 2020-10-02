@@ -1,0 +1,104 @@
+{
+   "type": "entity",
+   "components": {
+      "effect_list": {
+         "default": "nordlingmod:shrine_to_freya_fog_effect"
+      },
+      "model_variants": {
+        "default": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(shrine_to_freya_fully_grown.qb)"
+                  ]
+               }
+            ]
+         },
+         "autumn": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(shrine_to_freya_fully_grown.qb)"
+                  ]
+               }
+            ]
+         },
+         "spring": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(shrine_to_freya_fully_grown.qb)"
+                  ]
+               }
+            ]
+         },
+		"winter": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(shrine_to_freya_fully_grown_winter.qb)"
+                  ]
+               }
+            ]
+         }
+      },
+	  "stonehearth:seasonal_model_switcher": {
+         "*": {
+            "spring": "spring",
+            "summer": "default",
+            "autumn": "autumn",
+            "winter": "winter"
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "allow_vertical_adjacent": true
+      },
+      "render_info": {
+         "scale": 0.95
+      },
+      "region_collision_shape": {
+         "region_from_model": {
+			"model" : "file(shrine_to_freya_fully_grown_collision95.qb)"
+		 }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(shrine_to_freya_iconic.json)",
+         "ghost_form": "file(shrine_to_freya_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_move_ui": true,
+         "hide_undeploy_ui": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.decoration.shrine_to_freya.shrine_to_freya_fully_grown.display_name)",
+         "description": "i18n(nordlingmod:entities.decoration.shrine_to_freya.shrine_to_freya_fully_grown.description)",
+         "icon": "file(shrine_to_freya_tree.png)",
+         "category": "decoration",
+         "material_tags": [
+            "wood",
+            "crafted",
+            "tree",
+            "stockpile_decoration"
+         ]
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 160,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 120
+      }
+   }
+}

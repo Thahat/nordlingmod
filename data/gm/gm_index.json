@@ -1,0 +1,11 @@
+{
+   "type": "index",
+   "campaigns": {
+      "town_progression": {
+         "nordlings_town_progression": "file(campaigns/town_progression/town_progression_campaign.json)"
+      },
+	  "free_ruler_talisman": {
+         "free_ruler_talisman": "file(campaigns/free_ruler_talisman/free_ruler_talisman.json)"
+      }
+   }
+}

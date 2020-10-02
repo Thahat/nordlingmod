@@ -1,0 +1,12 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(nordlingmod:jobs.ruler.ruler_buffs.speed_buff_ac.display_name)",
+   "description": "i18n(nordlingmod:jobs.ruler.ruler_buffs.speed_buff_ac.description)",
+   "icon": "file(ruler_buff_speed_boost.png)",
+   "modifiers": {
+      "speed": {
+         "add": 20
+      }
+   }
+}

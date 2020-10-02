@@ -1,0 +1,37 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(onion_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 24
+         },
+         "default": {
+            "satisfaction": 20
+         },
+         "quality": 1
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.plants.onion.onion_serving.display_name)",
+         "description": "i18n(nordlingmod:entities.plants.onion.onion_serving.description)",
+         "material_tags": [
+            "food",
+            "vegetarian"
+         ],
+         "subject_override": "nordlingmod:crops:onion_crop"
+      }
+   }
+}

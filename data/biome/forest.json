@@ -1,0 +1,150 @@
+{
+   "type": "biome",
+   "alias": "nordlingmod:biome:forest",
+   "display_name": "i18n(nordlingmod:data.biome.forest.display_name)",
+   "description": "i18n(nordlingmod:data.biome.forest.description)",
+   "random_location_names": [
+      "i18n(nordlingmod:data.biome.forest.random_location_names.000)"
+   ],
+   "image": "file(images/forest_400x300.png)",
+   "story_board_image": "file(images/forest_story_board.png)",
+   "game_mode_images": {
+      "stonehearth:game_mode:normal": "file(images/forest_story_normal.png)",
+      "stonehearth:game_mode:hard": "file(images/forest_story_normal.png)"
+   },
+   "generation_file": "file(forest_generation_data.json)",
+   "applied_manifests": {
+      "forest": "file(forest/manifest.json)"
+   },
+   "default_starting_season": "summer",
+   "seasons": {
+      "spring": {
+         "display_name": "i18n(nordlingmod:data.biome.forest.seasons.spring.display_name)",
+         "description": "i18n(nordlingmod:data.biome.forest.seasons.spring.description)",
+         "start_day": 0,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 9
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth:weather:rain",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth:weather:rain:sunny",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth:weather:foggy",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 0.5
+            }
+         ]
+      },
+      "summer": {
+         "display_name": "i18n(nordlingmod:data.biome.forest.seasons.summer.display_name)",
+         "description": "i18n(nordlingmod:data.biome.forest.seasons.summer.description)",
+         "start_day": 21,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 12
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 6
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:rain",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth:weather:rain:sunny",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 0.05
+            }
+         ]
+      },
+      "autumn": {
+         "display_name": "i18n(nordlingmod:data.biome.forest.seasons.autumn.display_name)",
+         "description": "i18n(nordlingmod:data.biome.forest.seasons.autumn.description)",
+         "start_day": 42,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 7
+            },
+            {
+               "uri": "stonehearth:weather:snow:sunny",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:foggy",
+               "weight": 6
+            },
+            {
+               "uri": "stonehearth:weather:thunderstorm",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 0.04
+            }
+         ]
+      },
+      "winter": {
+         "display_name": "i18n(nordlingmod:data.biome.forest.seasons.winter.display_name)",
+         "description": "i18n(nordlingmod:data.biome.forest.seasons.winter.description)",
+         "start_day": 63,
+         "weather": [
+            {
+               "uri": "stonehearth:weather:sunny",
+               "weight": 7
+            },
+            {
+               "uri": "stonehearth:weather:cloudy",
+               "weight": 2
+            },
+            {
+               "uri": "stonehearth:weather:windy",
+               "weight": 4
+            },
+            {
+               "uri": "stonehearth:weather:snow",
+               "weight": 6
+            },
+            {
+               "uri": "stonehearth:weather:snow:sunny",
+               "weight": 6
+            },
+            {
+               "uri": "stonehearth:weather:blizzard",
+               "weight": 3
+            },
+            {
+               "uri": "stonehearth:weather:lucky",
+               "weight": 0.03
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:entities.decoration.dry_stone.dry_stone_ghost.display_name)",
+   "description": "i18n(stonehearth:entities.decoration.dry_stone.dry_stone_ghost.description)",
+   "flavor": "i18n(stonehearth:jobs.geomancer.recipes.dry_stone_recipe.flavor)",
+   "portrait": "/stonehearth/entities/manipulation/dry_stone/dry_stone.png",
+   "level_requirement": 2,
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "material": "earth_essence resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:manipulation:dry_stone"
+      }
+   ]
+}

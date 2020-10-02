@@ -1,0 +1,8 @@
+{
+	"mixins": "stonehearth:buffs:knight:courage_aura",
+    "display_name": "i18n(nordlingmod:jobs.knight.knight_buffs.courage_aura_buff.display_name)",
+    "description": "i18n(nordlingmod:jobs.knight.knight_buffs.courage_aura_buff.description)",
+    "script_info": {
+		"affect_self": true,
+	}
+}

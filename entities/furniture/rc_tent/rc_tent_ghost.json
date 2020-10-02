@@ -1,0 +1,44 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(rc_tent.qb)"
+            ]
+         },
+         "sleeping": {
+            "models": [
+               "file(rc_tent_sleeping.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.22,
+		 "animation_table": "/nordlingmod/data/rigs/entities/furniture/nordling_tent/nordling_tent.json"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+	  "effect_list": {
+         "default": "/nordlingmod/data/rigs/entities/furniture/nordling_tent/effects/idle.json"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.furniture.nordling_tent.nordling_tent_ghost.display_name)",
+         "description": "i18n(nordlingmod:entities.furniture.nordling_tent.nordling_tent_ghost.description)",
+         "icon": "file(rc_tent.png)",
+         "category": "furniture",
+         "material_tags": [
+            "wood",
+			"cloth",
+            "furniture",
+            "crafted",
+            "stockpile_furniture"
+         ]
+      }
+   }
+}

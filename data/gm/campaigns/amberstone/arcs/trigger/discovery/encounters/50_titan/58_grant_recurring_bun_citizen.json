@@ -1,0 +1,36 @@
+{
+   "type": "encounter",
+   "encounter_type": "add_citizen",
+   "in_edge": "58_grant_recurring_bun_citizen",
+   "add_citizen_info": {
+      "population": "stonehearth:kingdoms:amberstone",
+      "job": "stonehearth:jobs:worker",
+      "allowed_jobs": [
+         "stonehearth:jobs:worker",
+         "stonehearth:jobs:archer",
+         "stonehearth:jobs:mason",
+         "stonehearth:jobs:geomancer"
+      ],
+      "attribute_distribution_override": {
+         "allocated_points": {
+            "min": 4,
+            "max": 8
+         },
+         "point_limits": {
+            "body": {
+               "min": 1,
+               "max": 4
+            },
+            "mind": {
+               "min": 2,
+               "max": 7
+            },
+            "spirit": {
+               "min": 2,
+               "max": 7
+            }
+         }
+      },
+      "notification_title": "i18n(stonehearth:data.gm.campaigns.amberstone.arcs.trigger.discovery.encounters.grant_recurring_bun_citizen.notification_title)"
+   }
+}

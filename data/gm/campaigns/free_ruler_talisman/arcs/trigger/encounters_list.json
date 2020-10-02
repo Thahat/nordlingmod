@@ -1,0 +1,8 @@
+{
+   "type": "arc",
+   "rarity": "common",
+   "encounters": {
+      "start": "file(encounters/start.json)",
+      "spawn_talisman": "file(encounters/spawn_talisman.json)"
+   }
+}

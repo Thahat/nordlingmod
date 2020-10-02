@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.herbalist.recipes.oak_tree_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.herbalist.recipes.oak_tree_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.herbalist.recipes.oak_tree_recipe.flavor)",
+   "portrait": "/stonehearth/entities/trees/oak_tree/sapling_oak_tree/sapling_oak_tree.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 2
+      },
+	  {
+         "uri": "nordlingmod:decorative_wall_dragon",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:trees:oak:sapling"
+      }
+   ]
+}

@@ -1,0 +1,10 @@
+{
+	"components": {
+		"stonehearth:storage": {
+         "type": "input_crate",
+         "capacity": 50,
+         "filter_list": "stonehearth_ace:ui:stockpile:filters:fluids",
+         "is_single_filter": true
+      }
+	}
+}

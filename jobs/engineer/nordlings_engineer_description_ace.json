@@ -1,0 +1,17 @@
+{
+	"mixintypes": {
+         "parent_job": "remove"
+      },
+	  "parent_jobs": [
+      {
+         "job": "stonehearth:jobs:carpenter",
+         "level_requirement": 3,
+         "one_of": true
+      },
+      {
+         "job": "stonehearth:jobs:blacksmith",
+         "level_requirement": 2,
+         "one_of": true
+      }
+   ]
+}

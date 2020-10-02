@@ -1,0 +1,75 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(chain_mail_iron.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(chain_mail_iron_female.qb)"
+            ]
+         },
+		 "orc_male": {
+            "layer": "armor",
+            "models": [
+               "file(chain_mail_iron_orc_male.qb)"
+            ]
+         },
+         "orc_female": {
+            "layer": "armor",
+            "models": [
+               "file(chain_mail_iron_orc_female.qb)"
+            ]
+         }
+      },
+	  "stonehearth:entity_forms": {
+         "iconic_form": "file(chain_mail_iron_iconic.json)"
+      },
+	  "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso",
+         "ilevel": 6,
+         "roles": ["mail_wearer"],
+         "required_job_level": 3,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+	 }
+    },    
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 6
+      },
+	  "stonehearth:net_worth": {
+         "value_in_gold": 60,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+		},
+	  "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.armor.chain_mail_iron.display_name)",
+         "description": "i18n(nordlingmod:entities.armor.chain_mail_iron.description)",
+         "icon": "file(chain_mail_iron.png)",
+		 "category": "armor",
+		 "material_tags":[
+			"nordling_made",
+			"iron",
+			"armor",
+			"medium_armor",
+			"iron_chainmail",
+			"stockpile_equipment"
+		]
+      }
+   }
+}

@@ -1,0 +1,67 @@
+{
+   "type": "entity",
+   "mixins": [
+      "file(wooden_hill_fort_door_ghost.json)",
+      "stonehearth:mixins:destructable_double_door"
+   ],
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(wooden_hill_fort_door_iconic.json)",
+         "ghost_form": "file(wooden_hill_fort_door_ghost.json)",
+         "hide_placement_ui": false,
+         "placeable_on_walls": true,
+         "placeable_on_ground": true
+      },
+      "stonehearth:attributes": {
+         "max_health": {
+            "type": "basic",
+            "value": 800
+         },
+         "menace": {
+            "type": "basic",
+            "value": 11
+         }
+      },
+      "mob": {
+         "region_origin": { "x": 0, "y": 0, "z": 0.5 }
+      },
+      "sensor_list": {
+         "sensors": {
+            "door_sensor": {
+               "type": "sensor",
+               "radius": 3
+            }
+         }
+      },
+      "stonehearth:door": {
+         "sensor": "door_sensor"
+      },
+      "region_collision_shape": {
+         "region_collision_type": "none",
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -0.5 },
+               "max": { "x": 2, "y": 5, "z": 1.5 }
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 8,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 10
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

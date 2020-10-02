@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 3,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.big_barrel.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.big_barrel.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.big_barrel.flavor)",
+   "portrait": "/nordlingmod/entities/containers/big_barrel/big_barrel.png",
+   "workshop" : "stonehearth:carpenter:workbench",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 8
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:big_barrel"
+      }
+   ]
+}

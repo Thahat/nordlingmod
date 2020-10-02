@@ -1,0 +1,33 @@
+{
+  "mineable_blocks": {
+      "rock": {
+          "entries": {
+              "default": {
+                  "items": {
+                      "mythril_ore": {
+                          "uri": "nordlingmod:resources:mythril:mythril_ore",
+                          "weight": 10
+                      }
+                  }
+              }
+          }
+      },
+      "mythril_ore": {
+          "entries": {
+              "default": {
+                  "num_rolls": 1,
+                  "items": {
+                      "none": {
+                          "uri": "",
+                          "weight": 80
+                      },
+                      "mythril_ore": {
+                          "uri": "nordlingmod:resources:mythril:mythril_ore",
+                          "weight": 60
+                      }
+                  }
+              }
+          }
+      }
+  }
+}

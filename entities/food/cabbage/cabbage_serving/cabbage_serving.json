@@ -1,0 +1,37 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cabbage_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 29
+         },
+         "default": {
+            "satisfaction": 25
+         },
+         "quality": 1
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.plants.cabbage.cabbage_serving.display_name)",
+         "description": "i18n(nordlingmod:entities.plants.cabbage.cabbage_serving.description)",
+         "material_tags": [
+            "food",
+            "vegetarian"
+         ],
+         "subject_override": "nordlingmod:crops:cabbage_crop"
+      }
+   }
+}

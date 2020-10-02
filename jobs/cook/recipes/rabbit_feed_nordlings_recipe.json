@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 1,
+   "recipe_name": "i18n(stonehearth:jobs.cook.recipes.rabbit_feed_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.cook.recipes.rabbit_feed_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/food/rabbit_feed/rabbit_feed.png",
+   "workshop": "stonehearth:cook:mill",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "food_container raw_food vegetable",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:food:rabbit_feed"
+      },
+	  {
+         "item": "stonehearth:food:rabbit_feed"
+      }
+   ]
+}

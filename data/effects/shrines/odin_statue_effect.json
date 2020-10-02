@@ -1,0 +1,147 @@
+{
+   "type": "effect",
+   "tracks": {
+      "spiral_large": {
+         "type": "cubemitter",
+         "cubemitter": "/rayyas_children/data/horde/particles/shrine/trading_post/trading_post.spiral_large.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.1, "y": 6.73, "z": -1.1,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "spiral_small1": {
+         "type": "cubemitter",
+         "cubemitter": "/rayyas_children/data/horde/particles/shrine/trading_post/trading_post.spiral_small.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.1, "y": 6.7, "z": -1.1,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "spiral_small2": {
+         "type": "cubemitter",
+         "cubemitter": "/rayyas_children/data/horde/particles/shrine/trading_post/trading_post.spiral_small180.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.1, "y": 6.7, "z": -1.1,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "ember_base": {
+         "type": "cubemitter",
+         "cubemitter": "/rayyas_children/data/horde/particles/shrine/monkey_shrine/monkey_shrine.ember_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.6, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "ember_wide": {
+         "type": "cubemitter",
+         "cubemitter": "/rayyas_children/data/horde/particles/shrine/monkey_shrine/monkey_shrine.ember_wide.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 2, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "smoke_sparkles": {
+         "type": "cubemitter",
+         "cubemitter": "/rayyas_children/data/horde/particles/shrine/monkey_shrine/monkey_shrine.smoke_sparkles.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 2.2, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "ember_glow": {
+         "type": "cubemitter",
+         "cubemitter": "/rayyas_children/data/horde/particles/shrine/monkey_shrine/monkey_shrine.ember_glow.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 2, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+       "radiating": {
+         "type": "cubemitter",
+         "cubemitter": "/rayyas_children/data/horde/particles/shrine/monkey_shrine/monkey_shrine.radiating.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -0.1, "y": 9, "z": -1,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+	  "radiating_2": {
+         "type": "cubemitter",
+         "cubemitter": "/rayyas_children/data/horde/particles/shrine/monkey_shrine/monkey_shrine.radiating.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -0.1, "y": 9, "z": -0.7,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+	  "light_main": {
+         "type": "light",
+         "light": "/rayyas_children/data/horde/animatedlights/shrine/shrine.monkey_shrine.soft.animatedlight.json",
+         "transforms": { "x": 0, "y": 8, "z": 0 }
+      },
+      "sound": {
+         "type": "sound_effect",
+         "loop": true,
+         "start_time": 400,
+         "min_distance": 35,
+         "falloff": 3,
+         "volume": 65,
+         "track": "stonehearth:sounds:firepit_blessed"
+      },
+	  "cubemitter_glow": {
+         "type": "cubemitter",
+         "cubemitter": "/rayyas_children/data/horde/particles/shrine/trading_post/trading_post.ember_glow.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1.4, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "central_cube": {
+         "type": "cubemitter",
+         "cubemitter": "/rayyas_children/data/horde/particles/shrine/trading_post/trading_post.central_cube.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.5, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "light_main": {
+         "type": "light",
+         "light": "/stonehearth/data/horde/animatedlights/shrine/shrine.valor.soft.animatedlight.json",
+         "transforms": { "x": 0.0, "y": 8.5, "z": 0.0 },
+         "shadows": true
+      },
+      "light_small1": {
+         "type": "light",
+         "light": "/stonehearth/data/horde/animatedlights/shrine/shrine.valor.soft.small.animatedlight.json",
+         "transforms": { "x": 0, "y": 5.5, "z": 1.5 },
+         "shadows": false
+      },
+      "light_small2": {
+         "type": "light",
+         "light": "/stonehearth/data/horde/animatedlights/shrine/shrine.valor.soft.small.animatedlight.json",
+         "transforms": { "x": 0, "y": 5.5, "z": -1.5 },
+         "shadows": false
+      }
+   }
+}

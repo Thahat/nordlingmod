@@ -1,0 +1,53 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "true",
+            "models": [
+               "file(weapon_belt_hanger.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "true",
+            "models": [
+               "file(weapon_belt_hanger_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "sheeth",
+         "ilevel": -1,
+         "required_job_level": 0,
+         "roles": "combat",
+         "equip_effect": "stonehearth:effects:weapon_level_up",
+         "no_drop": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.armor.weapon_belt_hanger.display_name)",
+         "description": "i18n(nordlingmod:entities.armor.weapon_belt_hanger.description)",
+         "icon": "file(weapon_belt_hanger.png)",
+         "category": "armor",
+         "material_tags": [
+            "leather",
+            "armor",
+            "light_armor",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

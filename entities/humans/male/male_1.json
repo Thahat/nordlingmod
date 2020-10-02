@@ -1,0 +1,112 @@
+{
+   "mixins": "/stonehearth/entities/humans/male/male_1.json",
+     "components": {
+		"model_variants": {
+         "default": {
+			"mixintypes" :{
+				"models": "override"
+			},
+            "models": [
+               "file(head.qb)",
+               "file(body.qb)",
+               "stonehearth/entities/humans/male/eyes.qb"
+            ]
+         }
+      }
+	 },
+	 "entity_data": {
+      "stonehearth:customization_variants": {
+         "customization_options": "/nordlingmod/entities/humans/male/male_customizations.json",
+         "packages": {
+            "hair_and_skin_color": {
+               "hair_color": {
+                  "weights": {
+					 "fire": 2,
+                     "black": 1,
+                     "brown": 1,
+                     "red": 1,
+                     "sandy": 1,
+                     "blonde": 3,
+                     "platinum": 1
+                  }
+               },
+               "skin_color": {
+                  "weights": {
+                     "white": 1
+                  }
+               },
+               "eye_color": {
+                  "weights": {
+				     "nordling_blue": 2,
+                     "blue": 2,
+                     "green": 2,
+                     "hazel": 1
+                  }
+               }
+            },
+            "young": {
+               "eyebrows": {
+                  "weights": {
+				  "[none]": 0,
+                  "straight_eyebrows": 1
+                  }
+               },
+               "facial_hair": {
+                  "weights": {
+                     "moustache": 1,
+					 "chops": 1,
+					 "chops_moustache": 1,
+                     "beard_chin": 1,
+                     "beard": 1,
+					 "beard_with_braids": 1,
+					 "beard_braid_single": 1,
+					 "beard_braid_double": 1,
+					 "beard_full": 1,
+					 "beard_huge": 1
+                  }
+               },
+               "head_hair": {
+                  "weights": {
+                     "male_hair_1": 1,
+                     "male_hair_2": 1,
+                     "male_hair_3": 1,
+                     "male_hair_4": 1,
+					 "hair_kitty_loki": 1,
+					 "hair_kitty_thor": 1
+                  }
+               }
+            },
+            "old": {
+               "eyebrows": {
+                  "weights": {
+                     "straight_eyebrows": 1
+                  }
+               },
+               "facial_hair": {
+                  "weights": {
+                     "moustache": 1,
+					 "chops": 1,
+					 "chops_moustache": 1,
+                     "beard_chin": 1,
+                     "beard": 1,
+					 "beard_braid_single": 1,
+					 "beard_braid_double": 1,
+					 "beard_full": 1,
+					 "beard_huge": 1
+                  }
+               },
+               "head_hair": {
+                  "weights": {
+				     "male_hair_1": 1,
+                     "male_hair_2": 1,
+                     "male_hair_3": 1,
+                     "male_hair_4": 1,
+                     "male_hair_old_1": 1,
+                     "male_hair_old_2": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

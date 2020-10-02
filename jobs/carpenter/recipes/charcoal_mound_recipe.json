@@ -1,0 +1,20 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 3,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.charcoal_mound.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.charcoal_mound.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.charcoal_mound.flavor)",
+   "portrait": "/nordlingmod/entities/furniture/charcoal_mound/charcoal_mound_phase_1/charcoal_mound.png",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 10
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:charcoal_mound"
+      }
+   ]
+}

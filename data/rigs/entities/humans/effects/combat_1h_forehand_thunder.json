@@ -1,0 +1,33 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "combat_1h_forehand.json",
+         "loop": false
+      },
+      "sound": {
+         "type": "sound_effect",
+         "duration": 6000,
+         "start_time": 0,
+         "min_distance": 50,
+         "falloff" : 3.6,
+         "volume": 50,
+         "track" : {
+            "type": "one_of",
+            "items": [
+               "stonehearth:sounds:weather:thunder_01",
+               "stonehearth:sounds:weather:thunder_02",
+               "stonehearth:sounds:weather:thunder_03",
+               "stonehearth:sounds:weather:thunder_04",
+               "stonehearth:sounds:weather:thunder_05",
+               "stonehearth:sounds:weather:thunder_06",
+               "stonehearth:sounds:weather:thunder_07",
+               "stonehearth:sounds:weather:thunder_08",
+               "stonehearth:sounds:weather:thunder_09"
+            ]
+         }
+      }
+   }
+}

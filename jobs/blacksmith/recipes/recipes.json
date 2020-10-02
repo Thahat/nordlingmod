@@ -1,0 +1,262 @@
+{
+	"craftable_recipes": {
+		"workbenches": {
+			"ordinal": 1,
+			"name": "i18n(stonehearth:jobs.blacksmith.recipes.workbenches_name)",
+			"recipes": {
+				"blacksmith_workbench_nordlings": {
+					"recipe": "file(blacksmith_workbench_nordlings_recipe.json)"
+				},
+				"blacksmith_forge_nordlings": {
+					"recipe": "file(blacksmith_forge_nordlings_recipe.json)"
+            }
+			}
+		},
+		"legendary": {
+			"ordinal": 5,
+			"name": "i18n(stonehearth:jobs.common.recipes.legendary_name)",
+			"recipes": {
+				"legendary_hammer_head": {
+					"recipe": "file(legendary_hammer_head_recipe.json)"
+				},
+				"legendary_hammer_haft": {
+					"recipe": "file(legendary_hammer_haft_recipe.json)"
+				},
+				"legendary_hammer": {
+					"recipe": "file(legendary_hammer_recipe.json)"
+				},
+				"legendary_axe_head": {
+					"recipe": "file(legendary_axe_head_recipe.json)"
+				},
+				"legendary_axe_haft": {
+					"recipe": "file(legendary_axe_haft_recipe.json)"
+				},
+				"legendary_axe": {
+					"recipe": "file(legendary_axe_recipe.json)"
+				}
+			}
+		},
+		"tools": {
+         "ordinal": 10,
+         "name": "i18n(stonehearth:jobs.blacksmith.recipes.tools_name)",
+         "recipes": {
+            "carpenter_saw_nordlings": {
+               "recipe": "file(carpenter_saw_nordlings_recipe.json)"
+            },
+			"hersir sword": {
+               "recipe": "file(hersir_sword_recipe.json)"
+            },
+			"engineer_wrench": {
+               "recipe": "file(engineer_wrench_recipe.json)"
+            },
+            "golem_pick": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/golem_pick_recipe.json"
+            }
+         }
+      },
+      "storage": {
+         "ordinal": 20,
+         "name": "i18n(stonehearth:jobs.blacksmith.recipes.storage_name)",
+         "recipes": {
+            "input_bin_iron": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/input_bin_iron_recipe.json"
+            },
+            "input_table_ground_iron": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/input_table_ground_iron_recipe.json"
+            },
+            "vault": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/vault_recipe.json"
+            },
+            "input_corner_ground_iron": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/input_corner_ground_iron_recipe.json"
+            }
+         }
+      },
+      "smelt": {
+         "ordinal": 30,
+         "name": "i18n(stonehearth:jobs.blacksmith.recipes.smelt_name)",
+         "recipes": {
+            "copper_ingot": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/copper_ingot_recipe.json"
+            },
+            "tin_ingot": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/tin_ingot_recipe.json"
+            },
+            "bronze_ingot": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/bronze_ingot_recipe.json"
+            },
+            "iron_ingot": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/iron_ingot_recipe.json"
+            },
+            "silver_ingot": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/silver_ingot_recipe.json"
+            },
+            "gold_ingot": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/gold_ingot_recipe.json"
+            },
+            "steel_ingot": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/steel_ingot_recipe.json"
+            },
+			"mythril_ingot": {
+					"recipe": "file(mythril_ingot_recipe.json)"
+			}
+         }
+      },	
+		"weapons": {
+         "ordinal": 40,
+         "name": "i18n(stonehearth:jobs.blacksmith.recipes.weapons_name)",
+         "recipes": {
+            "bronze_axe": {
+               "recipe": "file(bronze_axe_recipe.json)"
+            },
+            "iron_axe": {
+               "recipe": "file(iron_axe_recipe.json)"
+            },
+            "iron_axe_2h": {
+               "recipe": "file(iron_axe_2h_recipe.json)"
+            },
+            "steel_axe": {
+               "recipe": "file(steel_axe_recipe.json)"
+            },
+            "steel_axe_2h": {
+               "recipe": "file(steel_axe_2h_recipe.json)"
+            },
+            "bronze_spear": {
+               "recipe": "file(bronze_spear_recipe.json)"
+            },
+            "iron_spear": {
+               "recipe": "file(iron_spear_recipe.json)"
+            },
+            "steel_spear": {
+               "recipe": "file(steel_spear_recipe.json)"
+            },
+            "bronze_sword_viking": {
+               "recipe": "file(bronze_sword_viking_recipe.json)"
+            },
+            "iron_sword_viking": {
+               "recipe": "file(iron_sword_viking_recipe.json)"
+            },
+            "steel_sword_viking": {
+               "recipe": "file(steel_sword_viking_recipe.json)"
+            }
+		}
+		},
+		"armor": {
+			"ordinal": 50,
+			"name": "i18n(stonehearth:jobs.blacksmith.recipes.armor_name)",
+			"recipes": {
+				"chain_mail_bronze": {
+					"recipe": "file(chain_mail_bronze_recipe.json)"
+				},
+				"chain_mail_iron": {
+					"recipe": "file(chain_mail_iron_recipe.json)"
+				},
+				"chain_mail_steel": {
+					"recipe": "file(chain_mail_steel_recipe.json)"
+				},
+				"runic_bronze_comb": {
+					"recipe": "file(runic_bronze_comb_recipe.json)"
+				},
+				"runic_iron_comb": {
+					"recipe": "file(runic_iron_comb_recipe.json)"
+				},
+				"runic_steel_comb": {
+					"recipe": "file(runic_steel_comb_recipe.json)"
+				},
+				"runic_silver_comb": {
+					"recipe": "file(runic_silver_comb_recipe.json)"
+				},
+				"iron_round_shield": {
+					"recipe": "file(iron_round_shield_recipe.json)"
+				},
+				"steel_round_shield": {
+					"recipe": "file(steel_round_shield_recipe.json)"
+				},
+				"silver_mail": {
+					"recipe": "stonehearth/jobs/blacksmith/recipes/silver_mail_recipe.json"
+				}
+			}
+		},
+	  "building_parts": {
+         "ordinal": 70,
+         "name": "i18n(stonehearth:jobs.blacksmith.recipes.construction_name)",
+         "recipes": {
+            "fence_gate_iron": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/fence_gate_iron_recipe.json"
+            },
+            "door_blacksmith": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/door_blacksmith_recipe.json"
+            },
+            "valor_torch": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/valor_torch_recipe.json"
+            },
+			"bronze_portcullis": {
+               "recipe": "file(bronze_portcullis_recipe.json)"
+            }
+         }
+      },
+      "decoration": {
+         "ordinal": 85,
+         "name": "i18n(stonehearth:jobs.blacksmith.recipes.decoration_name)",
+         "recipes": {
+            "wooden_sign_blacksmith": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/wooden_sign_blacksmith_recipe.json"
+            },
+            "decorative_elite_gong": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/decorative_elite_gong_recipe.json"
+            },
+            "decorative_generals_gong": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/decorative_generals_gong_recipe.json"
+            },
+            "decorative_scout_gong": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/decorative_scout_gong_recipe.json"
+            },
+            "decorative_master_gong": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/decorative_master_gong_recipe.json"
+            },
+            "sign_blacksmith": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/sign_blacksmith_recipe.json"
+            },
+            "candle_iron": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/candle_iron_recipe.json"
+            },
+            "candle_iron_double": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/candle_iron_double_recipe.json"
+            },
+            "lamppost_rustic": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/lamppost_rustic_recipe.json"
+            },
+            "lamppost_rustic_double": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/lamppost_rustic_double_recipe.json"
+            },
+            "lantern_iron": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/lantern_iron_recipe.json"
+            },
+            "weathervane_poyo": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/weathervane_poyo_recipe.json"
+            },
+            "lamppost_upscale": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/lamppost_upscale_recipe.json"
+            },
+            "lamppost_upscale_double": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/lamppost_upscale_double_recipe.json"
+            },
+            "lantern_poyo": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/lantern_poyo_recipe.json"
+            },
+            "valor_brazier_large": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/valor_brazier_large_recipe.json"
+            },
+            "wall_hanging_plaque": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/valor_wall_hanging_plaque_recipe.json"
+            },
+            "valor_war_horn": {
+               "recipe": "stonehearth/jobs/blacksmith/recipes/valor_war_horn_recipe.json"
+            },
+			"iron_door": {
+               "recipe": "file(iron_door_recipe.json)"
+            }
+         }
+      }
+	}
+}

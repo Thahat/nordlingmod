@@ -1,0 +1,62 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(sacred_apple.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(sacred_apple.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(sacred_apple_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "sacred_apple",
+         "ilevel": 1,
+         "roles": [
+            "ruler_job"
+         ],
+         "required_job_level": 6,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 50,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": false
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.armor.sacred_apple.display_name)",
+         "description": "i18n(nordlingmod:entities.armor.sacred_apple.description)",
+         "icon": "file(sacred_apple.png)",
+         "category": "armor",
+         "material_tags": [
+            "bronze",
+            "armor",
+            "medium_armor",
+            "bronze_chainmail",
+            "stockpile_equipment",
+            "nordling_made"
+         ]
+      }
+   }
+}

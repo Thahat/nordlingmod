@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "render_info": {
+         "scale": 0.07
+      },
+	  "model_variants": {
+         "default": {
+            "models": [
+               "file(decorative_wall_shield.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": -0.5, "z": -0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "allow_vertical_adjacent": true
+      },
+      "render_info": {
+         "scale": 0.15
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.decoration.decorative_wall_shield.decorative_wall_shield_ghost.display_name)",
+         "description": "i18n(nordlingmod:entities.decoration.decorative_wall_shield.decorative_wall_shield_ghost.description)",
+         "icon": "file(decorative_wall_shield.png)",
+         "category": "decoration",
+         "material_tags": [
+            "decoration",
+            "crafted",
+            "stockpile_decoration"
+         ]
+      }
+   }
+}

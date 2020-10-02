@@ -1,0 +1,18 @@
+{
+	"craftable_recipes": {
+		"ingredients": {
+			"recipes": {
+				"butter": {
+					"recipe": "nordlingmod/jobs/cook/recipes/butter_recipe.json"
+				}
+			}
+		},
+		"animal_feed": {
+         "recipes": {
+			"moomoo_feed": {
+               "recipe": "file(moomoo_feed_nordlings_recipe.json)"
+            }
+         }
+      }
+	}
+}

@@ -1,0 +1,17 @@
+{
+   "mixins" : "/stonehearth/scenarios/static/terrain/ore_vein/ore_vein.json",
+   "name" : "mythril_vein",
+   "kind" : "RESOURCE",
+   "weight" : 200,
+
+   "data" :
+   {
+      "num_veins_min" : 5,
+      "num_veins_max" : 6,
+      "vein_length_min" : 2,
+      "vein_length_max" : 8,
+      "vein_radius" : 2,
+      "mother_lode_radius_min" : 2,
+      "mother_lode_radius_max" : 4
+   }
+}

@@ -1,0 +1,6 @@
+{
+	"mixins": [
+		"stonehearth/jobs/herbalist/herbalist_abilities/herbalist_abilities.json",
+		"stonehearth/jobs/geomancer/geomancer_abilities.json"
+	]
+}

@@ -1,0 +1,28 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "render_info": {
+         "scale": 0.15
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(nordling_throne.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.furniture.nordling_throne.nordling_throne_ghost.display_name)",
+         "description": "i18n(nordlingmod:entities.furniture.nordling_throne.nordling_throne_ghost.description)",
+         "icon": "file(nordling_throne.png)",
+         "category": "furniture",
+         "material_tags": "wood furniture crafted chair stockpile_furniture"
+      }
+   }
+}

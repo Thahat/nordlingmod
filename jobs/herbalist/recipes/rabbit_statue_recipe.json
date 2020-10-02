@@ -1,0 +1,33 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.rabbit_statue_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.rabbit_statue_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/landmark/summon_stone_rabbit_statue/summon_stone_rabbit_statue.png",
+   "level_requirement": 1,
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 6
+      },
+      {
+         "material": "clay resource",
+         "count": 4
+      },
+      {
+         "uri": "stonehearth:food:carrot:carrot_basket",
+         "count": 2
+      },
+      {
+         "material": "earth_essence resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:landmark:summon_stone:minor:rabbit_statue"
+      }
+   ]
+}

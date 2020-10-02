@@ -1,0 +1,78 @@
+{
+   "name": "glow",
+   "duration": 2300,
+   "material": "materials/cubemitter_add_bloom.material.json",
+   "loops": true,
+   "mesh": {
+      "file": "",
+      "matrix": "",
+      "offset": {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      }
+   },
+   "emission": {
+      "rate": {
+         "kind": "CONSTANT",
+         "values": [10]
+      },
+      "angle": {
+         "kind": "RANDOM_BETWEEN",
+         "values": [0, 180]
+      },
+      "origin": {
+         "surface": "POINT"
+      }
+   },
+   "particle": {
+      "lifetime": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [900, 1400]
+         }
+      },
+      "speed": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [0]
+         }
+      },
+      "acceleration": {
+         "over_lifetime_y": {
+            "kind": "CONSTANT",
+            "values": [0]
+         }
+      },
+      "scale": {
+         "start": {
+            "kind": "CONSTANT",
+            "values": [0.8]
+         },
+         "over_lifetime": {
+            "kind": "CURVE",
+            "values": [
+               [0, 0.75],
+               [1, 1.25]
+            ]
+         }
+      },
+      "color": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [
+			   [0.247, 0.282, 0.8, 1],
+               [0.425, 0.559, 0.559, 1] 
+            ]
+         },
+         "over_lifetime_a": {
+            "kind": "CURVE",
+            "values": [
+               [0, 0],
+               [0.5, 0.04066666666666666],
+               [1, 0]
+            ]
+         }
+      }
+   }
+}

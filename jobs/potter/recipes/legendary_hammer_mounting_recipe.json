@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 5,
+   "work_units": 1,
+   "recipe_name": "i18n(nordlingmod:jobs.potter.recipes.legendary_hammer_mounting.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.potter.recipes.legendary_hammer_mounting.description)",
+   "flavor": "i18n(nordlingmod:jobs.potter.recipes.legendary_hammer_mounting.flavor)",
+   "portrait": "/nordlingmod/entities/refined/legendary_hammer_mounting/legendary_hammer_mounting.png",
+   "workshop": "stonehearth:potter:kiln",
+   "level_requirement": 4,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 3
+      },
+      {
+         "uri": "stonehearth:consumables:energy_tonic",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:gold_ingot",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:legendary_hammer_mounting"
+      }
+   ]
+}

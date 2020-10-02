@@ -1,0 +1,76 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(steel_axe_2h_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(steel_axe_2h_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "additional_equipment": {
+            "stonehearth:armor:offhand_placeholder": true
+         },
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 28,
+         "roles": "footman_job",
+         "required_job_level": 5,
+         "equip_effect": "stonehearth:effects:weapon_level_up",
+         "equipment_types": [
+            "twohanded"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 28,
+         "reach": 2.2
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_2h_attack",
+            "effect": "combat_2h_attack",
+            "active_frame": 21,
+            "cooldown": 0,
+            "priority": 2
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 45,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.steel_axe_2h.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.steel_axe_2h.description)",
+         "icon": "file(steel_axe_2h.png)",
+         "category": "weapons",
+         "material_tags": [
+            "nordling_made",
+            "steel",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon",
+            "twohanded"
+         ]
+      }
+   }
+}

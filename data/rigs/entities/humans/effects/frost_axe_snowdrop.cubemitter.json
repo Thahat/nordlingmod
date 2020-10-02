@@ -1,0 +1,99 @@
+{
+   "name": "snowdrop",
+   "duration": 1000,
+   "material": "materials/cubemitter_add_bloom.material.json",
+   "loops": true,
+   "emission": {
+      "rate": {
+         "kind": "CONSTANT",
+         "values": [30]
+      },
+      "angle": {
+         "kind": "RANDOM_BETWEEN",
+         "values": [0, 5]
+      },
+	  "origin": {
+         "surface": "SPHERE",
+         "values": [0.75, 0.2, 360]
+      },
+      "rotation_x": {
+         "kind": "CONSTANT",
+         "values": [0]
+      },
+      "rotation_y": {
+         "kind": "CONSTANT",
+         "values": [0]
+      },
+      "rotation_z": {
+         "kind": "CONSTANT",
+         "values": [0]
+      },
+      "bursts": [
+         [0, 25]
+      ]
+   },
+   "particle": {
+      "lifetime": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [600, 800]
+         }
+      },
+      "speed": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [-1, -2]
+         }
+      },
+      "acceleration": {
+         "over_lifetime_y": {
+            "kind": "CONSTANT",
+            "values": [1]
+         }
+      },
+	  "rotation": {
+         "over_lifetime_x": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [-200, 100]
+         },
+         "over_lifetime_y": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [-100, 200]
+         }
+      },
+      "scale": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [0.05, 0.1]
+         },
+         "over_lifetime": {
+            "kind": "CURVE",
+            "values": [
+               [0, 0.98],
+               [1, 0.45]
+            ]
+         }
+      },
+      "color": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [
+               [0.247, 0.282, 0.5, 1],
+               [0.325, 0.459, 0.459, 1]
+            ]
+         },
+         "over_lifetime_a": {
+            "kind": "CURVE",
+            "values": [
+               [0, 1],
+               [0.07398247718811035, 0.6866701253255209],
+               [0.185, 0.3933333333333333],
+               [0.30100284576416014, 0.2141102091471354],
+               [0.44813640594482423, 0.09103027343750003],
+               [0.655, 0.026666666666666616],
+               [1, 0]
+            ]
+         }
+      }
+   }
+}

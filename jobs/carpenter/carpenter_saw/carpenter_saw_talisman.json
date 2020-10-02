@@ -1,0 +1,39 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(carpenter_saw.qb)"
+            ]
+         }
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      },
+      "stonehearth:promotion_talisman": {
+         "job": "stonehearth:jobs:carpenter"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 25,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:jobs.carpenter.carpenter_saw.carpenter_saw_talisman.display_name)",
+         "description": "i18n(stonehearth:jobs.carpenter.carpenter_saw.carpenter_saw_talisman.description)",
+         "icon": "file(carpenter_saw.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": ["stockpile_tool"]
+      }
+   }
+}

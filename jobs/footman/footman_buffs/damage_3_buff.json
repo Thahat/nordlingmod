@@ -1,0 +1,9 @@
+{
+	"mixins": "stonehearth:buffs:footman:dmg_3",
+	"mixintypes": {
+		"display_name": "override",
+		"description": "override"
+	},
+	"display_name": "i18n(nordlingmod:jobs.footman.footman_buffs.damage_3_buff.display_name)",
+	"description": "i18n(nordlingmod:jobs.footman.footman_buffs.damage_3_buff.description)"
+}

@@ -1,0 +1,30 @@
+{
+   "type": "job",
+   "mixins": [
+      "stonehearth:jobs:geomancer",
+      "stonehearth:jobs:herbalist"
+   ],
+   "display_order": 7,
+   "controller": "nordlingmod:class:herbgeo",
+   "alias": "stonehearth:jobs:herbalist",
+   "display_name": "i18n(stonehearth:jobs.herbalist.herbalist_description.display_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.herbalist_description.description)",
+   "requirements": "i18n(stonehearth:jobs.herbalist.herbalist_description.requirements)",
+   "icon": "/stonehearth/jobs/herbalist/images/icon.png",
+   "talisman_uri": "stonehearth:herbalist:talisman",
+   "equipment": {
+      "torso": "file(herbalist_outfit)",
+      "mainhand": "stonehearth:herbalist:staff",
+      "mixintypes": {
+         "helmet": "remove"
+      }
+   },
+   "crafter": {
+      "work_effect": "work_geomancer",
+      "recipe_list": "/nordlingmod/jobs/herbalist/recipes/recipes.json"
+   },
+   "workshop": {
+      "skin_class": "herbgeo"
+   },
+   "abilities": "file(herbalist_abilities)"
+}

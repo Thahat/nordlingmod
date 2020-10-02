@@ -1,0 +1,61 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "post_shrine_dialog_gift",
+   "donation_dialog_info": {
+      "expiration_timeout": "24h",
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(nordlingmod:data.gm.campaigns.town_progression.post_shrine_dialog_gift.donation_dialog_info.dialog_nodes.simple_message.bulletin_title)",
+               "dialog_title": "i18n(nordlingmod:data.gm.campaigns.town_progression.post_shrine_dialog_gift.donation_dialog_info.dialog_nodes.simple_message.dialog_title)",
+               "portrait": "file(images/herald_stoic.png)",
+               "message": "i18n(nordlingmod:data.gm.campaigns.town_progression.post_shrine_dialog_gift.donation_dialog_info.dialog_nodes.simple_message.bulletin_message.00)",
+               "choices": {
+                  "nordlingmod:data.gm.campaigns.town_progression.post_shrine_dialog_gift.donation_dialog_info.dialog_nodes.simple_message.choice_000": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+     "loot_table": {
+         "entries": {
+            "flower": {
+               "num_rolls": 4,
+               "items": {
+                  "pork": {
+                     "uri": "stonehearth:plants:earthbud",
+                     "weight": 1
+                  }
+               }
+            },
+            "ore": {
+			   "num_rolls": {
+                  "min": 10,
+                  "max": 12
+               },
+               "items": {
+                  "mythril": {
+                     "uri": "nordlingmod:resources:mythril:mythril_ore",
+                     "weight": 1
+                  }
+               }
+            },
+            "variety": {
+               "num_rolls": 6,
+               "items": {
+                  "glitter": {
+                     "uri": "stonehearth:refined:gold_flakes",
+                     "weight": 1
+                  },
+                  "tonic": {
+                     "uri": "stonehearth:consumables:courage_tonic",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+    }   
+ }

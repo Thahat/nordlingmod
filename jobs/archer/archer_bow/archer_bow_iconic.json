@@ -1,0 +1,22 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(archer_bow_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:entities.weapons.bow.display_name)",
+         "description": "i18n(stonehearth:entities.weapons.bow.description)",
+         "icon": "file(archer_bow.png)",
+         "is_item": true,
+         "category": "weapons"
+      }
+   }
+}

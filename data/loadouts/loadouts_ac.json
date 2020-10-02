@@ -1,0 +1,40 @@
+{
+	"loadouts": {
+		"food_for_days": {
+			"content":{
+				"tent":{
+					"ordinal": 8.1,
+					"display_name": "Tent",
+					"type": "entity",
+					"uri": "nordlingmod:ac_tent",
+					"icon": "/nordlingmod/data/loadouts/images/items/ac_tent.png",
+					"amount": 3
+				}
+			}
+		},
+		"merchant_caravan": {
+			"content":{
+				"tent":{
+					"ordinal": 8.1,
+					"display_name": "Tent",
+					"type": "entity",
+					"uri": "nordlingmod:ac_tent",
+					"icon": "/nordlingmod/data/loadouts/images/items/ac_tent.png",
+					"amount": 3
+				}
+			}
+		},
+		"money_solves_all_problems": {
+			"content":{
+				"tent":{
+					"ordinal": 8.1,
+					"display_name": "Tent",
+					"type": "entity",
+					"uri": "nordlingmod:ac_tent",
+					"icon": "/nordlingmod/data/loadouts/images/items/ac_tent.png",
+					"amount": 3
+				}
+			}
+		}
+	}
+}

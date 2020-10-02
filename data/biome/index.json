@@ -1,0 +1,6 @@
+{
+   "type": "index",
+	"biomes" : {
+		"forest": "nordlingmod:biome:forest"
+	}
+}

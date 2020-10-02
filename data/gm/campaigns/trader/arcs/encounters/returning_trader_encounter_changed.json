@@ -1,0 +1,12 @@
+{
+   "script_info": {  
+      "data": { 
+         "wants": {
+		    "mixintypes":{
+					"stonehearth:farmer:talisman"	: "remove",
+					"stonehearth:footman:wooden_sword_talisman"	: "remove"
+			 }  
+         } 
+      }
+   }
+}

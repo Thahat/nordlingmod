@@ -1,0 +1,11 @@
+{
+    "components": {
+        "model_variants": {
+            "nordlingmod:kingdoms:nordlings": {
+                "models": [
+                    "nordlingmod/entities/gizmos/boat/boat.qb"
+                ]
+            }
+        }
+    }
+}

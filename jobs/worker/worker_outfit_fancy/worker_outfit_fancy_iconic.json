@@ -1,0 +1,25 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(worker_outfit_fancy_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "description": "i18n(nordlingmod:jobs.worker.worker_outfit_fancy.worker_outfit_fancy_iconic.description)",
+         "display_name": "i18n(nordlingmod:jobs.worker.worker_outfit_fancy.worker_outfit_fancy_iconic.display_name)",
+         "icon": "file(worker_outfit_fancy.png)",
+         "is_item": true,
+         "category": "armor"
+      }
+   }
+}

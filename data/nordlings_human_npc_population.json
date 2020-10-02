@@ -1,0 +1,39 @@
+{
+   "roles": {
+      "herald_stoic": {
+         "male": {
+            "uri": [
+               "nordlingmod:npc:herald:stoic"
+            ]
+         }
+      },
+	  "herald_wanderer": {
+         "male": {
+            "uri": [
+               "nordlingmod:npc:herald:wanderer"
+            ]
+         }
+      },
+	  "herald_brokkr": {
+         "male": {
+            "uri": [
+               "nordlingmod:npc:herald:brokkr"
+            ]
+         }
+      },
+	  "herald_eitri": {
+         "male": {
+            "uri": [
+               "nordlingmod:npc:herald:eitri"
+            ]
+         }
+      },
+	  "herald_hilda": {
+         "female": {
+            "uri": [
+               "nordlingmod:npc:herald:hilda"
+            ]
+         }
+      }
+   }
+}

@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 3,
+   "recipe_name": "i18n(nordlingmod:jobs.weaver.recipes.worker_outfit_fancy_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.weaver.recipes.worker_outfit_fancy_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.weaver.recipes.worker_outfit_fancy_recipe.flavor)",
+   "portrait": "/nordlingmod/jobs/worker/worker_outfit_fancy/worker_outfit_fancy.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "cloth resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      },
+      {
+         "material": "pelt resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:worker_outfit_fancy"
+      }
+   ]
+}

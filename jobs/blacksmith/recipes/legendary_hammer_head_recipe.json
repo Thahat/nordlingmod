@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 160,
+   "work_units": 8,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_hammer_head.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_hammer_head.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_hammer_head.flavor)",
+   "portrait": "/nordlingmod/entities/refined/legendary_hammer_head/legendary_hammer_head.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "uri": "nordlingmod:mythril_ingot",
+         "count": 3
+      },
+      {
+         "material": "coal resource",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:legendary_hammer_head"
+      }
+   ]
+}

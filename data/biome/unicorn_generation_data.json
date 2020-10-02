@@ -1,0 +1,16 @@
+{
+    "palettes": {
+        "emerald": {
+            "mythril_ore": "#808687"
+        },
+		"amber": {
+			"mythril_ore": "#808687"
+		},
+		"ruby": {
+			"mythril_ore": "#808687"
+		},
+		"opal": {
+			"mythril_ore": "#808687"
+		}
+    }
+}

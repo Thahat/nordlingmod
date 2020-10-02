@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "work_units": 4,
+   "effort": 20,
+   "recipe_name": "i18n(nordlingmod:jobs.mason.recipes.rune_stone.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.mason.recipes.rune_stone.description)",
+   "flavor": "i18n(nordlingmod:jobs.mason.recipes.rune_stone.flavor)",
+   "portrait": "/nordlingmod/entities/decoration/rune_stone/rune_stone.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 2
+      }	  
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:rune_stone"
+      }
+   ]
+}

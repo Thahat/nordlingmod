@@ -1,0 +1,134 @@
+{
+	"palettes" : {
+		"spring" : {
+			"meteor": "#2C2D40"
+		},
+		"summer" : {
+			"meteor": "#2C2D40"
+		},
+		"autumn" : {
+			"meteor": "#2C2D40"
+		},
+		"winter" : {
+			"meteor": "#2C2D40"
+		}
+	},
+   "landscape": {
+      "placement_table": {
+         "stonehearth_ace:fungi:bolete": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 0.4,
+               "item_density": 0.3,
+               "exclusion_radius": 0
+            }
+         },
+		 "stonehearth_ace:terrain:pasture_grass": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 1.2,
+               "item_density": 0.2,
+               "exclusion_radius": 0
+            }
+         },
+		 "stonehearth_ace:terrain:pasture_grass:short": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2.3,
+               "item_density": 0.3,
+               "exclusion_radius": 0
+            }
+         },
+		 "stonehearth_ace:terrain:pasture_grass:overgrown": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 0.6,
+               "item_density": 0.2,
+               "exclusion_radius": 0
+            }
+         },
+			"stonehearth_ace:trees:chestnut:small" : {
+				"placement_type" : "single",
+				"parameters" : {
+					"ground_radius" : 3,
+					"exclusion_radius" : 4
+				}
+			},
+			"stonehearth_ace:trees:chestnut:medium" : {
+				"placement_type" : "single",
+				"parameters" : {
+					"ground_radius" : 4,
+					"exclusion_radius" : 5
+				}
+			},
+			"stonehearth_ace:trees:chestnut:large" : {
+				"placement_type" : "single",
+				"parameters" : {
+					"ground_radius" : 5,
+					"exclusion_radius" : 6
+				}
+			}
+      },
+		"trees": {
+			"sizes": {
+				"stonehearth_ace:trees:chestnut" : {
+				"small" : 0,
+				"medium" : 6,
+				"large" : 1
+				}
+			},
+			"weights": {
+				"plains" : {
+					"1" : {
+						"stonehearth_ace:trees:chestnut" : 0.08
+					}
+				},
+				"foothills" : {
+					"1" : {
+						"stonehearth_ace:trees:chestnut" : 0.05
+					},
+					"2" : {
+						"stonehearth_ace:trees:chestnut" : 0.04
+					}
+				}
+			}
+		},
+      "scattered": {
+         "plants": {
+            "weights": {
+               "plains": {
+                  "1": {
+                     "stonehearth_ace:fungi:bolete": 0.1,
+							"stonehearth_ace:terrain:pasture_grass:overgrown": 0.1,
+							"stonehearth_ace:terrain:pasture_grass": 0.3,
+							"stonehearth_ace:terrain:pasture_grass:short": 0.2,
+							"stonehearth_ace:trees:chestnut:small" : 0.2,
+							"stonehearth_ace:trees:chestnut:medium" : 0.1
+                  }
+               },
+               "foothills": {
+                  "1": {
+                     "stonehearth_ace:fungi:bolete": 0.1,
+							"stonehearth_ace:terrain:pasture_grass:overgrown": 0.1,
+							"stonehearth_ace:terrain:pasture_grass": 0.3,
+							"stonehearth_ace:terrain:pasture_grass:short": 0.2,
+							"stonehearth_ace:trees:chestnut:small" : 0.2
+                  },
+                  "2": {
+                     "stonehearth_ace:fungi:bolete": 0.1,
+							"stonehearth_ace:terrain:pasture_grass:overgrown": 0.1,
+							"stonehearth_ace:terrain:pasture_grass": 0.3,
+							"stonehearth_ace:terrain:pasture_grass:short": 0.2,
+							"stonehearth_ace:trees:chestnut:small" : 0.2
+                  }
+               },
+               "mountains": {
+                  "1": {
+                     "stonehearth_ace:fungi:bolete": 0.2
+                  }
+               }
+            }
+         }
+      }
+   }
+}

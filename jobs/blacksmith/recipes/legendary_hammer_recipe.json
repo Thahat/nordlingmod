@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 160,
+   "work_units": 8,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_hammer_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_hammer_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_hammer_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/weapons/legendary_hammer/legendary_hammer.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "uri": "nordlingmod:legendary_hammer_head",
+         "count": 1
+      },
+      {
+         "uri": "nordlingmod:legendary_hammer_mounting",
+         "count": 1
+      },
+      {
+         "uri": "nordlingmod:legendary_hammer_haft",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:legendary_hammer"
+      }
+   ]
+}

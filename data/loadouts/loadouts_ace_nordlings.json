@@ -1,0 +1,65 @@
+{
+	"loadouts": {
+		"food_for_days": {
+         "content": {
+            "juice": {
+               "ordinal": 5,
+               "display_name": "i18n(stonehearth_ace:data.loadouts.items.juice)",
+               "type": "entity",
+               "uri": "nordlingmod:drink:juice_bramble",
+               "icon": "file(images/items/juice_bramble.png)",
+               "amount": 16
+            }
+          }
+        },
+		"military_expedition": {
+			"content":{
+				"tent":{
+					"ordinal": 8.1,
+					"display_name": "Tent",
+					"type": "entity",
+					"uri": "nordlingmod:nordling_tent",
+					"icon": "/nordlingmod/data/loadouts/images/items/nordling_tent.png",
+					"amount": 1
+				},
+				"footman": {
+					"ordinal": 2,
+					"display_name": "i18n(stonehearth:jobs.footman.footman_description.display_name)",
+					"type": "entity",
+					"uri": "nordlingmod:footman:wooden_spear_talisman",
+					"icon": "file(images/items/wooden_spear.png)",
+					"amount": 1
+				}
+			}
+		},
+		"noble_entourage": {
+			"content":{
+				"tent":{
+					"ordinal": 8.1,
+					"display_name": "Tent",
+					"type": "entity",
+					"uri": "nordlingmod:nordling_tent",
+					"icon": "/nordlingmod/data/loadouts/images/items/nordling_tent.png",
+					"amount": 1
+				},
+				"comfy_bed": {
+					"uri": "nordlingmod:comfy_fur_bed",
+					"icon": "file(images/items/comfy_fur_bed.png)",
+					"amount": 1
+            }
+			}
+		},
+		"money_solves_all_problems": {
+         "content": {
+            "juice": {
+               "ordinal": 4,
+               "display_name": "i18n(stonehearth_ace:data.loadouts.items.juice)",
+               "type": "entity",
+               "uri": "nordlingmod:drink:juice_bramble",
+               "icon": "file(images/items/juice_bramble.png)",
+               "amount": 10
+            }
+         }
+      }
+	}
+}

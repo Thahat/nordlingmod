@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 13,
+   "work_units": 1,
+   "recipe_name": "i18n(nordlingmod:jobs.cook.recipes.porridge_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.cook.recipes.porridge_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.cook.recipes.porridge_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/food/porridge/porridge/porridge.png",
+   "workshop": "stonehearth:cook:workbench",
+   "work_effect": "work_cook_dough",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "drink_container milk",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:wheat:wheat_bale",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:food:porridge"
+      }
+   ]
+}

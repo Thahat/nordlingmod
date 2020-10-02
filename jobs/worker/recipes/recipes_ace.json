@@ -1,0 +1,53 @@
+{
+	"craftable_recipes": {
+		"workbenches": {
+			"recipes": {
+				"cheese_vat": {
+			          "recipe": "stonehearth_ace/jobs/cook/recipes/cheese_vat_recipe.json"
+			    }
+			}
+	    },
+		"ingredients": {
+			"recipes": {
+			}
+		},
+		"food_preparation": {
+		    "ordinal": 31,
+            "name": "i18n(stonehearth_ace:jobs.cook.recipes.food_preparation_name)",
+			"recipes": {
+				"dough": {
+					"recipe": "stonehearth_ace/jobs/cook/recipes/dough_recipe.json"
+				},
+				"curdling_mixture": {
+					"recipe": "stonehearth_ace/jobs/cook/recipes/curdling_mixture_recipe.json"
+				}
+			}
+		},
+		"food": {
+			"recipes": {
+			}
+		},
+		"chefs_specials": {
+			"recipes": {
+			}
+		},
+		"chefs_desserts": {
+			"recipes": {
+			}
+		},
+		"animal_feed": {
+			"recipes": {
+				"fodder": {
+					"recipe": "stonehearth_ace/jobs/cook/recipes/fodder_recipe.json"
+				},
+				"hearth_fodder": {
+					"recipe": "stonehearth_ace/jobs/cook/recipes/hearth_fodder_recipe.json"
+				}
+			}
+		},
+		"drinks": {
+			"recipes": {
+			}
+		}
+    }
+}

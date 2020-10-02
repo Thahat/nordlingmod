@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_block_dirt_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_block_dirt_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/landmark/summon_stone_block_dirt/summon_stone_block_dirt.png",
+   "level_requirement": 0,
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "material": "clay resource",
+         "count": 6
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:landmark:summon_stone:block:dirt"
+      }
+   ]
+}

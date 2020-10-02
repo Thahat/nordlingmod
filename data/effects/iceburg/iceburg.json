@@ -1,0 +1,79 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "iceburg_base": {
+         "type": "cubemitter",
+         "cubemitter": "/nordlingmod/data/horde/particles/iceburg/iceburg_base.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":1,
+            "z":0,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         }
+      },
+	  "iceburg_top": {
+         "type": "cubemitter",
+         "cubemitter": "/nordlingmod/data/horde/particles/iceburg/iceburg_top.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":0,
+            "y":3,
+            "z":0,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         }
+      },
+	  "frost_cloud": {
+         "type": "cubemitter",
+         "cubemitter": "/nordlingmod/data/horde/particles/iceburg/frost_cloud.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+	  "light_aura_glitter": {
+         "type": "cubemitter",
+         "cubemitter": "/nordlingmod/data/horde/particles/iceburg/ice_glitter.cubemitter.json",
+         "start_time": 0,
+         "loop": true,
+         "transforms": { "x": 0, "y": 0, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "mist_sound": {
+         "type": "sound_effect",
+         "start_time": 0,
+         "min_distance": 25,
+         "falloff" : 3,
+         "volume": 24,
+         "track" : "stonehearth:sounds:corrupt_wolf_spray_03"
+      },
+      "freeze_sound": {
+         "type" : "sound_effect",
+         "loop" : true,
+         "start_time": 600,
+         "min_distance": 40,
+         "falloff" : 2.5,
+         "volume": 65,
+		 "track" : "stonehearth:sounds:icepit_loop"
+      },
+     "frost_light": {
+         "type": "light",
+         "light": "/nordlingmod/data/horde/particles/iceburg/frost.light.json",
+         "transforms": {
+            "x":0,
+            "y":1.0,
+            "z":0
+        },
+        "shadows": false
+     }
+   }
+}

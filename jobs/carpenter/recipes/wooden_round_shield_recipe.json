@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "work_units": 4,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.wooden_round_shield.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.wooden_round_shield.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.wooden_round_shield.flavor)",
+   "portrait": "/nordlingmod/entities/armor/wooden_round_shield/wooden_round_shield.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:cloth_bolt",
+         "count": 1
+      },
+	  {
+         "uri": "stonehearth:refined:thread",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+	  
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:wooden_round_shield"
+      }
+   ]
+}

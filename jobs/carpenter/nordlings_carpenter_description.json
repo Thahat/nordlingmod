@@ -1,0 +1,14 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:carpenter",
+   "display_order": 5,
+   "equipment": {
+		"torso": "file(carpenter_outfit)",
+		"mainhand": "file(carpenter_saw/carpenter_saw.json)"
+	},
+	"talisman_uri": "nordlingmod:carpenter:talisman",
+   "crafter": {
+      "work_effect": "saw_nordlings",
+      "recipe_list": "/nordlingmod/jobs/carpenter/recipes/recipes.json"
+   }
+}

@@ -1,0 +1,64 @@
+{
+   "type": "entity",
+   "mixins": [
+      "stonehearth:mixins:placed_object"
+   ],
+   "components": {
+      "mob": {
+         "align_to_grid": [
+            "x"
+         ]
+      },
+      "render_info": {
+         "animation_table": "/stonehearth/data/rigs/entities/construction/door_portcullis/door_portcullis.json",
+		 "scale": 0.0175
+      },
+      "effect_list": {
+         "default": "/stonehearth/data/rigs/entities/construction/door_portcullis/effects/closed.json",
+         "initial_pose_animation": "closed.json"
+      },
+      "stonehearth:fixture": {
+         "valign": "bottom",
+         "cursor": "stonehearth:cursors:create_door",
+         "margin": {
+            "left": 1,
+            "right": 1,
+            "top": 1
+         },
+         "bounds": {
+            "min": { "x": -3, "y": 0 },
+            "max": { "x": 4, "y": 7 }
+         }
+      },
+      "stonehearth:portal": {
+         "cutter": [
+            {
+               "min": { "x": -3, "y": 0 },
+               "max": { "x":4 , "y": 7 }
+            }
+         ]
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "/nordlingmod/entities/construction/wooden_portcullis/wooden_portcullis_ghost.qb"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.construction.wooden_portcullis_large.wooden_portcullis_large_ghost.display_name)",
+         "description": "i18n(nordlingmod:entities.construction.wooden_portcullis_large.wooden_portcullis_large_ghost.description)",
+         "icon": "/nordlingmod/entities/construction/wooden_portcullis/wooden_portcullise.png",
+         "category": "door",
+         "material_tags": [
+            "wood",
+            "portal",
+            "crafted",
+            "door",
+            "stockpile_portal"
+         ]
+      }
+   }
+}

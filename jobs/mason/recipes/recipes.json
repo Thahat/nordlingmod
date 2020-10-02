@@ -1,0 +1,47 @@
+{
+	"mixins": "/stonehearth/jobs/mason/recipes/recipes.json",
+	"craftable_recipes": {
+		"signage_decoration": {
+			"recipes": {
+				"rune_stone": {
+					"recipe": "file(rune_stone_recipe.json)"
+				},
+				"shrine_to_odin": {
+					"recipe": "file(shrine_to_odin_recipe.json)"
+				},
+				"shrine_to_thor": {
+					"recipe": "file(shrine_to_thor_recipe.json)"
+				}
+			}
+		},
+		"weapons": {
+			"recipes": {
+				"stone_axe": {
+					"recipe": "file(stone_axe_recipe.json)"
+				},
+				"stone_spear": {
+					"recipe": "file(stone_spear_recipe.json)"
+				},
+				"mixintypes": {
+					"stone_maul": "remove"
+				}
+			}
+		},
+		"refined": {
+         "ordinal": 30,
+         "name": "i18n(stonehearth:jobs.mason.recipes.refined_name)",
+         "recipes": {
+            "golem_parts_a": {
+               "recipe": "file(golem_parts_a_recipe.json)"
+            }
+         }
+		},
+		"furniture": {
+			"recipes": {
+				"comfy_fur_bed_stone": {
+					"recipe": "file(comfy_fur_bed_stone_recipe.json)"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "cubemitter": {
+         "type": "cubemitter",
+         "cubemitter": "/nordlingmod/data/horde/particles/steam/steam.cubemitter.json",
+         "loop": true,
+         "transforms": {
+         "scale": 1,
+            "x":0,
+            "y":1.4,
+            "z":0,
+            "rx":90,
+            "ry":0,
+            "rz":0
+         }
+      }
+   }
+}

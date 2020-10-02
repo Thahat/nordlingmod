@@ -1,0 +1,14 @@
+{
+   "stockpile": {
+       "raw_drinks": {
+	    "categories": {
+		  "juice_bramble": {
+               "ordinal": 3.955,
+               "display_name": "i18n(nordlingmod:entities.drink.juice_bramble.juice_bramble.display_name)",
+               "icon": "/nordlingmod/entities/drink/juice_bramble/juice_bramble/juice_bramble.png",
+               "filter": "drink_container juice_bramble"
+            }
+		}
+	  }
+   }
+}

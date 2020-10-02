@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(nordlingmod:jobs.weaver.recipes.leather_strip_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.weaver.recipes.leather_strip_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.weaver.recipes.leather_strip_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/refined/leather_strip/leather_strip.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:leather_bolt",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:leather_strip"
+      },
+      {
+         "item": "nordlingmod:leather_strip"
+      },
+      {
+         "item": "nordlingmod:leather_strip"
+      }
+   ]
+}

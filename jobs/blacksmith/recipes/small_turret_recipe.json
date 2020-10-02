@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 55,
+   "work_units": 7,
+   "recipe_name": "i18n(stonehearth:jobs.engineer.recipes.small_turret_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.engineer.recipes.small_turret_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/gizmos/small_turret/small_turret.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:bronze_gear",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:iron_gear",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:gizmos:small_turret"
+      }
+   ]
+}

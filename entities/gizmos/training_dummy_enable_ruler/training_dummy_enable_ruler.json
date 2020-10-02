@@ -1,0 +1,12 @@
+{
+	"components": {
+		"stonehearth_ace:training_dummy": {
+         "allowed_jobs": {
+            "nordlingmod:jobs:ruler": 2,
+			"nordlingmod:jobs:ruler_na": 2,
+			"nordlingmod:jobs:ruler_rc": 2,
+			"nordlingmod:jobs:ruler_nordlings": 2
+         }
+      }
+	}
+}

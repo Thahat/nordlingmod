@@ -1,0 +1,14 @@
+{
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "unlock_shrine_recipes",
+   "unlock_recipe_info": {
+      "job": "stonehearth:jobs:mason",
+      "recipe_key": [
+         "signage_decoration:shrine_to_thor",
+         "signage_decoration:shrine_to_odin"
+      ],
+      "bulletin_title": "i18n(nordlingmod:data.gm.campaigns.town_progression.unlock_shrine_recipes.bulletin_title)"
+   },
+   "out_edge": "unlock_recipes_2"
+}

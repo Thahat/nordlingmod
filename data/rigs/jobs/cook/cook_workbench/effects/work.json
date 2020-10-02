@@ -1,0 +1,27 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "smoke": {
+         "type": "cubemitter",
+         "cubemitter": "particles/fire/smoke_plume.cubemitter.json",
+         "loop": true,
+         "transforms": {
+            "x":-1.5,
+            "y":1,
+            "z":0.5,
+            "rx":90,
+            "ry":0,
+          "rz": 0
+            }
+            },
+      "sound": {
+         "type": "sound_effect",
+         "loop": true,
+         "start_time": 200,
+         "min_distance": 35,
+         "falloff": 4,
+         "volume": 70,
+        "track": "stonehearth:sounds:jobs_cook_workbench_work"
+      }            
+   }
+}

@@ -1,0 +1,28 @@
+{
+	"loadouts": {
+		"military_expedition": {
+			"content":{
+				"tent":{
+					"ordinal": 8.1,
+					"display_name": "Tent",
+					"type": "entity",
+					"uri": "nordlingmod:ac_tent",
+					"icon": "/nordlingmod/data/loadouts/images/items/ac_tent.png",
+					"amount": 1
+				}
+			}
+		},
+		"noble_entourage": {
+			"content":{
+				"tent":{
+					"ordinal": 8.1,
+					"display_name": "Tent",
+					"type": "entity",
+					"uri": "nordlingmod:ac_tent",
+					"icon": "/nordlingmod/data/loadouts/images/items/ac_tent.png",
+					"amount": 1
+				}
+			}
+		}
+	}
+}

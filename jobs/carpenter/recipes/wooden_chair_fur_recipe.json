@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 3,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.wooden_chair_fur.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.wooden_chair_fur.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.wooden_chair_fur.flavor)",
+   "portrait": "/nordlingmod/entities/furniture/wooden_chair_fur/wooden_chair_fur.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+	  {
+         "material" : "pelt resource",
+         "count" : 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:wooden_chair_fur"
+      }
+   ]
+}

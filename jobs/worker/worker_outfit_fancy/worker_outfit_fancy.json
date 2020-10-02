@@ -1,0 +1,59 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": false,
+            "models": [
+               "file(worker_outfit_fancy.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(worker_outfit_fancy_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(worker_outfit_fancy_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model",
+         "roles": "worker_job",
+         "ilevel": 2,
+         "injected_buffs": [
+            "stonehearth:buffs:devoted",
+            "stonehearth:buffs:weather:cold_resist"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 23,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:jobs.worker.worker_outfit_fancy.display_name)",
+         "description": "i18n(nordlingmod:jobs.worker.worker_outfit_fancy.description)",
+         "icon": "file(worker_outfit_fancy.png)",
+         "category": "armor",
+         "material_tags": [
+            "pelt",
+			"cloth",
+            "worker_outfit",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

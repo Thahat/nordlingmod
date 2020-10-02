@@ -1,0 +1,116 @@
+{
+   "name": "bolt",
+   "duration": 1000,
+   "material": "materials/cubemitter_add_bloom.material.json",
+   "loops": true,
+   "mesh": {
+      "file": "stonehearth/data/models/vfx/lightning/lightningd.qb",
+      "matrix": "",
+      "offset": {
+         "x": 0,
+         "y": 0,
+         "z": 0
+      }
+   },
+   "emission": {
+      "rate": {
+         "kind": "CONSTANT",
+         "values": [20]
+      },
+      "angle": {
+         "kind": "RANDOM_BETWEEN",
+         "values": [0, 15]
+      },
+	  "origin": {
+         "surface": "SPHERE",
+         "values": [0.75, 0.2, 360]
+      },
+      "rotation_x": {
+         "kind": "CONSTANT",
+         "values": [90]
+      },
+      "rotation_y": {
+         "kind": "CONSTANT",
+         "values": [90]
+      },
+      "rotation_z": {
+         "kind": "CONSTANT",
+         "values": [90]
+      },
+      "bursts": [
+         [0, 25]
+      ]
+   },
+   "particle": {
+      "lifetime": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [400, 500]
+         }
+      },
+      "speed": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [-2, 5]
+         }
+      },
+      "acceleration": {
+	     "over_lifetime_x": {
+		    "kind": "RANDOM_BETWEEN",
+            "values": [-1.5, 1.5]
+         },
+         "over_lifetime_y": {
+		    "kind": "RANDOM_BETWEEN",
+            "values": [-1, 2]
+         }
+      },
+	  "rotation": {
+         "over_lifetime_x": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [89, 91]
+         },
+		 "over_lifetime_z": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [-5, 5]
+         },
+         "over_lifetime_y": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [-5, 5]
+         }
+      },
+      "scale": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [0.009, 0.025]
+         },
+         "over_lifetime": {
+            "kind": "CURVE",
+            "values": [
+               [0, 0.98],
+               [1, 0.45]
+            ]
+         }
+      },
+      "color": {
+         "start": {
+            "kind": "RANDOM_BETWEEN",
+            "values": [
+               [0.247, 0.282, 0.8, 1],
+               [0.425, 0.559, 0.559, 1]
+            ]
+         },
+         "over_lifetime_a": {
+            "kind": "CURVE",
+            "values": [
+               [0, 1],
+               [0.07398247718811035, 0.6866701253255209],
+               [0.185, 0.3933333333333333],
+               [0.30100284576416014, 0.2141102091471354],
+               [0.44813640594482423, 0.09103027343750003],
+               [0.655, 0.026666666666666616],
+               [1, 0]
+            ]
+         }
+      }
+   }
+}

@@ -1,0 +1,41 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(buttermilk_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 32,
+				"drink_satisfaction": 8
+         },
+         "default": {
+            "satisfaction": 25,
+				"drink_satisfaction": 8
+         },
+         "quality": 5
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.food.buttermilk.buttermilk_serving.display_name)",
+         "description": "",
+         "material_tags": [
+            "food",
+            "buttermilk",
+			"breakfast_time",
+            "vegetarian"
+         ],
+         "subject_override": "nordlingmod:food:buttermilk"
+      }
+   }
+}

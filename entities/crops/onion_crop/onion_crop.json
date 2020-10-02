@@ -1,0 +1,131 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(onion_crop_4.qb)"
+            ]
+         },
+         "onion_1": {
+            "models": [
+               "file(onion_crop_1.qb)"
+            ]
+         },
+         "onion_2": {
+            "models": [
+               "file(onion_crop_2.qb)"
+            ]
+         },
+         "onion_3": {
+            "models": [
+               "file(onion_crop_3.qb)"
+            ]
+         },
+         "onion_4": {
+            "models": [
+               "file(onion_crop_4.qb)"
+            ]
+         },
+         "onion_12": {
+            "models": [
+               "file(onion_crop_12.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 },
+         "mob_collision_type": "clutter"
+      },
+      "stonehearth:crop": {
+         "resource_pairings": {
+            "onion_4": "nordlingmod:food:onion:onion_basket",
+            "onion_12": ""
+         },
+         "harvest_threshhold": "onion_4",
+         "plant_overlay_effect": "stonehearth:effects:plant_crop_overlay_effect"
+      },
+      "stonehearth:growing": {
+         "preferred_climate": "temperate_staple",
+         "growth_period": "8h",
+         "preferred_seasons": {
+            "stonehearth:biome:temperate": [
+               "spring",
+               "autumn"
+            ],
+            "stonehearth:biome:desert": [
+               "spring",
+               "autumn"
+            ],
+            "stonehearth:biome:arctic": [
+               "spring",
+               "summer"
+            ]
+         },
+         "growth_stages": [
+            {
+               "model_name": "onion_1",
+               "name": "i18n(nordlingmod:entities.crops.onion_crop.growth_stage.000.name)",
+               "description": "i18n(nordlingmod:entities.crops.onion_crop.growth_stage.000.description)"
+            },
+            {
+               "model_name": "onion_2",
+               "name": "i18n(nordlingmod:entities.crops.onion_crop.growth_stage.001.name)",
+               "description": "i18n(nordlingmod:entities.crops.onion_crop.growth_stage.001.description)"
+            },
+            {
+               "model_name": "onion_3",
+               "name": "i18n(nordlingmod:entities.crops.onion_crop.growth_stage.002.name)",
+               "description": "i18n(nordlingmod:entities.crops.onion_crop.growth_stage.002.description)"
+            },
+            {
+               "model_name": "onion_4",
+               "name": "i18n(nordlingmod:entities.crops.onion_crop.growth_stage.003.name)",
+               "description": "i18n(nordlingmod:entities.crops.onion_crop.growth_stage.003.description)"
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+               "model_name": "onion_12",
+               "name": "i18n(nordlingmod:entities.crops.onion_crop.growth_stage.011.name)",
+               "description": "i18n(nordlingmod:entities.crops.onion_crop.growth_stage.011.description)"
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.crops.onion_crop.display_name)",
+         "description": "i18n(nordlingmod:entities.crops.onion_crop.description)",
+         "icon": "file(icon.png)",
+         "material_tags": [
+            "crop",
+            "onion"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      },
+      "stonehearth_ace:megacrop": {
+         "num_to_spawn": 0,
+         "other_items": {
+            "nordlingmod:megacrops:onion": 1
+         },
+         "pickup_new": true,
+         "effect": "promote"
+      }
+   }
+}

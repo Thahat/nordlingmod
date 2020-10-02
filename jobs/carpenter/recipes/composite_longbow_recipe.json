@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 20,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.composite_longbow_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.composite_longbow_recipe.description)",
+   "flavor": "placeholder",
+   "portrait": "/nordlingmod/entities/weapons/composite_longbow/composite_longbow.png",
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 4
+      },
+      {
+         "material": "food meat raw",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:weapons:composite_longbow"
+      }
+   ]
+}

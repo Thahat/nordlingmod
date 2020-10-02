@@ -1,0 +1,93 @@
+{
+   "type": "encounter",
+   "encounter_type": "town_upgrade",
+   "in_edge": "shrine_upgrade_valor",
+   "town_upgrade_info": {
+      "old_facility_uri": "nordlingmod:shrine_to_thor",
+      "new_facility_uri": "nordlingmod:shrine_to_thor_blessed",
+      "facility_upgrade_effect": "stonehearth:effects:level_up:monument",
+      "town_bonus": "/nordlingmod/data/town_bonuses/fighting_town_bonus.lua",
+      "tier_achieved": 3,
+      "conversation_subjects": [
+         "stonehearth:subjects:town_status",
+         "stonehearth:food:cake",
+         "stonehearth:decoration:valor_statue",
+         "stonehearth:portals:valor_statue:portcullis_valor",
+         "stonehearth:decoration:valor_statue:knight_male",
+         "stonehearth:decoration:valor_statue:knight_female",
+         "stonehearth:decoration:valor_statue:torch",
+         "stonehearth:decoration:valor_statue:wall_hanging_plaque",
+         "stonehearth:decoration:valor_statue:war_horn",
+         "stonehearth:portals:valor_statue:window_frame_barred"
+      ],
+      "thought": "stonehearth:thoughts:town:progression:town",
+      "celebration_duration": "2h30m+10m",
+      "has_fireworks": true,
+      "dialog": {
+	     "title": "i18n(nordlingmod:data.gm.campaigns.town_progression.shrine_upgrade.title)",
+         "dialog_title": "i18n(nordlingmod:data.gm.campaigns.town_progression.shrine_upgrade.dialog_title)",
+         "tier_title": "i18n(nordlingmod:data.gm.campaigns.town_progression.shrine_upgrade.tier_title)",
+         "reward_message": "i18n(nordlingmod:data.gm.campaigns.town_progression.shrine_upgrade.reward_message)",
+         "reward_message_ctd": "i18n(nordlingmod:data.gm.campaigns.town_progression.shrine_upgrade.reward_message_ctd)",
+         "achievements": [
+            {
+               "id": "valor_bonus",
+               "name": "i18n(nordlingmod:data.gm.campaigns.town_progression.shrine_upgrade_valor.achievements.000)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "valor_decorations_1",
+               "name": "i18n(nordlingmod:data.gm.campaigns.town_progression.shrine_upgrade_valor.achievements.001)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "valor_decorations_2",
+               "name": "i18n(nordlingmod:data.gm.campaigns.town_progression.shrine_upgrade_valor.achievements.002)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "valor_decorations_3",
+               "name": "i18n(nordlingmod:data.gm.campaigns.town_progression.shrine_upgrade_valor.achievements.003)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            },
+            {
+               "id": "tier_3_bgm",
+               "name": "i18n(nordlingmod:data.gm.campaigns.town_progression.shrine_upgrade_valor.achievements.004)",
+               "icon": "/stonehearth/ui/game/bulletin/bulletin_dialog/city_tier_success_dialog/images/ribbon_3.png",
+               "track": "stonehearth:sounds:ui:immigration_menu:immigration_pass"
+            }
+         ]
+      },
+      "npcs": [
+         {
+            "faction": "human_npcs",
+            "role": "herald_stoic",
+            "gender": "male"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "herald_eitri",
+            "gender": "male"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "herald_brokkr",
+            "gender": "male"
+         },
+		 {
+            "faction": "human_npcs",
+            "role": "herald_hilda",
+            "gender": "female"
+         },
+         {
+            "faction": "human_npcs",
+            "role": "herald_wanderer",
+            "gender": "male"
+         }
+      ]
+   }
+}

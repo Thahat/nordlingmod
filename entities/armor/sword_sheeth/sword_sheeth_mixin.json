@@ -1,0 +1,9 @@
+{
+   "components": {
+      "stonehearth:equipment_piece": {
+		 "additional_equipment": {
+            "nordlingmod:sword_sheeth": true
+         }
+      }
+   }
+}

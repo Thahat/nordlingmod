@@ -1,0 +1,28 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 3,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.firewood3x.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.firewood3x.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.firewood3x.flavor)",
+   "portrait": "/nordlingmod/entities/refined/firewood/firewood.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:firewood"
+      },
+      {
+         "item": "nordlingmod:firewood"
+      },
+      {
+         "item": "nordlingmod:firewood"
+      }
+   ]
+}

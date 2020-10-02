@@ -1,0 +1,9 @@
+{
+	"crafter_menu": {
+		"items": {
+			"trapper": {
+				"icon": "/nordlingmod/jobs/trapper/images/trapper_menu_icon.png",
+			}
+		}
+	}
+}

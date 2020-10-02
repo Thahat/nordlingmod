@@ -1,0 +1,21 @@
+{
+   "components": {
+      "render_info": {
+		 "animation_table": "/stonehearth_ace/data/rigs/entities/construction/water_well/water_well.json"
+      },
+	  "effect_list": {
+			"effects": [
+			  "/stonehearth_ace/data/rigs/entities/construction/water_well/effects/idle.json"
+		    ]
+		}
+	},	
+   "entity_data": {
+      "stonehearth_ace:drink_container": {
+	     "effect": "work_water_well",
+		 "container_effect": "work",
+         "drink": "stonehearth_ace:drink:water_serving",
+		 "stacks_per_serving": 0,
+		 "source": true
+      }   
+   }
+}

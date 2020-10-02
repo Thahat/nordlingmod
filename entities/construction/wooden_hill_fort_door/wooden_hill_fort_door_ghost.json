@@ -1,0 +1,63 @@
+{
+   "type": "entity",
+   "mixins": [
+      "stonehearth:mixins:placed_object"
+   ],
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(wooden_hill_fort_door.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "align_to_grid": [
+            "x"
+         ]
+      },
+      "render_info": {
+         "animation_table": "stonehearth/data/rigs/entities/construction/double_door/double_door.json"
+      },
+      "effect_list": {
+         "default": "stonehearth/data/rigs/entities/construction/double_door/effects/closed.json",
+         "initial_pose_animation": "closed.json"
+      },
+      "stonehearth:fixture": {
+         "valign": "bottom",
+         "cursor": "stonehearth:cursors:create_door",
+         "margin": {
+            "left": 1,
+            "right": 1,
+            "top": 1
+         },
+         "bounds": {
+            "min": { "x": -2, "y": 0 },
+            "max": { "x": 2, "y": 5 }
+         }
+      },
+      "stonehearth:portal": {
+         "cutter": [
+            {
+               "min": { "x": -2, "y": 0 },
+               "max": { "x": 2, "y": 5 }
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.construction.wooden_hill_fort_door.wooden_double_door_ghost.display_name)",
+         "description": "i18n(nordlingmod:entities.construction.wooden_hill_fort_door.wooden_double_door_ghost.description)",
+         "icon": "file(wooden_hill_fort_door.png)",
+         "category": "door",
+         "material_tags": [
+            "wood",
+            "portal",
+            "crafted",
+            "door",
+            "stockpile_portal"
+         ]
+      }
+   }
+}

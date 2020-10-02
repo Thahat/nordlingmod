@@ -1,0 +1,68 @@
+{
+   "mixins": "/stonehearth/entities/humans/male/male_customizations.json",
+   "styles": {
+	  "hair_color": {
+		"values": {
+			"fire": {
+               "file": "/nordlingmod/data/materials/material_maps/hair_fire_material_map.json"
+            },
+		}
+	  },
+	  "eye_color": {
+			"values": {
+				"nordling_blue": {
+					"file": "/nordlingmod/data/materials/material_maps/eye_nordling_blue_material_map.json"
+				}
+			}
+	  },
+      "facial_hair": {
+         "values": {
+            "[none]": {
+               "file": ""
+            },
+			"moustache": {
+               "file": "file(moustache.qb)"
+            },
+			"chops_moustache": {
+               "file": "file(chops_moustache.qb)"
+            },
+			"beard_with_braids": {
+               "file": "file(beard_braids.qb)"
+            },
+			 "beard_braid_single": {
+               "file": "file(beard_braid_single.qb)"
+            },
+            "beard_braid_double": {
+               "file": "file(beard_braid_double.qb)"
+            },
+			 "beard_full": {
+               "file": "file(beard_full.qb)"
+            },
+			"beard_huge": {
+               "file": "file(beard_huge.qb)"
+            },
+            "beard_epic": {
+               "hidden": true,
+               "file": "file(beard_epic.qb)"
+            }
+         }
+      },
+      "head_hair": {
+         "type": "model",
+         "values": { 
+			"mixintypes" :{
+				"male_hair_old_2": "override"
+			},
+			"male_hair_old_2": {
+               "file": "file(hair_braid.qb)"
+            },
+			"hair_kitty_loki": {
+               "file": "file(hair_kitty_loki.qb)"
+            },
+			"hair_kitty_thor": {
+               "file": "file(hair_kitty_thor.qb)"
+            }
+         }
+      }
+   }
+}

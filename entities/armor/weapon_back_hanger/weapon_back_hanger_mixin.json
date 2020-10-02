@@ -1,0 +1,9 @@
+{
+   "components": {
+      "stonehearth:equipment_piece": {
+		 "additional_equipment": {
+            "nordlingmod:weapon_back_hanger": true
+         }
+      }
+   }
+}

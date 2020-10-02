@@ -1,0 +1,16 @@
+{
+   "type": "buff",
+   "display_name": "i18n(nordlingmod:entities.legendary_hammer_lightning.display_name)",
+   "description": "i18n(nordlingmod:entities.legendary_hammer_lightning.description)",
+   "icon": "/stonehearth/data/buffs/weather/hit_by_lightning_debuff.png",
+   "duration": "1m",
+   "effect": "stonehearth:effects:lightning_effect",
+   "repeat_add_action": "renew_duration",
+   "script": "stonehearth:buff_scripts:periodic_health_modification",
+   "script_info": {
+      "health_change": -120,
+      "pulse": "5m",
+      "pulse_immediately": true,
+      "pulse_on_destroy": false
+   }
+}

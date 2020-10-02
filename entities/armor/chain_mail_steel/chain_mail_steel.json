@@ -1,0 +1,75 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(chain_mail_steel.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(chain_mail_steel_female.qb)"
+            ]
+         },
+		 "orc_male": {
+            "layer": "armor",
+            "models": [
+               "file(chain_mail_steel_orc_male.qb)"
+            ]
+         },
+         "orc_female": {
+            "layer": "armor",
+            "models": [
+               "file(chain_mail_steel_orc_female.qb)"
+            ]
+         }
+      },
+	  "stonehearth:entity_forms": {
+         "iconic_form": "file(chain_mail_steel_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso",
+		 "ilevel": 7,
+         "roles": ["mail_wearer"],
+         "required_job_level": 4,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 7
+      },
+	  "stonehearth:net_worth": {
+         "value_in_gold": 75,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+	  "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.armor.chain_mail_steel.display_name)",
+         "description": "i18n(nordlingmod:entities.armor.chain_mail_steel.description)",
+         "icon": "file(chain_mail_steel.png)",
+		 "category": "armor",
+		 "material_tags":[
+			"nordling_made",
+			"steel",
+			"armor",
+			"medium_armor",
+			"steel_chainmail",
+			"stockpile_equipment"
+		]
+      }
+   }
+}

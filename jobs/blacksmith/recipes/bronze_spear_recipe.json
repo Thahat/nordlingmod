@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.bronze_spear.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.bronze_spear.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.bronze_spear.flavor)",
+   "portrait": "/nordlingmod/entities/weapons/bronze_spear/bronze_spear.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 1
+      },
+	  {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:bronze_spear"
+      }
+   ]
+}

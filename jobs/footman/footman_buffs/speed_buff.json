@@ -1,0 +1,6 @@
+{
+	"mixins": "stonehearth:buffs:footman:speed",
+   "display_name": "i18n(nordlingmod:jobs.footman.footman_buffs.speed_buff.display_name)",
+   "description": "i18n(nordlingmod:jobs.footman.footman_buffs.speed_buff.description)"
+ 
+}

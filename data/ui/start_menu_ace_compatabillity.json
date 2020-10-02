@@ -1,0 +1,53 @@
+{
+	"place_menu": {
+		"items": {
+			"build_well": {
+				"icon": "/nordlingmod/ui/game/start_menu/images/build_well.png"
+			},
+			"box_cancel_placement": {
+				"icon": "/nordlingmod/ui/game/start_menu/images/box_cancel_placement.png"
+			}
+		}
+	},
+	"harvest_menu": {
+		"items": {
+			"box_harvest_and_replant": {
+				"icon": "/nordlingmod/ui/game/start_menu/images/harvest_and_replant_cmd.png"
+			}
+		}
+	},
+	"zone_menu": {
+      "items": {
+         "create_farm": {
+		    "icon": "/nordlingmod/ui/game/start_menu/images/zone_farm.png",
+			"items": {
+				"create_field_farm": {
+					"icon": "/nordlingmod/ui/game/start_menu/images/zone_farm.png"
+				},
+				"create_field_bush_farm": {
+					"icon": "/nordlingmod/ui/game/start_menu/images/zone_bush_farm.png"
+				},
+				"create_field_decorative_flowers": {
+					"icon": "/nordlingmod/ui/game/start_menu/images/zone_decorative_flowers.png"
+				},
+				"create_field_orchard": {
+					"icon": "/nordlingmod/ui/game/start_menu/images/zone_orchard.png"
+				},
+				"create_field_treefarm": {
+					"icon": "/nordlingmod/ui/game/start_menu/images/zone_treefarm.png"
+				},
+				"create_field_underfarm": {
+					"icon": "/nordlingmod/ui/game/start_menu/images/zone_underfarm.png"
+				}
+			}
+		}
+	  }
+	},
+	"crafter_menu" : {
+		"items": {
+			"brewer":{
+				"icon": "/nordlingmod/jobs/brewer/images/brewer_menu_icon.png"
+			}
+		}
+	}
+}

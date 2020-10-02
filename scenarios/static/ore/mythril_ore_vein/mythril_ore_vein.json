@@ -1,0 +1,24 @@
+{
+    "name": "mythril_ore",
+    "kind": "mythril_ore",
+    "weight": 100,
+    "category": "ore",
+    "habitat_types": ["mountains"],
+    "size": {
+        "width": 88,
+        "length": 88
+    },
+    "unique": true,
+    "script": "stonehearth/scenarios/static/terrain/ore_vein/ore_vein.lua",
+
+    "data": 
+    {
+       "num_veins_min" : 5,
+       "num_veins_max" : 6,
+       "vein_length_min" : 2,
+       "vein_length_max" : 8,
+       "vein_radius" : 1,
+       "mother_lode_radius_min" : 2,
+       "mother_lode_radius_max" : 4
+    }
+}

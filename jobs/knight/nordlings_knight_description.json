@@ -1,0 +1,128 @@
+{
+   "mixins": "stonehearth:jobs:knight",
+   "display_name": "i18n(nordlingmod:jobs.knight.knight_description.display_name)",
+   "description": "i18n(nordlingmod:jobs.knight.knight_description.description)",
+   "requirements": "i18n(nordlingmod:jobs.knight.knight_description.requirements)",
+   "talisman_uri": "nordlingmod:hersir_talisman",
+   "armor_preferences": {
+		"default_armor_variant": "nordling_knight"
+	},
+   "abilities": "file(knight_abilities)",
+   "mixintypes" : {
+		"equipment" : "override",
+		"level_data": "override"
+	},
+   "equipment": {
+	  "helmet": "file(knight_helm)",
+      "torso": "file(knight_outfit)",
+      "mainhand": "nordlingmod:hersir_sword"
+   },
+   "task_groups": [
+	  "stonehearth:task_groups:build",
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:mining",
+      "stonehearth:task_groups:harvest"
+   ],
+
+   "level_data": {
+      "1": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_1_data.perk_000_name)",
+               "id": "knight_health_up_1",
+               "icon": "/stonehearth/jobs/knight/images/knight_perk_fortify.png",
+               "buff_name": "nordlingmod:buffs:knight:health_1",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_1_data.perk_000_description)",
+               "level": 1,
+               "demote_fn": "remove_buff"
+            },
+            {
+               "type": "apply_buff",
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_1_data.perk_001_name)",
+               "id": "knight_defense_up_1",
+               "icon": "/stonehearth/jobs/knight/images/knight_perk_def_up_1.png",
+               "buff_name": "nordlingmod:buffs:knight:defense_1",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_1_data.perk_001_description)",
+               "level": 1,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "2": {
+         "perks": [
+            {
+               "type": "add_combat_action",
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_2_data.perk_000_name)",
+               "id": "knight_aggro_attack",
+               "icon": "/stonehearth/jobs/knight/images/knight_perk_shout.png",
+               "equipment": "stonehearth:knight:aggro_shout_1",
+               "action_type": "stonehearth:combat:melee_attacks",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_2_data.perk_000_description)",
+               "level": 2,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      },
+      "3": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_3_data.perk_000_name)",
+               "id": "knight_health_up_2",
+               "icon": "/stonehearth/jobs/knight/images/knight_perk_fortify.png",
+               "buff_name": "nordlingmod:buffs:knight:health_2",
+               "last_buff": "nordlingmod:buffs:knight:health_1",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_3_data.perk_000_description)",
+               "level": 3,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "4": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_4_data.perk_000_name)",
+               "id": "knight_defense_up_2",
+               "icon": "/stonehearth/jobs/knight/images/knight_perk_def_up_2.png",
+               "buff_name": "nordlingmod:buffs:knight:defense_2",
+               "last_buff": "nordlingmod:buffs:knight:defense_1",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_4_data.perk_000_description)",
+               "level": 4,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "5": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_5_data.perk_000_name)",
+               "id": "knight_courage_aura",
+               "icon": "/stonehearth/jobs/knight/images/knight_perk_inspiring_presence.png",
+               "buff_name": "nordlingmod:buffs:knight:courage_aura",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_5_data.perk_000_description)",
+               "level": 5,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "6": {
+         "perks": [
+            {
+               "type": "add_chained_combat_action",
+               "name": "i18n(nordlingmod:jobs.knight.knight_description.level_6_data.perk_000_name)",
+               "id": "knight_aggro_shout",
+               "icon": "/stonehearth/jobs/knight/images/knight_perk_heros_horn.png",
+               "equipment": "stonehearth:knight:aggro_shout_2",
+               "last_equipment": "nordlingmod:knight:aggro_shout_1",
+               "action_type": "stonehearth:combat:melee_attacks",
+               "description": "i18n(nordlingmod:jobs.knight.knight_description.level_6_data.perk_000_description)",
+               "level": 6,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      }
+   }
+}

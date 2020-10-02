@@ -1,0 +1,34 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(shrine_to_freya_half_grown_ghost.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "allow_vertical_adjacent": true
+      },
+      "render_info": {
+         "scale": 1
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.decoration.shrine_to_freya.shrine_to_freya_ghost.display_name)",
+         "description": "i18n(nordlingmod:entities.decoration.shrine_to_freya.shrine_to_freya_ghost.description)",
+         "icon": "file(shrine_to_freya.png)",
+         "category": "decoration",
+         "material_tags": [
+            "stone",
+            "crafted",
+            "decoration",
+            "stockpile_decoration"
+         ]
+      }
+   }
+}

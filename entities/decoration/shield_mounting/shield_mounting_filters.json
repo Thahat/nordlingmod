@@ -1,0 +1,22 @@
+{
+   "type": "index",
+   "stockpile": {
+      "shields": {
+         "display_name": "shields",
+         "filter": "resources",
+         "icon": "/nordlingmod/entities/armor/wooden_round_shield/wooden_round_shield.png",
+         "ordinal": 1,
+         "categories": {
+            "shield": {
+               "ordinal": 1,
+               "display_name": "shields",
+               "icon": "/nordlingmod/entities/armor/wooden_round_shield/wooden_round_shield.png",
+               "filter": [
+				"armor",
+				"shield"
+			   ]
+            }
+         }
+      }
+   }
+}

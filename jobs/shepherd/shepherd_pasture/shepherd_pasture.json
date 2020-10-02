@@ -1,0 +1,11 @@
+{
+   "components": {
+      "stonehearth:shepherd_pasture": {
+         "pasture_data": {
+            "stonehearth:poyo": {
+               "level_requirement": 1
+            }
+         }
+      }
+   }
+}

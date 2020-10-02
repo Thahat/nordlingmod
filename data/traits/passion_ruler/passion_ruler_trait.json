@@ -1,0 +1,16 @@
+{
+   "type": "trait",
+   "mixins": "stonehearth:mixins:traits:passion_job",
+   "icon": "file(passion_ruler_trait.png)",
+   "data": {
+      "job_uri": "nordlingmod:jobs:ruler"
+   },
+   "subject_overrides": [
+      {
+         "subject": "stonehearth:footman:wooden_sword_talisman",
+         "sentiment": 1,
+         "permanent": true,
+         "unvarying": true
+      }
+   ]
+}

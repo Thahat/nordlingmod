@@ -1,0 +1,33 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_rock_field_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_rock_field_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/landmark/summon_stone_rock_field/summon_stone_rock_field.png",
+   "level_requirement": 1,
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 6
+      },
+      {
+         "material": "clay resource",
+         "count": 4
+      },
+      {
+         "material": "herb resource",
+         "count": 4
+      },
+      {
+         "material": "earth_essence resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:landmark:summon_stone:minor:rock_field"
+      }
+   ]
+}

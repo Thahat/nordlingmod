@@ -1,0 +1,74 @@
+{
+   "type": "entity",
+   "mixins": "file(basic_shelter_improved_ghost.json)",
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(basic_shelter_improved_iconic.json)",
+         "ghost_form": "file(basic_shelter_improved_ghost.json)",
+         "placeable_on_ground": true
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": 1, "y": 0, "z": -3 },
+               "max": { "x": 4, "y": 4, "z": 4 }
+            },
+			{
+               "min": { "x": -1, "y": 0, "z": -3 },
+               "max": { "x": 0, "y": 4, "z": 4 }
+            }
+         ]
+      },
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -3 },
+               "max": { "x": 3, "y": 2, "z": 4 }
+            }
+         ],
+         "adjacency_flags": [
+            "front",
+            "back",
+			"left"
+         ]
+      },
+      "stonehearth:mount": {
+         "mount_offset": { "x": 0.5, "y": 0.55, "z": -1 },
+         "mounted_model_variant": "sleeping"
+      },
+      "stonehearth:ownable_object": {
+         "ownership_type": "bed"
+      },
+	  "render_info": {
+         "scale": 0.22,
+		 "animation_table": "/nordlingmod/data/rigs/entities/furniture/nordling_tent/nordling_tent.json"
+      },
+      "effect_list": {
+         "default": "/nordlingmod/data/rigs/entities/furniture/nordling_tent/effects/idle.json"
+      }
+   },
+   "entity_data": {
+      "stonehearth:bed": {
+         "shelter": {
+            "contribution_threshold": 100,
+            "score": 10
+         }
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 6,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 2
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

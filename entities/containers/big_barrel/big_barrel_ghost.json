@@ -1,0 +1,35 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(big_barrel.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": -0.5, "y": 0, "z": 0 }
+      },
+      "render_info": {
+         "scale": 0.2
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.containers.fuel_holder_large_wood.display_name)",
+         "description": "i18n(nordlingmod:entities.containers.fuel_holder_large_wood.description)",
+         "icon": "file(big_barrel.png)",
+         "category": "storage",
+         "material_tags": [
+            "wood",
+            "containers",
+            "crafted",
+            "furniture",
+            "big_barrel",
+            "stockpile_furniture"
+         ]
+      }
+   }
+}

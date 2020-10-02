@@ -1,0 +1,14 @@
+{
+	"craftable_recipes" : {
+		"signage_decoration" : {
+			"recipes" : {
+				"fireplace" : {
+					"recipe" : "file(fireplace_recipe.json)"
+				},
+				"fireplace_big" : {
+					"recipe" : "file(fireplace_big_recipe.json)"
+				}
+			}
+		}
+	}
+}

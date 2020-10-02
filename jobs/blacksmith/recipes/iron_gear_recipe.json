@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 13,
+   "work_units": 2,
+   "recipe_name": "i18n(stonehearth:jobs.engineer.recipes.iron_gear_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.engineer.recipes.iron_gear_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.engineer.recipes.iron_gear_recipe.flavor)",
+   "portrait": "/stonehearth/entities/refined/iron_gear/iron_gear.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:refined:iron_gear"
+      }
+   ]
+}

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "work_units": 4,
+   "effort": 120,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_spear.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_spear.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.steel_spear.flavor)",
+   "portrait": "/nordlingmod/entities/weapons/steel_spear/steel_spear.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 1
+      },
+	  {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:steel_spear"
+      }
+   ]
+}

@@ -1,0 +1,11 @@
+{
+   "type": "buff",
+   "display_name": "i18n(nordlingmod:jobs.footman.footman_buffs.damage_1_buff_na.display_name)",
+   "description": "i18n(nordlingmod:jobs.footman.footman_buffs.damage_1_buff_na.description)",
+   "icon": "file(damage_1_buff.png)",
+   "modifiers": {
+      "multiplicative_dmg_modifier": {
+         "add": 0.2
+      }
+   }
+}

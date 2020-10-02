@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 3,
+   "recipe_name": "i18n(nordlingmod:jobs.weaver.recipes.cloth_armour.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.weaver.recipes.cloth_armour.description)",
+   "flavor": "i18n(nordlingmod:jobs.weaver.recipes.cloth_armour.flavor)",
+   "portrait": "/nordlingmod/entities/armor/cloth_armour/cloth_armour.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "cloth resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:cloth_armour"
+      }
+   ]
+}

@@ -1,0 +1,13 @@
+{
+    "palettes": {
+        "dry": {
+            "mythril_ore": "#808687"
+        },
+		"hurricane": {
+			"mythril_ore": "#808687"
+		},
+		"wet": {
+			"mythril_ore": "#808687"
+		}
+    }
+}

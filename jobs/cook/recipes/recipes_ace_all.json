@@ -1,0 +1,18 @@
+{
+	"craftable_recipes": {
+		"food": {
+			"recipes": {
+				"porridge": {
+					"recipe": "nordlingmod/jobs/cook/recipes/porridge_recipe.json"
+				}
+			}
+		},
+		"drinks": {
+		    "recipes": {
+		   	   "juice_bramble": {
+                   "recipe": "file(juice_bramble_recipe.json)"
+               }
+			} 
+		}
+	}
+}

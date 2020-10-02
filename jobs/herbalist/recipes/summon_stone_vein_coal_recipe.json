@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "work_units": 40,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_vein_coal_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_vein_coal_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/landmark/summon_stone_vein_coal/summon_stone_vein_coal.png",
+   "level_requirement": 4,
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "material": "earth_essence resource",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 10
+      },
+      {
+         "material": "clay resource",
+         "count": 4
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:landmark:summon_stone:vein:coal"
+      }
+   ]
+}

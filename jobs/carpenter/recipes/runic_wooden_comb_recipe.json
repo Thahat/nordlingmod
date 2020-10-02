@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.runic_wooden_comb.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.runic_wooden_comb.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.runic_wooden_comb.flavor)",
+   "portrait": "/nordlingmod/entities/armor/runic_wooden_comb/runic_wooden_comb.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:runic_wooden_comb"
+      }
+   ]
+}

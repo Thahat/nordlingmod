@@ -1,0 +1,9 @@
+{
+	"crafter_menu": {
+		"items": {
+			"timewizard": {
+				"icon": "/nordlingmod/jobs/timewizard/images/timewizard_menu_icon.png",
+			}
+		}
+	}
+}

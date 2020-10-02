@@ -1,0 +1,37 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fireplace.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0.075, "y": 0, "z": 0.075 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "scale": 0.15
+      }
+   },
+   "entity_data": {
+      "stonehearth:hide_child_entities_from_pathfinder": true,
+      "stonehearth:catalog": {
+         "portrait": "file(fireplace.png)",
+         "display_name": "i18n(nordlingmod:entities.decoration.fireplace.fireplace_ghost.display_name)",
+         "description": "i18n(nordlingmod:entities.decoration.fireplace.fireplace_ghost.description)",
+         "icon": "file(fireplace.png)",
+         "category": "decoration",
+         "material_tags": [
+            "fireplace",
+            "light",
+            "stone",
+            "light_source",
+            "stockpile_decoration"
+         ]
+      }
+   }
+}

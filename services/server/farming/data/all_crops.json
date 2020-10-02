@@ -1,0 +1,35 @@
+{
+	  "type" : "index",
+      "crops": {
+	  "cabbage": {
+         "crop_type": "nordlingmod:crops:cabbage_crop",
+         "ordinal": 2.1,
+         "level_requirement": 0
+	  },
+	  "beans": {
+         "crop_type": "nordlingmod:crops:beans_crop",
+         "ordinal": 3.1,
+         "level_requirement": 0
+	  },
+	  "white_carrot": {
+         "crop_type": "nordlingmod:crops:white_carrot_crop",
+         "ordinal": 1.1,
+         "level_requirement": 0
+      },
+	  "hops": {
+         "crop_type": "nordlingmod:crops:hops_crop",
+         "ordinal": 9.1,
+         "level_requirement": 2
+      },
+	  "onion": {
+         "crop_type": "nordlingmod:crops:onion_crop",
+         "ordinal": 3.2,
+         "level_requirement": 0
+      },
+	  "stone_pine_tree": {
+         "crop_type": "nordlingmod:crops:stone_pine_tree_crop",
+         "ordinal": 17.1,
+         "level_requirement": 5
+      },
+   }
+}

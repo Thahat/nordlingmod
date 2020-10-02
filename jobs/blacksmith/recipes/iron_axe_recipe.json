@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.iron_axe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.iron_axe.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.iron_axe.flavor)",
+   "portrait": "/nordlingmod/entities/weapons/iron_axe/iron_axe.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+      },
+	  {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:iron_axe"
+      }
+   ]
+}

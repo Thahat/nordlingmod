@@ -1,0 +1,13 @@
+{
+	"type": "job",
+	"mixins": "stonehearth:jobs:blacksmith",
+	"display_order": 3,
+	"controller": "stonehearth:class:blacksmith",
+	"equipment": {
+		"torso": "file(blacksmith_outfit)"
+	},
+	
+	"crafter": {
+      "recipe_list": "/nordlingmod/jobs/blacksmith/recipes/recipes.json"
+	}
+}

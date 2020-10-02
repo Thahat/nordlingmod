@@ -1,0 +1,33 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(decorative_wall_dragon.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.25 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "allow_vertical_adjacent": true
+      },
+      "render_info": {
+         "scale": 0.15
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.decoration.decorative_wall_dragon.decorative_wall_dragon_ghost.display_name)",
+         "description": "i18n(nordlingmod:entities.decoration.decorative_wall_dragon.decorative_wall_dragon_ghost.description)",
+         "icon": "file(decorative_wall_dragon.png)",
+         "category": "decoration",
+         "material_tags": [
+            "stone",
+            "crafted",
+            "stockpile_decoration"
+         ]
+      }
+   }
+}

@@ -1,0 +1,58 @@
+{
+   "mixins": "/stonehearth/entities/weapons/recurve_bow/recurve_bow.json",
+   "components": {
+      "render_info": {
+         "scale": 0.08
+      },
+      "model_variants": {
+         "mixintypes": {
+            "default": "override"
+         },
+         "default": {
+            "models": [
+               "file(composite_longbow_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(composite_longbow_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "ilevel": 30,
+         "roles": [
+            "archer_job"
+         ],
+         "required_job_level": 3
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 25,
+         "base_ranged_damage": 30,
+         "range": 40,
+         "projectile_speed": 50,
+         "projectile_uri": "/nordlingmod/entities/weapons/arrow/arrow.json"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 26,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.composite_longbow.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.composite_longbow.description)",
+         "icon": "file(composite_longbow.png)",
+         "category": "weapons",
+         "material_tags": [
+            "wood",
+            "ranged_weapon",
+            "stockpile_weapon"
+         ]
+      }
+   }
+}

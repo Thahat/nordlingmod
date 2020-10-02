@@ -1,0 +1,12 @@
+{
+	"armor_preferences": {
+		"armor_variants": {
+			"nordling_archer": {
+				"command": "nordlingmod:commands:toggle_job_armor_variant:nordling_archer",
+				"tags": [
+					"nordling_made"
+				]
+			}
+		}
+	}
+}

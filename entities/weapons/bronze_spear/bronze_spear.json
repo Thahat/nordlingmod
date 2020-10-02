@@ -1,0 +1,79 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+	  "render_info": {
+         "scale": 0.07
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(bronze_spear_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(bronze_spear_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+		 "additional_equipment": {
+            "nordlingmod:weapon_back_hanger": true
+         },
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 14,
+         "roles": "footman_job",
+		 "required_job_level": 2,
+         "equip_effect": "stonehearth:effects:weapon_level_up",
+		 "equipment_types": [
+            "mainhand"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 14,
+         "reach": 2.0
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_thrust",
+            "effect": "combat_1h_thrust",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 20,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+	  "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.bronze_spear.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.bronze_spear.description)",
+         "icon": "file(bronze_spear.png)",
+         "category": "weapons",
+         "material_tags": [
+		    "onehanded",
+			"bronze",
+			"bronze_spear",
+			"melee_weapon",
+			"crafted",
+			"stockpile_weapon"
+		]
+      }
+   }
+}

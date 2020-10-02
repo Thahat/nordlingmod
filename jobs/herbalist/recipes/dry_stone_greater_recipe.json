@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.dry_stone_greater_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.dry_stone_greater_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.geomancer.recipes.dry_stone_greater_recipe.flavor)",
+   "portrait": "/stonehearth/entities/manipulation/dry_stone_greater/dry_stone_greater.png",
+   "level_requirement": 4,
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "material": "earth_essence resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:manipulation:dry_stone:greater"
+      }
+   ]
+}

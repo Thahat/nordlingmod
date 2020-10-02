@@ -1,0 +1,29 @@
+{
+   "type": "entity",
+   "mixins": "/stonehearth/jobs/trapper/snare_trap/snare_trap.json",
+   "components": {
+      "model_variants": {
+         "default": {
+		    "mixintypes": {
+			"models" : "override"
+			},
+            "models": [
+               "file(snare_trap_nordlings.qb)"
+            ]
+         },
+         "sprung": {
+		    "mixintypes": {
+			"models" : "override"
+			},
+            "models": [
+               "file(snare_trap_nordlings_sprung.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(snare_trap_nordlings.png)"
+      }
+   }
+}

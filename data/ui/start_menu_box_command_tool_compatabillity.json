@@ -1,0 +1,12 @@
+{
+	"harvest_menu": {
+      "items": {
+         "box_redeploy": {
+            "icon": "file(box_redeploy.png)",
+         },
+         "box_undeploy": {
+            "icon": "file(box_undeploy.png)",
+         }
+      }
+   }
+}

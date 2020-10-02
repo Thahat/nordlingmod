@@ -1,0 +1,37 @@
+{
+   "type": "recipe",
+   "work_units": 60,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_riverbed_dry_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_riverbed_dry_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/landmark/summon_stone_riverbed_dry/summon_stone_riverbed_dry.png",
+   "level_requirement": 4,
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "uri": "stonehearth:landmark:summon_stone:block:rock",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:manipulation:wet_stone",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:manipulation:dry_stone",
+         "count": 1
+      },
+      {
+         "material": "seed_hard",
+         "count": 10
+      },
+      {
+         "material": "earth_essence resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:landmark:summon_stone:major:riverbed_dry"
+      }
+   ]
+}

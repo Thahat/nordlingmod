@@ -1,0 +1,27 @@
+{
+	"components": {
+		"destination": {
+         "region": [
+            {
+               "min": { "x": -3, "y": 0, "z": -1 },
+               "max": { "x": -2, "y": 1, "z": 1 }
+            }
+         ]
+		},
+		"stonehearth_ace:transform": {}
+	},
+	"entity_data": {
+		"stonehearth_ace:transform_data": {
+         "transform_uri": "stonehearth:decoration:valor_statue:war_horn",
+         "command": "nordlingmod:commands:transform:war_horn",
+         "request_action": "stonehearth_ace:transform",
+         "request_action_overlay_effect": "nordlingmod:effects:war_horn_overlay_effect",
+         "transforming_worker_effect": "whistle",
+         "transforming_worker_effect_times": 1,
+         "transforming_effect": "nordlingmod:war_horn_effect",
+         "worker_required_job": {
+            "stonehearth:jobs:worker": true
+         }
+      }
+	}
+}

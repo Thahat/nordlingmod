@@ -1,0 +1,123 @@
+{
+   "mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
+   "craftable_recipes": {
+      "storage": {
+         "recipes": {
+            "big_barrel": {
+               "recipe": "file(big_barrel_recipe.json)"
+            },
+            "nord_chest": {
+               "recipe": "file(nord_chest_recipe.json)"
+            }
+         }
+      },
+      "workbenches": {
+         "recipes": {
+            "carpenter_workbench_nordlings": {
+               "recipe": "file(carpenter_workbench_nordlings_recipe.json)"
+            },
+            "carpenter_toolbench_nordlings": {
+               "recipe": "file(carpenter_toolbench_nordlings_recipe.json)"
+            },
+            "mixintypes": {
+               "carpenter_workbench": "remove",
+               "carpenter_toolbench": "remove"
+            }
+         }
+      },
+      "armor": {
+         "recipes": {
+            "runic_wooden_comb": {
+               "recipe": "file(runic_wooden_comb_recipe.json)"
+            },
+            "training_roundshield": {
+               "recipe": "file(training_roundshield_recipe.json)"
+            },
+            "torch": {
+               "recipe": "file(torch_recipe.json)"
+            },
+            "wooden_round_shield": {
+               "recipe": "file(wooden_round_shield_recipe.json)"
+            },
+            "recurve_bow": {
+               "recipe": "file(composite_longbow_recipe.json)"
+            },
+            "mixintypes": {
+               "wooden_shield": "remove"
+            }
+         }
+      },
+      "building_parts": {
+         "recipes": {
+            "decorative_wall_shield": {
+               "recipe": "file(decorative_wall_shield_recipe.json)"
+            },
+            "decorative_wall_dragon": {
+               "recipe": "file(decorative_wall_dragon_recipe.json)"
+            },
+            "hill_fort_door": {
+               "recipe": "file(hill_fort_door_recipe.json)"
+            },
+            "wooden_portcullis": {
+               "recipe": "file(wooden_portcullis_recipe.json)"
+            },
+            "wall_torch": {
+               "recipe": "file(wall_torch_recipe.json)"
+            }
+         }
+      },
+      "furniture": {
+         "recipes": {
+            "comfy_fur_bed": {
+               "recipe": "file(comfy_fur_bed_recipe.json)"
+            },
+            "ornate_comfy_fur_bed": {
+               "recipe": "file(ornate_comfy_fur_bed_recipe.json)"
+            },
+            "wooden_chair_fur": {
+               "recipe": "file(wooden_chair_fur_recipe.json)"
+            },
+            "wooden_chair_nordlings": {
+               "recipe": "file(wooden_chair_nordlings_recipe.json)"
+            },
+            "map_table": {
+               "recipe": "file(map_table_recipe.json)"
+            },
+            "ornate_chair_nordlings": {
+               "recipe": "file(ornate_chair_nordlings_recipe.json)"
+            },
+            "charcoal_mound": {
+               "recipe": "file(charcoal_mound_recipe.json)"
+            },
+            "mixintypes": {
+               "wooden_chair": "remove"
+            }
+         }
+      },
+      "tools": {
+         "recipes": {
+            "shepherd_crook_nordlings": {
+               "recipe": "file(shepherd_crook_recipe.json)"
+            },
+            "wooden_spear": {
+               "recipe": "file(wooden_spear_recipe.json)"
+            },
+            "archer_bow": {
+               "recipe": "file(archer_bow_recipe.json)"
+            },
+            "mixintypes": {
+               "shepherd_crook": "remove",
+               "hoe": "remove",
+               "wooden_sword": "remove"
+            }
+         }
+      },
+      "utility": {
+         "recipes": {
+            "basic_shelter": {
+               "recipe": "file(basic_shelter_recipe.json)"
+            }
+         }
+      }
+   }
+}

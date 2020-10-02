@@ -1,0 +1,11 @@
+{
+   "craftable_recipes" : {
+	"building_parts": {
+		"recipes": {
+			"decorative_wall_shield": {
+               "recipe": "file(decorative_wall_shield_recipe.json)"
+            }
+		}
+	}
+}
+}

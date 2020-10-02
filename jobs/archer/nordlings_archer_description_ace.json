@@ -1,0 +1,17 @@
+{
+	"mixintypes": {
+         "parent_job": "remove"
+      },
+	  "parent_jobs": [
+      {
+         "job": "stonehearth:jobs:trapper",
+         "level_requirement": 2,
+         "one_of": true
+      },
+      {
+         "job": "stonehearth:jobs:footman",
+         "level_requirement": 3,
+         "one_of": true
+      }
+   ]
+}

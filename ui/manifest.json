@@ -1,0 +1,57 @@
+{
+   "info" : {
+      "name" : "nordlingmod_ui",
+      "deferred_load": true,
+      "client_only": true,
+      "version" : 3
+   },
+   "aliases" : {},
+   "mixintos" :  {
+      "stonehearth/ui/data/constants.json" : "file(ui/data/constants.json)",
+      "stonehearth/locales/en.json" : "nordlingmod/locales/en.json",
+	  "stonehearth/data/ui/start_menu.json" : "nordlingmod/data/ui/start_menu.json",
+	  "trapper_plus/mixins/start_menu.json" : "nordlingmod/data/ui/start_menu_trapperplus_compatabillity.json",
+	  "archipelago_biome/data/ui/start_menu.json" : "nordlingmod/data/ui/start_menu_archipelago_compatabillity.json",
+	  "box_command_tool/data/ui/start_menu.json" : "nordlingmod/data/ui/start_menu_box_command_tool_compatabillity.json",
+	  "stonehearth_ace/data/ui/start_menu.json" : "nordlingmod/data/ui/start_menu_box_command_tool_ace_compatabillity.json",
+	  "spacemagic/data/ui/start_menu.json" : "nordlingmod/data/ui/start_menu_spacemagic_compatabillity.json",
+	  "stonehearth_ace/data/ui/start_menu.json" : "nordlingmod/data/ui/start_menu_ace_compatabillity.json"
+   },
+   "overrides" : {
+	  "stonehearth/ui/game/start_menu/images/dock.png": "nordlingmod/ui/game/start_menu/images/dock.png",
+      "stonehearth/ui/game/modes/zones_mode/farm/farm.js": "file(game/modes/zones_mode/farm/farm.js)",
+      "stonehearth/ui/game/unit_frame/images/bg_border.png":"file(unit_frame/bg_border.png)",
+	  "stonehearth/ui/game/unit_frame/images/command-button-bg.png" : "file(unit_frame/command_button_bg.png)",
+	  "stonehearth/ui/game/unit_frame/images/image-bg.png" : "file(unit_frame/image-bg.png)",
+	  "stonehearth/ui/game/create_camp/images/banner.png" : "file(create_camp/banner.png)",
+	  "stonehearth/ui/game/town/images/net_worth_icon.png" : "file(town/net_worth_icon.png)",
+	  "stonehearth/ui/game/town/images/worker_count_bg.png" : "file(town/worker_count_bg.png)",
+	  "stonehearth/ui/game/town/images/soldier_count_bg.png" : "file(town/soldier_count_bg.png)",
+	  "stonehearth/ui/game/town/images/crafter_count_bg.png" : "file(town/crafter_count_bg.png)",
+	  "stonehearth/ui/game/town/images/buildings_icon.png" : "file(town/buildings_icon.png)",
+	  "stonehearth/ui/game/town/images/military_icon.png" : "file(town/military_icon.png)",
+	  "stonehearth/ui/game/images/morale_banner.png" : "file(game/morale_banner.png)",
+      "stonehearth/ui/game/widgets/red_alert/images/town_defense.png" : "file(widgets/town_defense.png)",
+	  "stonehearth/ui/root/css/images/input/checkbox.png" : "file(input/checkbox.png)",
+      "stonehearth/ui/root/css/images/gui/panel.png" : "file(gui/panel.png)",
+      "stonehearth/ui/root/css/images/gui/title.png" : "file(gui/title.png)",
+      "stonehearth/ui/root/css/images/gui/well.png" : "file(gui/well.png)",
+      "stonehearth/ui/root/css/images/gui/well2.png" : "file(gui/well2.png)",
+      "stonehearth/ui/root/css/images/gui/inner_tab.png" : "file(gui/inner_tab.png)",
+      "stonehearth/ui/root/css/images/gui/inner_tab_active.png" : "file(gui/inner_tab_active.png)",
+      "stonehearth/ui/root/css/images/gui/tab.png" : "file(gui/tab.png)",
+      "stonehearth/ui/root/css/images/gui/tab_active.png" : "file(gui/tab_active.png)",
+	  "stonehearth/ui/root/css/images/gui/button.png" : "file(gui/button.png)",
+      "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json" : "nordlingmod/entities/gizmos/nordlings_camp_standard/nordlings_camp_standard_ghost.json",
+	  "stonehearth/ui/game/character_sheets/citizen_character_sheet/images/glass.png" : "nordlingmod/ui/game/character_sheets/citizen_character_sheet/images/glass.png",
+	  "stonehearth/ui/game/promotion_tree/images/jobButton.png" : "nordlingmod/ui/game/promotion_tree/images/jobButton.png"
+
+   },
+   "ui": {
+      "less": [
+         "file(unit_frame/unit_frame.less)",
+         "file(gui/gui.less)",
+         "file(game/character_sheets/citizen_character_sheet/citizen_character_sheet.less)"
+      ]
+   }
+}

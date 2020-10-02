@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.cook.recipes.cook_workbench_nordlings_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.cook.recipes.cook_workbench_nordlings_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.cook.recipes.cook_workbench_nordlings_recipe.flavor)",
+   "portrait": "/nordlingmod/jobs/cook/cook_workbench_nordlings/cook_workbench_nordlings.png",
+   "work_effect": "work",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:cook_workbench_nordlings"
+      }
+   ]
+}

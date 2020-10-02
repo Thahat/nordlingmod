@@ -1,0 +1,63 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "true",
+            "models": [
+               "file(runic_steel_comb.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "true",
+            "models": [
+               "file(runic_steel_comb.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(runic_steel_comb_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 5,
+         "required_job_level": 5,
+         "roles": ["footman_job", "knight_job", "ruler_job"],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 5
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 45,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+	  "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.armor.runic_steel_comb.display_name)",
+         "description": "i18n(nordlingmod:entities.armor.runic_steel_comb.description)",
+         "icon": "file(runic_steel_comb.png)",
+         "category": "armor",
+         "material_tags": [
+            "steel",
+            "armor",
+            "helmet",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.engineer_wrench_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.engineer_wrench_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/jobs/engineer/engineer_wrench/engineer_wrench.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:engineer:talisman"
+      }
+   ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "entity",
+  "mixins": "stonehearth:mixins:item_properties",
+  "components": {
+     "render_info": {},
+     "model_variants": {
+        "default": {
+           "layer": "clothing",
+           "models": [
+              "/nordlingmod/jobs/herbalist/herbalist_outfit/herbalist_outfit.qb"
+           ]
+        },
+        "female": {
+           "layer": "clothing",
+           "models": [
+              "/nordlingmod/jobs/herbalist/herbalist_outfit/herbalist_outfit_female.qb"
+           ]
+        }
+     },
+     "stonehearth:equipment_piece": {
+        "render_type": "merge_with_model",
+        "slot": "torso"
+     }
+  },
+  "entity_data": {
+     "stonehearth:catalog": {
+        "display_name": "i18n(stonehearth:jobs.herbalist.herbalist_outfit.display_name)",
+        "description": "i18n(stonehearth:jobs.herbalist.herbalist_outfit.description)",
+        "icon": "file(herbalist_outfit.png)"
+     }
+  }
+}

@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "work_units": 4,
+   "effort": 25,
+   "recipe_name": "i18n(nordlingmod:jobs.mason.recipes.fireplace_big.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.mason.recipes.fireplace_big.description)",
+   "flavor": "i18n(nordlingmod:jobs.mason.recipes.fireplace_big.flavor)",
+   "portrait": "/nordlingmod/entities/decoration/fireplace_big/fireplace_big.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 4
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:fireplace_big"
+      }
+   ]
+}

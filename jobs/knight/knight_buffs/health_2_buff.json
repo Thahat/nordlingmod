@@ -1,0 +1,5 @@
+{
+	"mixins": "stonehearth:buffs:knight:health_2",
+	"display_name": "i18n(nordlingmod:jobs.knight.knight_buffs.health_2_buff.display_name)",
+	"description": "i18n(nordlingmod:jobs.knight.knight_buffs.health_2_buff.description)",
+}

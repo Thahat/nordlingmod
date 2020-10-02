@@ -1,0 +1,20 @@
+{
+	"components": {
+      "stonehearth:equipment_piece": {
+		 "additional_equipment": {
+            "nordlingmod:sword_sheeth": true
+         }
+      }
+   },
+	"entity_data": {
+		"stonehearth:combat:melee_attacks": [
+			{
+				"name": "combat_1h_thrust",
+				"effect": "combat_1h_thrust",
+				"active_frame": 16,
+				"cooldown": 0,
+				"priority": 0
+			}
+		]
+	}
+}

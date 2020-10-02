@@ -1,0 +1,81 @@
+{
+   "mixins": "stonehearth:loadouts",
+   "loadouts": {
+      "food_for_days": {
+         "content": {
+			"mixintypes": {
+               "farmer": "remove",
+               "carrots": "remove"
+            },
+			"berries": {
+			  "uri": "nordlingmod:food:brambles:bramble_basket",
+			  "icon": "/nordlingmod/data/loadouts/images/items/bramble_basket.png"
+			},
+            "trapper": {
+               "ordinal": 1,
+               "display_name": "i18n(stonehearth:jobs.trapper.trapper_description.display_name)",
+               "type": "entity",
+               "uri": "stonehearth:trapper:talisman",
+               "icon": "/stonehearth/data/loadouts/images/items/trapper_knife.png",
+               "amount": 1
+            },
+            "cabbage": {
+               "ordinal": 3,
+               "display_name": "i18n(nordlingmod:data.loadouts.items.cabbage)",
+               "type": "entity",
+               "uri": "nordlingmod:food:cabbage:cabbage_basket",
+               "icon": "/nordlingmod/data/loadouts/images/items/cabbage_basket.png",
+               "amount": 10
+            },
+			"tent":{
+					"ordinal": 8.1,
+					"display_name": "Tent",
+					"type": "entity",
+					"uri": "nordlingmod:nordling_tent",
+					"icon": "/nordlingmod/data/loadouts/images/items/nordling_tent.png",
+					"amount": 3
+				}
+         }
+      },
+	  "merchant_caravan": {
+			"content":{
+				"berries": {
+			      "uri": "nordlingmod:food:brambles:bramble_basket",
+			      "icon": "/nordlingmod/data/loadouts/images/items/bramble_basket.png"
+			    },
+				"tent":{
+					"ordinal": 8.1,
+					"display_name": "Tent",
+					"type": "entity",
+					"uri": "nordlingmod:nordling_tent",
+					"icon": "/nordlingmod/data/loadouts/images/items/nordling_tent.png",
+					"amount": 3
+				},
+				"footman": {
+					"ordinal": 2,
+					"display_name": "i18n(stonehearth:jobs.footman.footman_description.display_name)",
+					"type": "entity",
+					"uri": "nordlingmod:footman:wooden_spear_talisman",
+					"icon": "file(images/items/wooden_spear.png)",
+					"amount": 1
+				}
+			}
+		},
+		"money_solves_all_problems": {
+			"content":{
+				"berries": {
+			     "uri": "nordlingmod:food:brambles:bramble_basket",
+			     "icon": "/nordlingmod/data/loadouts/images/items/bramble_basket.png"
+			    },
+				"tent":{
+					"ordinal": 8.1,
+					"display_name": "Tent",
+					"type": "entity",
+					"uri": "nordlingmod:nordling_tent",
+					"icon": "/nordlingmod/data/loadouts/images/items/nordling_tent.png",
+					"amount": 3
+				}
+			}
+		}
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 90,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.runic_bronze_comb.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.runic_bronze_comb.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.runic_bronze_comb.flavor)",
+   "portrait": "/nordlingmod/entities/armor/runic_bronze_comb/runic_bronze_comb.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:runic_bronze_comb"
+      }
+   ]
+}

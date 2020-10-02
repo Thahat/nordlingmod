@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 160,
+   "work_units": 8,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_axe_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_axe_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_axe_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/weapons/legendary_axe/legendary_axe.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "uri": "nordlingmod:legendary_axe_head",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:legendary:gem",
+         "count": 1
+      },
+      {
+         "uri": "nordlingmod:legendary_axe_haft",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:legendary_axe"
+      }
+   ]
+}

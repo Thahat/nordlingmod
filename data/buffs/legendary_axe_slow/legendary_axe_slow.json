@@ -1,0 +1,21 @@
+{
+   "type": "buff",
+   "axis": "debuff",
+   "display_name": "i18n(Frost Stun)",
+   "description": "i18n(Stunned by the frost of the Legendary Axe)",
+   "icon": "file(frost_slow_debuff.png)",
+   "duration": "60m",
+   "effect": "nordlingmod:effects:iceburg_effect",
+   "repeat_add_action": "renew_duration",
+   "injected_ai": {
+		"actions": [
+			"stonehearth:actions:compelled_behaviors:struggle"
+		]
+	},
+   "modifiers": {
+      "speed": {
+         "multiply": 0
+      }   
+   
+   }
+}

@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 160,
+   "work_units": 8,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_axe_head.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_axe_head.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.legendary_axe_head.flavor)",
+   "portrait": "/nordlingmod/entities/refined/legendary_axe_head/legendary_axe_head.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 3
+      },
+      {
+         "uri": "nordlingmod:mythril_ingot",
+         "count": 1
+      },
+      {
+         "material": "coal resource",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:legendary_axe_head"
+      }
+   ]
+}

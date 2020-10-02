@@ -1,0 +1,59 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(buttermilk.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 12
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "nordlingmod:food:buttermilk:buttermilk_serving",
+         "stacks_per_serving": 2
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 10,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.food.buttermilk.buttermilk.display_name)",
+         "description": "i18n(nordlingmod:entities.food.buttermilk.buttermilk.description)",
+         "icon": "file(buttermilk.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": [
+            "food_container",
+			"drink_container",
+            "prepared_food",
+            "buttermilk",
+			"breakfast_time",
+            "stockpile_prepared_food",
+			"stockpile_prepared_drink",
+            "vegetarian"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.weaver.recipes.weaver_workbench_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.weaver.recipes.weaver_workbench_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.weaver.recipes.weaver_workbench_recipe.flavor)",
+   "portrait": "/nordlingmod/jobs/weaver/weaver_workbench_nordlings/weaver_workbench_nordlings.png",
+   "work_effect": "work",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "fiber resource",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:weaver_workbench_nordlings"
+      }
+   ]
+}

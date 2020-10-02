@@ -1,0 +1,30 @@
+{
+    "block_types": {
+        "mythril_ore": { "tag": 707, "kind" : "mythril_ore" },
+		"rock_layer_9"   :     { "tag" : 109, "kind" : "rock" },
+		"rock_layer_10"  :     { "tag" : 110, "kind" : "rock" },
+		"rock_layer_11"  :     { "tag" : 111, "kind" : "rock" },
+		"rock_layer_12"  :     { "tag" : 112, "kind" : "rock" },
+		"rock_layer_13"  :     { "tag" : 113, "kind" : "rock" },
+		"rock_layer_14"  :     { "tag" : 114, "kind" : "rock" },
+		"rock_layer_15"  :     { "tag" : 115, "kind" : "rock" },
+		"rock_layer_16"  :     { "tag" : 116, "kind" : "rock" },
+		"rock_layer_17"  :     { "tag" : 117, "kind" : "rock" },
+		"rock_layer_18"  :     { "tag" : 118, "kind" : "rock" },
+		"rock_layer_19"  :     { "tag" : 119, "kind" : "rock" },
+		"rock_layer_20"  :     { "tag" : 120, "kind" : "rock" },
+		"rock_layer_21"  :     { "tag" : 121, "kind" : "rock" },
+		"rock_layer_22"  :     { "tag" : 122, "kind" : "rock" },
+		"rock_layer_23"  :     { "tag" : 123, "kind" : "rock" },
+		"rock_layer_24"  :     { "tag" : 124, "kind" : "rock" },
+		"rock_layer_25"  :     { "tag" : 125, "kind" : "rock" },
+		"rock_layer_26"  :     { "tag" : 126, "kind" : "rock" },
+		"rock_layer_27"  :     { "tag" : 127, "kind" : "rock" },
+		"rock_layer_28"  :     { "tag" : 128, "kind" : "rock" },
+		"rock_layer_29"  :     { "tag" : 129, "kind" : "rock" },
+		"rock_layer_30"  :     { "tag" : 130, "kind" : "rock" } 
+    },
+    "selectable_kinds": {
+        "mythril_ore": "nordlingmod:terrain:ui:mythril_block"
+    }
+}

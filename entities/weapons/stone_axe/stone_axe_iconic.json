@@ -1,0 +1,22 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(stone_axe_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.stone_axe.stone_axe_iconic.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.stone_axe.stone_axe_iconic.description)",
+         "icon": "file(stone_axe.png)",
+         "is_item": true,
+         "category": "weapons"
+      }
+   }
+}

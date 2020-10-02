@@ -1,0 +1,12 @@
+{
+	"entity_data": {
+		"stonehearth:buffs": {
+        "inflictable_debuffs": {
+            "open_wounds": {
+               "uri": "stonehearth_ace:buffs:major_open_wounds",
+               "chance": 0.66
+            }
+         }
+      }
+   }
+}

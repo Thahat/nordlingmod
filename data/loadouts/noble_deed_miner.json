@@ -1,0 +1,16 @@
+{
+	"loadouts": {
+		"metal_masters_miner": {
+			"content":{
+				"deed_of_rights":{
+					"ordinal": 0.1,
+					"display_name": "i18n(nordlingmod:jobs.ruler.ruler_description.display_name)",
+					"type": "entity",
+					"uri": "nordlingmod:ruler_talisman",
+					"icon": "file(images/items/deed_of_rights.png)",
+					"amount": 1
+				}
+			}
+		}
+	}
+}

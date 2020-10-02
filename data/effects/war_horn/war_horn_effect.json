@@ -1,0 +1,14 @@
+{
+   "type" : "effect",
+   "tracks": {
+	  "sound": {
+         "type": "sound_effect",
+         "loop": false,
+         "start_time": 20,
+         "min_distance": 70,
+         "falloff": 10,
+         "volume": 50,
+         "track": "nordlingmod:big_horn_sound"       
+      }
+   }
+}

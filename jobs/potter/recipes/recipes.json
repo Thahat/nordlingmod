@@ -1,0 +1,21 @@
+{
+	"mixins": "/stonehearth/jobs/potter/recipes/recipes.json",
+	"craftable_recipes": {
+		"legendary": {
+			"recipes": {
+				"legendary_hammer_mounting": {
+					"recipe": "file(legendary_hammer_mounting_recipe.json)"
+				}
+			}
+		},
+		"refined": {
+         "ordinal": 90,
+         "name": "i18n(stonehearth:jobs.potter.recipes.refined_name)",
+         "recipes": {
+            "golem_parts_a": {
+               "recipe": "file(golem_parts_a_recipe.json)"
+            }
+         }
+      }
+	}
+}

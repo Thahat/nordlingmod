@@ -1,0 +1,18 @@
+{
+	"craftable_recipes" : {
+		"building_parts": {
+			"recipes": {
+				"wooden_portcullis": {
+					"recipe": "file(wooden_portcullis_recipe.json)"
+				}
+			}
+		},
+		"utility": {
+			"recipes": {
+				"basic_shelter": {
+					"recipe": "file(basic_shelter_recipe.json)"
+				}
+			}
+		}
+	}
+}

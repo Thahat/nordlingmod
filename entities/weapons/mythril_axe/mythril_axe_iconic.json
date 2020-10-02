@@ -1,0 +1,26 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(mythril_axe_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.mythril_axe.mythril_axe_iconic.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.mythril_axe.mythril_axe_iconic.description)",
+         "icon": "file(mythril_axe.png)",
+         "is_item": true,
+         "category": "weapons",
+		 "material_tags": [
+			"mythril",
+			"melee_weapon"
+		]
+      }
+   }
+}

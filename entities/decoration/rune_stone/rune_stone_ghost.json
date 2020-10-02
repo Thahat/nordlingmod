@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(rune_stone.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": -0.7 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "color_map": "stonehearth:color_map:gold",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/gold_material_map.json"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.decoration.rune_stone.display_name)",
+         "description": "i18n(nordlingmod:entities.decoration.rune_stone.description)",
+         "icon": "file(rune_stone.png)",
+         "category": "furniture",
+         "material_tags": [
+            "wood",
+            "furniture",
+            "crafted",
+            "stockpile_furniture"
+         ]
+      }
+   }
+}

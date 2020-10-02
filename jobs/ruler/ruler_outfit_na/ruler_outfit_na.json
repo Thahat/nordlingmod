@@ -1,0 +1,35 @@
+{
+  "type": "entity",
+  "mixins": "stonehearth:mixins:item_properties",
+  "components": {
+     "render_info": {},
+     "model_variants": {
+        "default": {
+           "layer": "clothing",
+           "models": [
+              "/nordlingmod/jobs/ruler/ruler_outfit_na/ruler_outfit_na.qb"
+           ]
+        },
+        "female": {
+           "layer": "clothing",
+           "models": [
+              "/nordlingmod/jobs/ruler/ruler_outfit_na/ruler_outfit_na_female.qb"
+           ]
+        }
+     },
+     "stonehearth:equipment_piece": {
+        "render_type": "merge_with_model",
+        "slot": "torso"
+     }
+  },
+  "entity_data": {
+     "stonehearth:catalog": {
+        "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 2
+        },
+		"display_name": "i18n(nordlingmod:jobs.ruler.ruler_outfit_na.display_name)",
+        "description": "i18n(nordlingmod:jobs.ruler.ruler_outfit_na.description)",
+        "icon": "file(ruler_outfit_na.png)"
+     }
+  }
+}

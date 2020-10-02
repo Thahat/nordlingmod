@@ -1,0 +1,36 @@
+{
+   "type": "entity",
+   "mixins": "file(hotspring_chair_ghost.json)",
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(hotspring_chair_iconic.json)",
+         "ghost_form": "file(hotspring_chair_ghost.json)",
+         "placeable_on_ground": true
+      },
+      "region_collision_shape": {
+         "type": "none"
+      },
+      "stonehearth:mount": {
+         "mounted_posture": "stonehearth:sitting"
+      }
+   },
+   "entity_data": {
+      "stonehearth:chair": {},
+      "stonehearth:net_worth": {
+         "value_in_gold": 6,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 3
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

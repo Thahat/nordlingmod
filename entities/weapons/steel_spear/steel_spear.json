@@ -1,0 +1,77 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+	  "render_info": {
+         "scale": 0.07
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(steel_spear_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(steel_spear_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 18,
+         "roles": "footman_job",
+		 "required_job_level": 4,
+         "equip_effect": "stonehearth:effects:weapon_level_up",
+		 "equipment_types": [
+            "mainhand"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 18,
+         "reach": 2.0
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_thrust",
+            "effect": "combat_1h_thrust",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 35,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+	  "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.steel_spear.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.steel_spear.description)",
+         "icon": "file(steel_spear.png)",
+         "category": "weapons",
+         "material_tags": [
+		    "nordling_made",
+			"onehanded",
+            "steel",
+			"steal_spear",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
+      }
+   }
+}

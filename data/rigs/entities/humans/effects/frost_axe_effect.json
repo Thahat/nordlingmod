@@ -1,0 +1,41 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "combat_1h_forehand.json",
+         "loop": true
+      },
+      "sound": {
+         "type": "sound_effect",
+         "duration": 1000,
+         "start_time": 400,
+         "min_distance": 30,
+         "falloff" : 3.6,
+         "volume": 25,
+         "track" : {
+            "type": "one_of",
+            "items": [
+			   "stonehearth:sounds:jobs_trapper_trigger_02"
+            ]
+         }
+      },
+      "Snow": {
+         "type": "cubemitter",
+         "cubemitter": "/nordlingmod/data/rigs/entities/humans/effects/frost_axe_snow.cubemitter.json",
+         "loop": false,
+         "start_time": 0,
+		 "end_time": 2700,
+         "transforms": {
+            "x":0,
+            "y":0,
+            "z":-1.5,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         },
+         "bone": "mainHand"
+      }
+   }
+}

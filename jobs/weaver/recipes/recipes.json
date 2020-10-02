@@ -1,0 +1,56 @@
+{
+   "mixins": "/stonehearth/jobs/weaver/recipes/recipes.json",
+   "craftable_recipes": {
+      "workbenches": {
+         "recipes": {
+            "weaver_workbench_nordlings": {
+               "recipe": "file(weaver_workbench_nordlings_recipe.json)"
+            },
+            "weaver_loom_nordlings": {
+               "recipe": "file(weaver_loom_nordlings_recipe.json)"
+            },
+            "mixintypes": {
+               "weaver_workbench": "remove",
+               "weaver_loom": "remove"
+            }
+         }
+      },
+      "clothing_armor": {
+         "recipes": {
+            "worker_outfit_fancy": {
+               "recipe": "file(worker_outfit_fancy_recipe.json)"
+            },
+            "cloth_armour": {
+               "recipe": "file(cloth_armour_recipe.json)"
+            },
+            "leather_armour": {
+               "recipe": "file(leather_armour_recipe.json)"
+            },
+            "mixintypes": {
+               "worker_outfit_2": "remove",
+               "worker_outfit_winter": "remove",
+               "cloth_padded_vest": "remove",
+               "leather_vest": "remove",
+               "cloth_padded_helmet": "remove",
+               "leather_helmet": "remove",
+               "simple_quiver": "remove",
+               "fire_quiver": "remove"
+            }
+         }
+      },
+      "furniture": {
+         "recipes": {
+            "tent": {
+               "recipe": "file(nordling_tent_recipe.json)"
+            }
+         }
+      },
+      "crafting_materials": {
+         "recipes": {
+            "leather_strip": {
+               "recipe": "file(leather_strip_recipe.json)"
+            }
+         }
+      }
+   }
+}

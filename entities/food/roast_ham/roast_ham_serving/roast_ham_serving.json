@@ -1,0 +1,34 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(roast_ham_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 260
+         },
+         "default": {
+            "satisfaction": 220
+         },
+         "buff_uri": "cookmod:buff:well_fed",
+         "quality": 5
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(cookmod:entities.food.roast_ham.roast_ham_serving.display_name)",
+         "description": "i18n(cookmod:entities.food.roast_ham.roast_ham_serving.description)",
+         "material_tags": "food meat roast_ham_serving"
+      }
+   }
+}

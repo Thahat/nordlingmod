@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.carpenter_saw_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.carpenter_saw_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.carpenter_saw_recipe.flavor)",
+   "portrait": "/nordlingmod/jobs/carpenter/carpenter_saw/carpenter_saw.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:carpenter:talisman"
+      }
+   ]
+}

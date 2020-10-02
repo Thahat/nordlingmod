@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.ornate_comfy_fur_bed.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.ornate_comfy_fur_bed.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.ornate_comfy_fur_bed.flavor)",
+   "portrait": "/nordlingmod/entities/furniture/ornate_comfy_fur_bed/ornate_comfy_fur_bed.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "uri": "nordlingmod:comfy_fur_bed",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:ornate_comfy_fur_bed"
+      }
+   ]
+}

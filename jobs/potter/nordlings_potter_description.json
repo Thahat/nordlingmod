@@ -1,0 +1,14 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:potter",
+   "display_order": 10,
+   "display_name": "i18n(stonehearth:jobs.potter.potter_description.display_name)",
+   "equipment": {
+      "torso": "file(potter_outfit)"
+	},
+   "crafter": {
+      "recipe_list": "/nordlingmod/jobs/potter/recipes/recipes.json"
+   },
+   "parent_job": "stonehearth:jobs:worker",
+   "parent_level_requirement": 1
+}

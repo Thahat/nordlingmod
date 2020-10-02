@@ -1,0 +1,16 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {}
+   },
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "infection": {
+               "uri": "stonehearth:buffs:archer:slowing_arrow",
+               "chance": 1
+            }
+         }
+      }
+   }
+}

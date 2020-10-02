@@ -1,0 +1,23 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cleric_scroll.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:jobs.cleric.cleric_scroll.display_name)",
+         "description": "i18n(nordlingmod:jobs.cleric.cleric_scroll.description)",
+         "icon": "file(cleric_scroll.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": ["tool"]
+      }
+   }
+}

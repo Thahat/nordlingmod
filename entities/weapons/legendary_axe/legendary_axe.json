@@ -1,0 +1,83 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.05
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(legendary_axe_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(legendary_axe_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "additional_equipment": {
+            "nordlingmod:weapon_belt_hanger": true
+         },
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 29,
+         "roles": "footman_job",
+         "required_job_level": 5,
+         "equip_effect": "stonehearth:effects:weapon_level_up",
+      },
+	  "effect_list": {
+         "default": "nordlingmod:effects:frost_axe_equip"
+      }
+   },      
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "frost_slow": {
+               "uri": "nordlingmod:buffs:frost_slow",
+               "chance": 0.25
+            }
+         }
+      },
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 27,
+         "reach": 1.85
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_forehand_2hit",
+            "effect": "frost_axe_effect",
+            "active_frame": 28,
+			"damage_multiplier": 1.8,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 400,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.weapons.legendary_axe.display_name)",
+         "description": "i18n(nordlingmod:entities.weapons.legendary_axe.description)",
+         "icon": "file(legendary_axe.png)",
+         "category": "weapons",
+         "material_tags": [
+            "nordling_made",
+			"metal",
+            "melee_weapon",
+            "crafted",
+            "stockpile_weapon"
+         ]
+      }
+   }
+}

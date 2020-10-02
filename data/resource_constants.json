@@ -1,0 +1,26 @@
+{
+   "resources": {
+      "mythril resource": {
+         "name": "mythril_ore",
+         "icon": "nordlingmod/entities/resources/mythril/mythril_ore/mythril_ore.png",
+         "stacks": 80,
+         "default_resource": "nordlingmod:resources:mythril:mythril_ore"
+      },
+      "coal resource": {
+         "name": "i18n(nordlingmod:ui.data.constants.coal_resource_name)",
+         "icon": "/stonehearth/entities/resources/coal/lump_of_coal/lump_of_coal.png",
+         "stacks": 60,
+         "default_resource": "stonehearth:resources:coal:lump_of_coal",
+         "builder_icon": "/stonehearth/entities/resources/coal/lump_of_coal/lump_of_coal.png",
+         "builder_icon_hover": "/stonehearth/entities/resources/coal/lump_of_coal/lump_of_coal.png",
+         "builder_sound_uri": "stonehearth:sounds:building_wall_stone",
+         "tooltip": "stonehearth:ui.game.build_mode2.tooltips.coal_resource"
+      },
+	  "seed resource": {
+		"name": "Any seed",
+		"icon": "/stonehearth/entities/trees/oak_tree/seed/tree_oak_seed.png",
+		"stacks": 60,
+		"default_resource": "stonehearth:trees:oak:seed"
+	  }
+   }
+}

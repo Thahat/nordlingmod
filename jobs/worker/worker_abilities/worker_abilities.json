@@ -1,0 +1,16 @@
+{
+   "mixins": [
+	"stonehearth/jobs/farmer/farmer_abilities/farmer_abilities.json",
+    "stonehearth/jobs/worker/worker_abilities/worker_abilities.json"
+	],
+   "type": "entity",
+   "components" : {
+      "stonehearth:equipment_piece" : {
+         "injected_ai" : {
+            "ai_packs" : [
+			   "stonehearth:ai_pack:crafting"
+            ]
+         }
+      }
+   }
+}

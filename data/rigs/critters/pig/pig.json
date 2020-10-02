@@ -1,0 +1,20 @@
+{
+   "type" : "rig",
+   "skeleton" : {
+      
+      "pelvis": [10.5,15.0403,9],
+      "tail": [11,20.9946,6.51021],
+      "torso": [10.5,13.9983,10],
+      "head": [10.5,7.92623,8.5],
+      "rightEar": [7.48393,7,9.49464],
+      "leftEar": [13.5103,7,9.5314],
+      "frontRightFoot": [7.5,10,3.97874],
+      "frontLeftFoot": [13.5,10,3.97874],
+      "rearRightFoot": [7.5,18,3.97874],
+      "root": [10.5,14.0,0.0],
+      "rearLeftFoot": [13.5,18,3.97874]
+    },
+   "animation_root" : "file(animations)",
+   "effects_root" : "file(effects)",
+   "conversation_effects": "file(conversation_effects.json)"
+}

@@ -1,0 +1,59 @@
+{
+   "mixins": "stonehearth:jobs:index",
+   "jobs": {
+	  "mixintypes": {
+		"stonehearth:jobs:farmer" : "remove"
+	  },
+      "stonehearth:jobs:archer": {
+         "description": "nordlingmod:jobs:archer"
+      },
+	  "stonehearth:jobs:blacksmith": {
+         "description": "nordlingmod:jobs:blacksmith"
+      },
+	  "stonehearth:jobs:carpenter": {
+         "description": "nordlingmod:jobs:carpenter"
+      },
+	  "stonehearth:jobs:cleric": {
+         "description": "nordlingmod:jobs:cleric"
+      },
+	  "stonehearth:jobs:cook": {
+         "description": "nordlingmod:jobs:cook"
+      },
+	  "stonehearth:jobs:engineer": {
+         "description": "nordlingmod:jobs:engineer"
+      },
+	  "stonehearth:jobs:footman": {
+         "description": "nordlingmod:jobs:footman"
+      },
+	  "stonehearth:jobs:geomancer": {
+         "description": "nordlingmod:jobs:geomancer"
+      },
+	  "stonehearth:jobs:herbalist": {
+         "description": "nordlingmod:jobs:herbalist"
+      },
+	  "stonehearth:jobs:knight": {
+         "description": "nordlingmod:jobs:knight"
+      },
+	  "stonehearth:jobs:mason": {
+         "description": "nordlingmod:jobs:mason"
+	  },
+	  "stonehearth:jobs:potter": {
+         "description": "nordlingmod:jobs:potter"
+	  },
+	  "stonehearth:jobs:shepherd": {
+         "description": "nordlingmod:jobs:shepherd"
+      },
+	  "stonehearth:jobs:trapper": {
+         "description": "nordlingmod:jobs:trapper"
+      },
+	  "stonehearth:jobs:weaver": {
+         "description": "nordlingmod:jobs:weaver"
+      },
+	  "stonehearth:jobs:worker": {
+         "description": "nordlingmod:jobs:worker"
+      },
+	  "nordlingmod:jobs:ruler": {
+         "description": "nordlingmod:jobs:ruler_nordlings"
+		}
+   }
+}

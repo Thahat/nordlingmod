@@ -1,0 +1,24 @@
+{
+	"template_tabs": {
+		"nordlings" : {
+			"display_name": "nordlings",
+			"required_kingdom": "nordlingmod:kingdoms:nordlings",
+			"categories": {
+				"nordling_outpost": {
+					"display_name": "i18n(nordlingmod:data.saved_objects.building_templates_index.template_tabs.nordlings.categories.outpost)",
+					"ordinal": 1,
+					"templates": {
+						"nordling_wall": "file(building_templates/nordling_wall.json)",
+						"nordling_wall_corner": "file(building_templates/nordling_wall_corner.json)",
+						"nordling_wall_gate": "file(building_templates/nordling_wall_gate.json)",
+						"nordling_wall_inner_corner": "file(building_templates/nordling_wall_inner_corner.json)",
+						"nordling_house": "file(building_templates/nordling_house.json)",
+						"nordling_house_2": "file(building_templates/nordling_house_2.json)",
+						"chicken_coop": "file(building_templates/chicken_coop.json)",
+						"nordling_longship": "file(building_templates/nordling_longship.json)"
+					}
+				}
+			}
+		}
+	}
+}

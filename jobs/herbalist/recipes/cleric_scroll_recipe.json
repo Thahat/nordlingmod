@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 10,
+   "recipe_name": "i18n(nordlingmod:jobs.herbalist.recipes.cleric_scroll_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.herbalist.recipes.cleric_scroll_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.herbalist.recipes.cleric_scroll_recipe.flavor)",
+   "portrait": "/nordlingmod/jobs/cleric/cleric_scroll/cleric_scroll.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "leather resource",
+         "count": 1
+      },
+      {
+         "material": "herb resource",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:cleric:talisman"
+      }
+   ]
+}

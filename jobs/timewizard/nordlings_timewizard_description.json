@@ -1,0 +1,7 @@
+{
+   "type": "job",
+   "mixins": "spacemagic:timewizard",
+   "crafter": {
+      "recipe_list": "/nordlingmod/jobs/timewizard/recipes/recipes.json"
+   }
+}

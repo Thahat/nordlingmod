@@ -1,0 +1,17 @@
+{
+   "type": "entity",
+   "mixins": "file(shrine_to_odin.json)",
+   "components": {
+      "effect_list": {
+         "default": "/nordlingmod/data/effects/shrines/odin_statue_effect.json"
+      }
+   },
+   "entity_data": {
+      "stonehearth:appeal": {
+         "appeal": 120
+      }
+   },
+   "stonehearth:net_worth": {
+      "value_in_gold": 160
+   }
+}

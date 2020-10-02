@@ -1,0 +1,12 @@
+{
+   "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "shaken": {
+               "uri": "stonehearth_ace:buffs:major_shaken",
+               "chance": 0.66
+            }
+         }
+      }
+	}
+}

@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.bronze_sword_viking.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.bronze_sword_viking.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.bronze_sword_viking.flavor)",
+   "portrait": "/nordlingmod/entities/weapons/bronze_sword_viking/bronze_sword_viking.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 2
+      },
+      {
+         "uri": "nordlingmod:leather_strip",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:bronze_sword_viking"
+      }
+   ]
+}

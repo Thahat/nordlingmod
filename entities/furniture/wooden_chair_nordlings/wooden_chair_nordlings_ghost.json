@@ -1,0 +1,31 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(wooden_chair_nordlings.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.furniture.wooden_chair_nordlings.wooden_chair_nordlings_ghost.display_name)",
+         "description": "i18n(nordlingmod:entities.furniture.wooden_chair_nordlings.wooden_chair_nordlings_ghost.description)",
+         "icon": "file(wooden_chair_nordlings.png)",
+         "category": "furniture",
+         "material_tags": [
+            "wood",
+            "furniture",
+            "crafted",
+            "chair",
+            "stockpile_furniture"
+         ]
+      }
+   }
+}

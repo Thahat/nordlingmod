@@ -1,0 +1,37 @@
+{
+   "type": "recipe",
+   "work_units": 40,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_vein_iron_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.summon_stone_vein_iron_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/landmark/summon_stone_vein_iron/summon_stone_vein_iron.png",
+   "level_requirement": 4,
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "material": "earth_essence resource",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:resources:tin:ore",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:resources:copper:ore",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:resources:silver:ore",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:resources:gold:ore",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:landmark:summon_stone:vein:iron"
+      }
+   ]
+}

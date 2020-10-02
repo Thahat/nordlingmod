@@ -1,0 +1,28 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+            "type": "animation_effect",
+            "start_time": 0,
+            "animation": "idle.json",
+            "loop": true
+      },
+      "sound": {
+         "type": "sound_effect",
+         "duration": 1000,
+         "start_time": 200,
+         "min_distance": 20,
+         "falloff" : 7,
+         "volume": 85,
+         "track" : {
+            "type": "one_of",
+            "items": [
+               "cookmod:sounds:pig:0ink",
+               "cookmod:sounds:pig:0ink",
+               "cookmod:sounds:pig:0ink",
+               "cookmod:sounds:pig:0ink"
+            ]    
+         }
+      }
+   }
+}

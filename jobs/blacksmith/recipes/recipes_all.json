@@ -1,0 +1,11 @@
+{
+	"craftable_recipes": {
+		"smelt": {
+			"recipes": {
+				"mythril_ingot": {
+					"recipe": "file(mythril_ingot_recipe.json)"
+				}
+			}
+		}
+	}
+}

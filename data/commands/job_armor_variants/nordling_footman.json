@@ -1,0 +1,13 @@
+{
+   "type": "command",
+   "name": "nordling_footman",
+   "display_name": "i18n(nordlingmod:data.commands.job_armor_variant.nordling_footman.display_name)",
+   "description": "i18n(nordlingmod:data.commands.job_armor_variant.nordling_footman.description)",
+   "icon": "file(nordling.png)",
+   "action": "call",
+   "ordinal": -100,
+   "function": "ace_armours_core:change_job_armor_variant",
+   "args": [
+      "nordling_footman"
+   ]
+}

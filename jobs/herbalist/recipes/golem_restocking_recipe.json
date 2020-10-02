@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "work_units": 60,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.golem_restocking_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.golem_restocking_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.geomancer.recipes.golem_restocking_recipe.flavor)",
+   "portrait": "/stonehearth/entities/monsters/golems/golem_restocking/golem_restocking.png",
+   "level_requirement": 3,
+   "workshop": "stonehearth:geomancer:golem_workbench",
+   "ingredients": [
+      {
+         "material": "earth_essence resource",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:golem_parts",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:consumables:energy_tonic",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:monsters:golems:golem_restocking"
+      }
+   ]
+}

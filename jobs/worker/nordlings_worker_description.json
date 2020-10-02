@@ -1,0 +1,65 @@
+{
+   "mixins": [
+	"stonehearth:jobs:farmer",
+	"stonehearth:jobs:worker"
+	],
+   "mixintypes": {
+      "parent_job": "remove",
+      "talisman_uri": "remove",
+      "promotion_activity_name": "remove",
+      "parent_level_requirement": "remove",
+      "roles": "override"
+   },
+   "alias": "stonehearth:jobs:worker",
+   "display_name": "i18n(nordlingmod:jobs.worker.worker_description.display_name)",
+   "description": "i18n(nordlingmod:jobs.worker.worker_description.description)",
+   "requirements": "i18n(stonehearth:jobs.worker.worker_description.requirements)",
+   "equipment": {
+      "torso": "file(worker_outfit)",
+      "mixintypes": {
+         "helmet": "remove"
+      }
+   },
+   "controller": "nordlingmod:class:worker",
+   "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:build",
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:mining",
+      "stonehearth:task_groups:harvest",
+      "stonehearth:task_groups:town_alert",
+      "stonehearth:task_groups:rescue",
+      "stonehearth:task_groups:farming",
+      "stonehearth:task_groups:crafting"
+   ],
+   "crafter": {
+      "work_effect": "fiddle",
+      "recipe_list": "/nordlingmod/jobs/worker/recipes/recipes.json"
+   },
+   "workshop": {
+      "portrait": "/stonehearth/jobs/cook/images/workshop_portrait_level_1.png",
+      "workbench_type": "stonehearth:cook:workbench",
+      "skin_class": "villager",
+      "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
+      "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
+   },
+   "abilities": "/nordlingmod/jobs/worker/worker_abilities/worker_abilities.json",
+   "roles": [
+      "worker_job",
+      "farmer_job",
+      "crafter"
+   ],
+   "icon": "file(images/icon.png)",
+   "promotion_activity_name": "promote_worker",
+   "xp_rewards": {
+	  "craft_level_0": 27,
+      "craft_level_1": 28,
+      "craft_level_2": 29,
+      "craft_level_3": 30,
+      "craft_level_4": 31,
+      "craft_level_5": 32,
+      "craft_level_6": 33
+   },
+   "max_level": 6
+}

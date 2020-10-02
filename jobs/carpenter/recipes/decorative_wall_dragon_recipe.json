@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.mason.recipes.decorative_wall_dragon_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.mason.recipes.decorative_wall_dragon_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.mason.recipes.decorative_wall_dragon_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/decoration/decorative_wall_dragon/decorative_wall_dragon.png",
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:decorative_wall_dragon"
+      }
+   ]
+}

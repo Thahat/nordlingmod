@@ -1,0 +1,55 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(hersir_mail_silver.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(hersir_mail_silver_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(hersir_mail_silver_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso",
+         "ilevel": 9,
+         "roles": ["plate_wearer"],
+         "required_job_level": 3,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 9
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 200,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.armor.hersir_mail_silver.display_name)",
+         "description": "i18n(nordlingmod:entities.armor.hersir_mail_silver.description)",
+         "icon": "file(hersir_mail_silver.png)",
+         "category": "armor",
+         "material_tags": ["steel", "armor", "heavy_armor", "stockpile_equipment"]
+      }
+   }
+}

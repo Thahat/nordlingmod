@@ -1,0 +1,23 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation",
+   "in_edge": "hearth_foreshadow_gift",
+   "donation_info": {
+      "loot_table": {
+         "entries": {
+            "default": {
+               "num_rolls": {
+                  "min": 3,
+                  "max": 3
+               },
+               "items": {
+                  "silkweed": {
+                     "uri": "stonehearth:plants:silkweed",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

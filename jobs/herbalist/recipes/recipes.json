@@ -1,0 +1,182 @@
+{
+	"mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
+	"craftable_recipes": {
+		"workbenches": {
+			"recipes": {
+				"geomancer_golem_workbench": {
+					"recipe": "file(geomancer_golem_workbench_recipe.json)"
+				}
+			}
+		},
+		"legendary": {
+			"ordinal": 5,
+			"name": "i18n(stonehearth:jobs.common.recipes.legendary_name)",
+			"recipes" : {
+				"shrine_to_freya" : { 
+					"recipe" : "file(shrine_to_freya_recipe.json)"
+				}
+			}
+		},
+		"tools": {
+			"recipes": {
+				"mixintypes": {
+					"cleric_tome": "remove"
+				},
+				"cleric_scroll": {
+					"recipe": "file(cleric_scroll_recipe.json)"
+				}
+			}
+		},
+		"resources": {
+			"ordinal": 15,
+			"name": "i18n(stonehearth:jobs.geomancer.recipes.categories.resources)",
+			"recipes": {
+			    "oak_tree": {
+					"recipe": "file(oak_tree_recipe.json)"
+				},
+			    "earthbud_plant": {
+					"recipe": "file(earthbud_plant_recipe.json)"
+				},
+				"earthbud_seeds": {
+					"recipe": "file(earthbud_seeds_recipe.json)"
+				},
+				"summon_stone_vein_copper": {
+					"recipe": "file(summon_stone_vein_copper_recipe.json)"
+				},
+				"summon_stone_vein_tin": {
+					"recipe": "file(summon_stone_vein_tin_recipe.json)"
+				},
+				"summon_stone_vein_coal": {
+					"recipe": "file(summon_stone_vein_coal_recipe.json)"
+				},
+				"summon_stone_vein_iron": {
+					"recipe": "file(summon_stone_vein_iron_recipe.json)"
+				},
+				"summon_stone_vein_silver": {
+					"recipe": "file(summon_stone_vein_silver_recipe.json)"
+				},
+				"summon_stone_vein_gold": {
+					"recipe": "file(summon_stone_vein_gold_recipe.json)"
+				}
+			}
+		},
+		"terrain": {
+			"ordinal": 20,
+			"name": "i18n(stonehearth:jobs.geomancer.recipes.categories.terrain)",
+			"recipes": {
+				"summon_stone_block_surface": {
+					"recipe": "file(summon_stone_block_surface_recipe.json)"
+				},
+				"summon_stone_block_dirt": {
+					"recipe": "file(summon_stone_block_dirt_recipe.json)"
+				},
+				"summon_stone_block_rock": {
+					"recipe": "file(summon_stone_block_rock_recipe.json)"
+				},
+				"summon_stone_block_mimic": {
+					"recipe": "file(summon_stone_block_mimic_recipe.json)"
+				},
+				"summon_stone_patch_rock": {
+					"recipe": "file(summon_stone_patch_rock_recipe.json)"
+				},
+				"summon_stone_patch_dirt": {
+					"recipe": "file(summon_stone_patch_dirt_recipe.json)"
+				},
+				"summon_stone_patch_surface": {
+					"recipe": "file(summon_stone_patch_surface_recipe.json)"
+				},
+				"summon_stone_patch_mimic": {
+					"recipe": "file(summon_stone_patch_mimic_recipe.json)"
+				}
+			}
+		},
+		"landmark": {
+			"ordinal": 25,
+			"name": "i18n(stonehearth:jobs.geomancer.recipes.categories.landmarks)",
+			"recipes": {
+				"summon_stone_rock_field": {
+					"recipe": "file(summon_stone_rock_field_recipe.json)"
+				},
+				"summon_stone_geyser": {
+					"recipe": "file(summon_stone_geyser_recipe.json)"
+				},
+				"summon_stone_rune_site": {
+					"recipe": "file(summon_stone_rune_site_recipe.json)"
+				},
+				"rabbit_statue": {
+					"recipe": "file(rabbit_statue_recipe.json)"
+				},
+				"summon_stone_sleeping_giant": {
+					"recipe": "file(summon_stone_sleeping_giant_recipe.json)"
+				},
+				"summon_stone_hotspring": {
+					"recipe": "file(hotspring_recipe.json)"
+				},
+				"summon_stone_riverbed_dry": {
+					"recipe": "file(summon_stone_riverbed_dry_recipe.json)"
+				},
+				"summon_stone_moon": {
+					"recipe": "file(summon_stone_moon_recipe.json)"
+				},
+				"summon_stone_sun": {
+					"recipe": "file(summon_stone_sun_recipe.json)"
+				}
+			}
+		},
+		"water_manipulation": {
+			"ordinal": 30,
+			"name": "i18n(stonehearth:jobs.geomancer.recipes.categories.water)",
+			"recipes": {
+				"wet_stone": {
+					"recipe": "file(wet_stone_recipe.json)"
+				},
+				"dry_stone": {
+					"recipe": "file(dry_stone_recipe.json)"
+				},
+				"wet_stone_greater": {
+					"recipe": "file(wet_stone_greater_recipe.json)"
+				},
+				"dry_stone_greater": {
+					"recipe": "file(dry_stone_greater_recipe.json)"
+				}
+			}
+		},
+		"golems": {
+			"ordinal": 40,
+			"name": "i18n(stonehearth:jobs.geomancer.recipes.categories.golems)",
+			"recipes": {
+				"golem_restocking": {
+					"recipe": "file(golem_restocking_recipe.json)"
+				},
+				"golem_harvesting": {
+					"recipe": "file(golem_harvesting_recipe.json)"
+				},
+				"golem_mining": {
+					"recipe": "file(golem_mining_recipe.json)"
+				}
+			}
+		},
+		"refinement": {
+			"recipes": {
+			    "bramble_bush_transmute": {
+                    "recipe": "file(bramble_bush_transmute_recipe.json)"
+                },
+				"beans_seeds_recipe": {
+					"recipe": "file(beans_seeds_recipe.json)"
+				},
+				"cabbage_seeds_recipe": {
+					"recipe": "file(cabbage_seeds_recipe.json)"
+				},
+				"white_carrot_seeds_recipe": {
+					"recipe": "file(white_carrot_seeds_recipe.json)"
+				},
+				"hops_seeds_recipe": {
+					"recipe": "file(hops_seeds_recipe.json)"
+				},
+				"onion_seeds_recipe": {
+					"recipe": "file(onion_seeds_recipe.json)"
+				}
+			}
+		},		
+	}	
+}

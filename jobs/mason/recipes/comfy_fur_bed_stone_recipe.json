@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 3,
+   "recipe_name": "i18n(nordlingmod:jobs.mason.recipes.comfy_fur_bed_stone_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.mason.recipes.comfy_fur_bed_stone_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.mason.recipes.comfy_fur_bed_stone_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/furniture/comfy_fur_bed_stone/comfy_fur_bed_stone.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      },
+      {
+         "material": "pelt resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:comfy_fur_bed_stone"
+      }
+   ]
+}

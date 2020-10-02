@@ -1,0 +1,18 @@
+{
+   "mixins": "/stonehearth/scenarios/static/landmarks/qb_to_terrain.json",
+   "biomes": ["stonehearth:biome:arctic"],
+   "name": "hotspring_arctic",
+   "category": "terrain_feature_rare",
+   "unique" : false,
+   "size": {
+      "width": 42,
+      "length": 26
+   },
+   "habitat_types": ["plains", "forest", "mountains"],
+   "overwrite_occupied_size": 3,
+   "weight" : 2,
+   "data": {
+      "brush" : "/nordlingmod/data/models/landmarks/hotspring.qb",
+      "landmark_block_types": "nordlingmod:landmark_blocks"
+   }
+}

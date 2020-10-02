@@ -1,0 +1,79 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "true",
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(gold_ring.qb)",
+                     "file(gold_ring_1.qb)",
+                     "file(gold_ring_2.qb)",
+                     "file(gold_ring_3.qb)"
+                  ]
+               }
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "true",
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(gold_ring_female.qb)",
+                     "file(gold_ring_female_1.qb)",
+                     "file(gold_ring_female_2.qb)"
+                  ]
+               }
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(gold_ring_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "ring",
+         "ilevel": 1,
+		 "roles": [
+			"crafter",
+			"combat",
+			"worker_job",],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 5
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 50,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         },
+		 "stonehearth:item_quality": {
+         "variable_quality": true
+      },
+         "stonehearth:catalog": {
+            "display_name": "i18n(nordlingmod:entities.armor.gold_ring.display_name)",
+            "description": "i18n(nordlingmod:entities.armor.gold_ring.description)",
+            "icon": "file(gold_ring.png)",
+            "material_tags": [
+               "gold",
+               "gold_ring",
+               "stockpile_equipment",
+               "nordling_made"
+            ]
+         }
+      }
+   }
+}

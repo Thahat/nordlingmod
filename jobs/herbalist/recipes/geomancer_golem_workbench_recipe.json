@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.geomancer.recipes.geomancer_golem_workbench_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.geomancer.recipes.geomancer_golem_workbench_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.geomancer.recipes.geomancer_golem_workbench_recipe.flavor)",
+   "portrait": "/stonehearth/jobs/geomancer/geomancer_golem_workbench/geomancer_golem_workbench.png",
+   "level_requirement": 3,
+   "workshop": "stonehearth:herbalist:workbench",
+   "ingredients": [
+      {
+         "material": "earth_essence resource",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 6
+      },
+      {
+         "material": "stone resource",
+         "count": 6
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:geomancer:golem_workbench"
+      }
+   ]
+}

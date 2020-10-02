@@ -1,0 +1,50 @@
+{
+   "type" : "effect",
+   "tracks": {
+	  "Glow": {
+         "type": "cubemitter",
+         "cubemitter": "/nordlingmod/data/rigs/entities/humans/effects/lightning_forehand_glow.cubemitter.json",
+         "start_time": 0,
+		 "_end_time": 300,
+		 "loop": true,
+         "transforms": {
+            "x":0,
+            "y":0,
+            "z":0,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         }
+      },
+      "Spark": {
+         "type": "cubemitter",
+         "cubemitter": "/nordlingmod/data/rigs/entities/humans/effects/lightning_forehand_spark.cubemitter.json",
+         "start_time": 0,
+		 "_end_time": 700,
+		 "loop": true,
+         "transforms": {
+            "x":0,
+            "y":0,
+            "z":-1.5,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         }
+      },
+	  "Ember": {
+         "type": "cubemitter",
+         "cubemitter": "/nordlingmod/data/rigs/entities/humans/effects/lightning_ember.cubemitter.json",
+         "start_time": 0,
+		 "_end_time": 500,
+		 "loop": true,
+         "transforms": {
+            "x":0,
+            "y":0,
+            "z":-1.5,
+            "rx":0,
+            "ry":0,
+            "rz":0
+         }
+      }
+   }
+}

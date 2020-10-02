@@ -1,0 +1,5 @@
+{
+	"stonehearth:firepit": {
+		"allow_charcoal" : "false"
+	}
+}

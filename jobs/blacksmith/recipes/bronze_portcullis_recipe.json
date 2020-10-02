@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 8,
+   "recipe_name": "i18n(stonehearth:jobs.engineer.recipes.bronze_portcullis_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.engineer.recipes.bronze_portcullis_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/construction/bronze_portcullis/bronze_portcullis.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:portals:stone_tunnel_door",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:portals:bronze_portcullis"
+      }
+   ]
+}

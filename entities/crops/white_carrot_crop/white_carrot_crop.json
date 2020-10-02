@@ -1,0 +1,131 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(white_carrot_crop_4.qb)"
+            ]
+         },
+         "white_carrot_1": {
+            "models": [
+               "file(white_carrot_crop_1.qb)"
+            ]
+         },
+         "white_carrot_2": {
+            "models": [
+               "file(white_carrot_crop_2.qb)"
+            ]
+         },
+         "white_carrot_3": {
+            "models": [
+               "file(white_carrot_crop_3.qb)"
+            ]
+         },
+         "white_carrot_4": {
+            "models": [
+               "file(white_carrot_crop_4.qb)"
+            ]
+         },
+         "white_carrot_12": {
+            "models": [
+               "file(white_carrot_crop_12.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 },
+         "mob_collision_type": "clutter"
+      },
+      "stonehearth:crop": {
+         "resource_pairings": {
+            "white_carrot_4": "nordlingmod:food:white_carrot:white_carrot_basket",
+            "white_carrot_12": ""
+         },
+         "harvest_threshhold": "white_carrot_4",
+         "plant_overlay_effect": "stonehearth:effects:plant_crop_overlay_effect"
+      },
+      "stonehearth:growing": {
+		 "preferred_climate": "temperate_staple",
+         "growth_period": "8h",
+         "preferred_seasons": {
+            "stonehearth:biome:temperate": [
+               "spring",
+               "autumn"
+            ],
+            "stonehearth:biome:desert": [
+               "spring",
+               "autumn"
+            ],
+            "stonehearth:biome:arctic": [
+               "spring",
+               "summer"
+            ]
+         },
+         "growth_stages": [
+            {
+               "model_name": "white_carrot_1",
+               "name": "i18n(nordlingmod:entities.crops.white_carrot_crop.growth_stage.000.name)",
+               "description": "i18n(nordlingmod:entities.crops.white_carrot_crop.growth_stage.000.description)"
+            },
+            {
+               "model_name": "white_carrot_2",
+               "name": "i18n(nordlingmod:entities.crops.white_carrot_crop.growth_stage.001.name)",
+               "description": "i18n(nordlingmod:entities.crops.white_carrot_crop.growth_stage.001.description)"
+            },
+            {
+               "model_name": "white_carrot_3",
+               "name": "i18n(nordlingmod:entities.crops.white_carrot_crop.growth_stage.002.name)",
+               "description": "i18n(nordlingmod:entities.crops.white_carrot_crop.growth_stage.002.description)"
+            },
+            {
+               "model_name": "white_carrot_4",
+               "name": "i18n(nordlingmod:entities.crops.white_carrot_crop.growth_stage.003.name)",
+               "description": "i18n(nordlingmod:entities.crops.white_carrot_crop.growth_stage.003.description)"
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+               "model_name": "white_carrot_12",
+               "name": "i18n(nordlingmod:entities.crops.white_carrot_crop.growth_stage.011.name)",
+               "description": "i18n(nordlingmod:entities.crops.white_carrot_crop.growth_stage.011.description)"
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(nordlingmod:entities.crops.white_carrot_crop.display_name)",
+         "description": "i18n(nordlingmod:entities.crops.white_carrot_crop.description)",
+         "icon": "file(icon.png)",
+         "material_tags": [
+            "crop",
+            "carrot"
+         ]
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      },
+	  "stonehearth_ace:megacrop": {
+         "num_to_spawn": 0,
+         "other_items": {
+			"nordlingmod:megacrops:white_carrot": 1
+		 },
+         "pickup_new": true,
+         "effect": "promote"
+     }
+   }
+}

@@ -1,0 +1,12 @@
+{
+"mixins" : "stonehearth:landmark_blocks",
+	"#7C0800": {
+      "loot_bag": "nordlingmod:hotspring_steam_generator",
+      "facing": "random",
+      "force_iconic": false,
+      "fill_voxel_with_water": true
+   },
+   "#808687": {
+      "terrain_tag": "mythril_ore"
+   },
+}

@@ -1,0 +1,33 @@
+{
+    "type": "effect",
+    "tracks": {
+        "bees": {
+            "type": "cubemitter",
+            "cubemitter": "/nordlingmod/data/horde/particles/bees/bees.cubemitter.json",
+            "loop": true,
+            "start_time": 0,
+            "transforms": {
+                "x": 0.75,
+                "y": 1,
+                "z": 0,
+                "rx": 90,
+                "ry": 0,
+                "rz": 0
+            }
+        },
+        "bees2": {
+            "type": "cubemitter",
+            "cubemitter": "/nordlingmod/data/horde/particles/bees/bees.cubemitter.json",
+            "loop": true,
+            "start_time": 0,
+            "transforms": {
+                "x": -1.5,
+                "y": 1,
+                "z": 0,
+                "rx": 90,
+                "ry": 20,
+                "rz": 20
+            }
+        }
+    }
+}

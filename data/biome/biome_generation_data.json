@@ -1,0 +1,16 @@
+{
+    "palettes": {
+        "spring": {
+            "mythril_ore": "#808687"
+        },
+		"summer": {
+			"mythril_ore": "#808687"
+		},
+		"autumn": {
+			"mythril_ore": "#808687"
+		},
+		"winter": {
+			"mythril_ore": "#808687"
+		}
+    }
+}

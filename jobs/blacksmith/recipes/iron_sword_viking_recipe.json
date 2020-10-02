@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "work_units": 4,
+   "effort": 90,
+   "recipe_name": "i18n(nordlingmod:jobs.blacksmith.recipes.iron_sword_viking.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.blacksmith.recipes.iron_sword_viking.description)",
+   "flavor": "i18n(nordlingmod:jobs.blacksmith.recipes.iron_sword_viking.flavor)",
+   "portrait": "/nordlingmod/entities/weapons/iron_sword_viking/iron_sword_viking.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      },
+      {
+         "uri": "nordlingmod:leather_strip",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:iron_sword_viking"
+      }
+   ]
+}

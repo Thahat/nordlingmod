@@ -1,0 +1,33 @@
+{
+	"mixins": "/stonehearth/jobs/cook/recipes/recipes.json",
+	"craftable_recipes": {
+		"workbenches": {
+			 "recipes": {
+				"cook_workbench_nordlings": {
+					"recipe": "file(cook_workbench_nordlings_recipe.json)"
+				},
+				"mixintypes": {
+					"cook_workbench": "remove"
+				}
+			 }
+		},
+		"animal_feed": {
+			"recipes": {
+				"sheep_feed_nordlings": {
+					"recipe": "file(sheep_feed_nordlings_recipe.json)"
+				},
+				"poyo_feed_nordlings": {
+					"recipe": "file(poyo_feed_nordlings_recipe.json)"
+				},
+				"rabbit_feed_nordlings": {
+					"recipe": "file(rabbit_feed_nordlings_recipe.json)"
+				},
+				"mixintypes": {
+				"sheep_feed": "remove",
+				"poyo_feed": "remove",
+				"rabbit_feed": "remove"
+			  }
+			}
+		}
+	}
+}

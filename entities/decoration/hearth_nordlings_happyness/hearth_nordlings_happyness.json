@@ -1,0 +1,53 @@
+{
+   "type": "entity",
+   "mixins": "file(hearth_nordlings_happyness_ghost.json)",
+   "components": {
+      "render_info": {
+         "color_map": "stonehearth:color_map:water",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/water_material_map.json"
+         ]
+      },
+	  "effect_list": {
+			"effects": [
+			  "nordlingmod:hearth_happyness_effect"
+		    ]
+		},
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 3, "y": 2, "z": 3 }
+            }
+         ]
+      },
+      "stonehearth:firepit": {},
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(hearth_nordlings_happyness_iconic.json)",
+         "ghost_form": "file(hearth_nordlings_happyness_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_undeploy_ui": true
+      },
+	  "stonehearth:traveler_attraction": {}
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "clearable": false
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 160,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 120
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

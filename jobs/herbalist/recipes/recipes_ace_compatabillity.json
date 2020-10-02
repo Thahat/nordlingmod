@@ -1,0 +1,48 @@
+{
+	"craftable_recipes": {
+		"farming_enhancements": {
+			"recipes" : {
+				"mixintypes":{
+					"turnip_seeds_recipe"	: "remove",
+					"carrot_seeds_recipe"	: "remove",
+					"pumpkin_seeds_recipe"	: "remove",
+					"corn_seeds_recipe"		: "remove",
+					"paddy_seeds_recipe"	: "remove"
+				},
+				"beans_seeds_recipe": {
+					"recipe": "file(beans_seeds_recipe.json)"
+				},
+				"cabbage_seeds_recipe": {
+					"recipe": "file(cabbage_seeds_recipe.json)"
+				},
+				"white_carrot_seeds_recipe": {
+					"recipe": "file(white_carrot_seeds_recipe.json)"
+				},
+				"hops_seeds_recipe": {
+					"recipe": "file(hops_seeds_recipe.json)"
+				},
+				"onion_seeds_recipe": {
+					"recipe": "file(onion_seeds_recipe.json)"
+				}
+			}
+		},
+		"refinement": {
+			"recipes": {
+				"mixintypes":{
+					"beans_seeds_recipe"	: "remove",
+					"cabbage_seeds_recipe"	: "remove",
+					"white_carrot_seeds_recipe"	: "remove",
+					"hops_seeds_recipe"		: "remove",
+					"onion_seeds_recipe"	: "remove"
+				}
+			}
+		},
+		"brewing_ingredients": {
+			"recipes": {
+				"gruit" : {
+					"recipe" : "file(gruit_recipe.json)"
+				}
+			}
+		}
+	}	
+}

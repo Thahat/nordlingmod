@@ -1,0 +1,124 @@
+{
+"craftable_recipes": {
+    "workbenches": {
+         "ordinal": 1,
+         "name": "i18n(stonehearth:jobs.cook.recipes.workbenches_name)",
+		 "recipes": {
+			"cook_workbench_nordlings": {
+					"recipe": "nordlingmod/jobs/cook/recipes/cook_workbench_nordlings_recipe.json"
+			},
+			"cook_mill": {
+               "recipe": "stonehearth/jobs/cook/recipes/cook_mill_recipe.json"
+            },
+            "cook_oven": {
+               "recipe": "stonehearth/jobs/cook/recipes/cook_oven_recipe.json"
+            }
+		}
+      },
+    "ingredients": {
+        "ordinal": 30,
+        "name": "i18n(stonehearth:jobs.cook.recipes.ingredients_name)",
+		"recipes": {
+			"flour": {
+				"recipe": "stonehearth/jobs/cook/recipes/flour_recipe.json"
+            }
+		}
+	},
+    "food": {
+         "ordinal": 60,
+		  "name": "i18n(stonehearth:jobs.cook.recipes.food_name)",
+         "recipes": {
+            "veggie_stew": {
+               "recipe": "stonehearth/jobs/cook/recipes/veggie_stew_recipe.json"
+            },
+            "meat_stew": {
+               "recipe": "stonehearth/jobs/cook/recipes/meat_stew_recipe.json"
+            },
+            "peasant_bread": {
+               "recipe": "stonehearth/jobs/cook/recipes/peasant_bread_recipe.json"
+            },
+            "omelette": {
+               "recipe": "stonehearth/jobs/cook/recipes/omelette_recipe.json"
+            },
+            "fried_eggs": {
+               "recipe": "stonehearth/jobs/cook/recipes/fried_eggs_recipe.json"
+            },
+            "fried_eggs_large": {
+               "recipe": "stonehearth/jobs/cook/recipes/fried_eggs_large_recipe.json"
+            },
+            "roasted_sweet_potato": {
+               "recipe": "stonehearth/jobs/cook/recipes/roasted_sweet_potato_recipe.json"
+            },
+            "sausage": {
+               "recipe": "stonehearth/jobs/cook/recipes/sausage_recipe.json"
+            },
+            "roast_sausage": {
+               "recipe": "stonehearth/jobs/cook/recipes/roast_sausage_recipe.json"
+            }
+         }
+	}, 
+    "chefs_specials": {
+         "ordinal": 65,
+		  "name": "i18n(stonehearth:jobs.cook.recipes.chefs_specials_name)",
+         "recipes": {
+            "roast_poyo": {
+               "recipe": "stonehearth/jobs/cook/recipes/roast_poyo_recipe.json"
+            },
+            "poyo_pot_pie": {
+               "recipe": "stonehearth/jobs/cook/recipes/poyo_pot_pie_recipe.json"
+            },
+            "roast_mutton": {
+               "recipe": "stonehearth/jobs/cook/recipes/roast_mutton_recipe.json"
+            },
+            "donation_box": {
+               "recipe": "stonehearth/jobs/cook/recipes/donation_box_recipe.json"
+            },
+            "roast_varanus": {
+               "recipe": "stonehearth/jobs/cook/recipes/roast_varanus_recipe.json"
+            },
+            "bacon_and_eggs": {
+               "recipe": "stonehearth/jobs/cook/recipes/bacon_and_eggs_recipe.json"
+            },
+            "roast_pork": {
+               "recipe": "stonehearth/jobs/cook/recipes/roast_pork_recipe.json"
+            },
+            "roast_poultry_large": {
+               "recipe": "stonehearth/jobs/cook/recipes/roast_poultry_large_recipe.json"
+            },
+            "roast_venison": {
+               "recipe": "stonehearth/jobs/cook/recipes/roast_venison_recipe.json"
+            },
+            "dumpling_meat": {
+               "recipe": "stonehearth/jobs/cook/recipes/dumpling_meat_recipe.json"
+            },
+            "dumpling_vegetarian": {
+               "recipe": "stonehearth/jobs/cook/recipes/dumpling_vegetarian_recipe.json"
+            }
+         }
+    },
+    "animal_feed": {
+	     "ordinal": 68,
+         "name": "i18n(stonehearth:jobs.cook.recipes.animal_feed_name)",
+         "recipes": {
+			"sheep_feed_nordlings": {
+				"recipe": "nordlingmod/jobs/cook/recipes/sheep_feed_nordlings_recipe.json"
+			},
+			"poyo_feed_nordlings": {
+				"recipe": "nordlingmod/jobs/cook/recipes/poyo_feed_nordlings_recipe.json"
+			},
+			"rabbit_feed_nordlings": {
+				"recipe": "nordlingmod/jobs/cook/recipes/rabbit_feed_nordlings_recipe.json"
+			}
+		 }
+    },
+	"decoration": {
+        "ordinal": 80,
+        "name": "i18n(stonehearth:jobs.cook.recipes.decoration_name)",
+        "recipes": {
+            "wheat_pile": {
+               "recipe": "stonehearth/jobs/cook/recipes/wheat_pile_recipe.json"
+            }
+        }
+    }  
+    }
+}

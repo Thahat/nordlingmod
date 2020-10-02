@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 20,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.shepherds_crook_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.shepherds_crook_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.carpenter.recipes.shepherds_crook_recipe.flavor)",
+   "portrait": "/nordlingmod/jobs/shepherd/shepherd_crook/shepherd_crook.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:shepherd:talisman"
+      }
+   ]
+}

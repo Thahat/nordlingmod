@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 5,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.carpenter_workbench_nordlings_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.carpenter_workbench_nordlings_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.carpenter_workbench_nordlings_recipe.flavor)",
+   "portrait": "/nordlingmod/jobs/carpenter/carpenter_workbench_nordlings/carpenter_workbench_nordlings.png",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:carpenter_workbench_nordlings"
+      }
+   ]
+}

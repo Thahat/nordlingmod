@@ -1,0 +1,15 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:weaver",
+   "parent_job": "stonehearth:jobs:shepherd",
+   "parent_level_requirement": 1,
+   "equipment": {
+      "torso": "file(weaver_outfit)",
+	  "mixintypes": {
+			"helmet": "remove"
+		}
+   },
+   "crafter": {
+      "recipe_list": "/nordlingmod/jobs/weaver/recipes/recipes.json"
+	}
+}

@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 180,
+   "work_units": 30,
+   "recipe_name": "i18n(nordlingmod:jobs.mason.recipes.shrine_to_odin_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.mason.recipes.shrine_to_odin_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.mason.recipes.shrine_to_odin_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/decoration/shrine_to_odin/shrine_to_odin.png",
+   "workshop": "stonehearth:mason:pedestal",
+   "level_requirement": 4,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:gold_ingot",
+         "count": 1
+      },
+	  {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 2
+      },
+      {
+         "material": "stone resource",
+         "count": 10
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:shrine_to_odin"
+      }
+   ]
+}

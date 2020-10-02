@@ -1,0 +1,10 @@
+{
+    "static": {
+        "scenarios": [
+         "file(static/ore/mythril_ore_vein)",
+		 "file(static/landmarks/hotspring_temperate.json)",
+		 "file(static/landmarks/hotspring_forest.json)",
+		 "file(static/landmarks/hotspring_arctic.json)"
+      ]
+    }
+}

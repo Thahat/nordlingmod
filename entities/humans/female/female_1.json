@@ -1,0 +1,57 @@
+{
+   "mixins": "/stonehearth/entities/humans/female/female_1.json",
+   "components": {
+		"model_variants": {
+         "default": {
+			"mixintypes" :{
+				"models": "override"
+			},
+            "models": [
+               "file(head.qb)",
+               "file(body.qb)",
+               "stonehearth/entities/humans/female/eyes.qb"
+            ]
+         }
+      }
+	 },
+   "entity_data": {
+      "stonehearth:customization_variants": {
+         "customization_options": "/nordlingmod/entities/humans/female/female_customizations.json",
+         "packages": {
+            "hair_and_skin_color": {
+               "hair_color": {
+                  "weights": {
+                     "black": 1,
+                     "brown": 2,
+                     "red": 3,
+                     "sandy": 2,
+                     "blonde": 2,
+                     "platinum": 1
+                  }
+               }
+            },
+            "hair_model": {
+               "head_hair": {
+                  "weights": {
+                     "female_hair_1": 1,
+					 "female_hair_thorunn": 1,
+                     "female_hair_2": 1,
+                     "female_hair_3": 1,
+                     "female_hair_4": 1,
+                     "female_hair_5": 1,
+                     "female_hair_6": 1,
+                     "female_hair_7": 1,
+					 "female_hair_1_new": 1,
+					 "female_hair_2_new": 1,
+					 "female_hair_3_new": 1,
+					 "female_hair_4_new": 1,
+					 "female_hair_5_new": 1,
+					 "female_hair_6_new": 1,
+					 "female_hair_7_new": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

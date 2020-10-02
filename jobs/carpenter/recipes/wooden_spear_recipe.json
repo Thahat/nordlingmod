@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 20,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.wooden_spear_recipe.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.wooden_spear_recipe.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.wooden_spear_recipe.flavor)",
+   "portrait": "/nordlingmod/entities/weapons/wooden_spear/wooden_spear.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:footman:wooden_spear_talisman"
+      }
+   ]
+}

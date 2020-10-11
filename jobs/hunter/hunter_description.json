@@ -1,0 +1,8 @@
+{
+   "mixins": "hunter:jobs:hunter",
+   "type": "job",
+   "enabled": true,
+   "equipment": {
+      "torso": "file(hunter_outfit)",
+   }
+}

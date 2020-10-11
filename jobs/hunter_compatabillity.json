@@ -1,0 +1,7 @@
+{
+   "jobs": {
+      "hunter:jobs:hunter": {
+         "description": "nordlingmod/jobs/jobs/hunter/hunter_description.json"
+      }
+   }
+}

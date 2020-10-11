@@ -3,6 +3,11 @@
    "duration": 9999,
    "material": "materials/cubemitter.material.json",
    "loops": true,
+   "mesh": {
+      "file": "",
+      "matrix": "",
+      "offset": { "x": 0, "y": 0, "z": 0 }
+   },
    "emission": {
       "rate": {
          "kind": "CONSTANT",
@@ -39,18 +44,33 @@
       "scale": {
          "start": {
             "kind": "RANDOM_BETWEEN",
-            "values": [0.1, 0.4]
+            "values": [
+               0.2,
+               0.3
+            ]
          },
          "over_lifetime": {
             "kind": "RANDOM_BETWEEN_CURVES",
             "values": [
                [
-                  [0, 1],
-                  [1, 2]
+                  [
+                     0,
+                     1
+                  ],
+                  [
+                     1,
+                     4
+                  ]
                ],
                [
-                  [0, 1.8],
-                  [1, 2.8]
+                  [
+                     0,
+                     0.4
+                  ],
+                  [
+                     1,
+                     2
+                  ]
                ]
             ]
          }
@@ -58,14 +78,28 @@
       "color": {
          "start": {
             "kind": "CONSTANT",
-            "values": [0.8, 0.76, 0.69, 0.3]
+            "values": [
+               0.854,
+               0.789,
+               0.715,
+               0.05
+            ]
          },
          "over_lifetime_a": {
             "kind": "CURVE",
             "values": [
-               [0, 0.3],
-               [0.8, 0.2],
-               [1, 0]
+               [
+                  0,
+                  0.1
+               ],
+               [
+                  0.8,
+                  0.05
+               ],
+               [
+                  1,
+                  0
+               ]
             ]
          }
       }

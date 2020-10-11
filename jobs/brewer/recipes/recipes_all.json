@@ -1,0 +1,11 @@
+{
+	"craftable_recipes": {
+		"simple_drinks": {
+			"recipes": {
+				"juice_berry": {
+					"recipe": "file(juice_bramble_recipe.json)"
+				}
+			}
+		}
+   }
+}

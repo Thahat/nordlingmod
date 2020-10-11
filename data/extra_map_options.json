@@ -1,0 +1,16 @@
+{
+	"biome_options": {
+		"nordlingmod:biome:forest": {
+			"world_size":1,
+			"rivers":{
+				"quantity":3,
+				"radius":2,
+				"plains":true,
+				"foothills":false,
+				"mountains":false
+			},
+			"lakes":true,
+			"dirt_holes":false,
+		}
+	}
+}

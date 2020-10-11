@@ -1,0 +1,11 @@
+{
+	{
+   "harvest_menu": {
+      "items": {
+         "box_hunt": {
+            "icon": "/nordlingmod/ui/game/start_menu/images/box_hunt_cmd.png",
+         }
+      }
+   }
+}
+}

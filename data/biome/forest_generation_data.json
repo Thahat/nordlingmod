@@ -405,7 +405,23 @@
                "exclusion_radius": 4
             }
          },
-         "stonehearth:plants:violet": {
+         "stonehearth:plants:snow_poppy": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 4,
+               "item_density": 0.1,
+               "exclusion_radius": 1
+            }
+         },
+		 "stonehearth:plants:wintermoss": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 4,
+               "item_density": 0.1,
+               "exclusion_radius": 1
+            }
+         },
+		 "stonehearth:plants:violet": {
             "placement_type": "dense",
             "parameters": {
                "grid_multiple": 4,
@@ -629,7 +645,9 @@
             "weights": {
                "plains": {
                   "1": {
-                     "stonehearth:plants:violet": 1,
+                     "stonehearth:plants:wintermoss": 1,
+					 "stonehearth:plants:snow_poppy": 4,
+					 "stonehearth:plants:violet": 1,
                      "stonehearth:plants:frostsnap": 1,
                      "stonehearth:plants:silkweed": 1.5
                   }
@@ -640,7 +658,8 @@
                      "stonehearth:plants:violet": 7,
                      "stonehearth:plants:silkweed": 1,
                      "stonehearth:plants:sugarbell": 2,
-                     "stonehearth:plants:carrot": 1
+                     "stonehearth:plants:carrot": 1,
+					 "stonehearth:plants:snow_poppy": 4
                   },
                   "2": {
                      "stonehearth:plants:frostsnap": 2,

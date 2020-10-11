@@ -4,8 +4,11 @@
 			"build_well": {
 				"icon": "/nordlingmod/ui/game/start_menu/images/build_well.png"
 			},
+			"build_fence": {
+				"icon": "/nordlingmod/ui/game/start_menu/images/build_fence.png"
+			},
 			"box_cancel_placement": {
-				"icon": "/nordlingmod/ui/game/start_menu/images/box_cancel_placement.png"
+				"icon": "/nordlingmod/ui/game/start_menu/images/box_cancel_placement_menu.png"
 			}
 		}
 	},

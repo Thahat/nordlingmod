@@ -1,0 +1,59 @@
+{
+   "mixins": "stonehearth:mixins:brewer_outfit",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "true",
+            "models": [
+               "file(brewer_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+			"transparent": "true",
+            "models": [
+               "file(brewer_outfit_female.qb)"
+            ]
+         },
+         "rabbit_male": {
+            "layer": "clothing",
+            "models": [
+               "file(brewer_outfit_rabbit_male.qb)"
+            ]
+         },
+         "rabbit_female": {
+            "layer": "clothing",
+            "models": [
+               "file(brewer_outfit_rabbit_female.qb)"
+            ]
+         },
+         "orc_male": {
+            "layer": "clothing",
+            "models": [
+               "file(brewer_outfit_orc_male.qb)"
+            ]
+         },
+         "orc_female": {
+            "layer": "clothing",
+            "models": [
+               "file(brewer_outfit_orc_female.qb)"
+            ]
+         }
+      },
+	  "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso",
+         "ilevel": 2,
+         "no_drop": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 1
+      },
+	  "stonehearth:catalog": {
+         "icon": "file(brewer_outfit.png)"
+      }
+   }
+}

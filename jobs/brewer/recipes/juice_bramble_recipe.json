@@ -6,8 +6,8 @@
    "description": "i18n(nordlingmod:jobs.cook.recipes.juice_bramble_recipe.description)",
    "flavor": "i18n(nordlingmod:jobs.cook.recipes.juice_bramble_recipe.flavor)",
    "portrait": "/nordlingmod/entities/drink/juice_bramble/juice_bramble/juice_bramble.png",
-   "level_requirement": 2,
-   "workshop": "stonehearth:cook:workbench",
+   "level_requirement": 1,
+   "workshop": "stonehearth_ace:brewer:workbench",
    "ingredients": [
 		{
          "uri": "nordlingmod:food:brambles:bramble_basket",

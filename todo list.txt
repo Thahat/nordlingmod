@@ -4,3 +4,5 @@ special workstation to make them
 quest using my dwarves
 
 offhand weapons, knight stuff
+
+check crop growth speeds if normal or not

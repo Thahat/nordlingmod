@@ -418,7 +418,8 @@
       "unicorn_biome/data/biome/unicorn_generation_data.json": "file(data/biome/unicorn_generation_data.json)",
 	  "extra_map_options/data/extra_map_options.json" : "file(data/extra_map_options.json)",
 	  "nordlingmod/jobs/index.json" : "stonehearth_ace/nordlingmod/jobs/ace_compatabillity.json",
-	  "nordlingmod/jobs/index.json" : "hunter/nordlingmod/jobs/hunter_compatabillity.json"
+	  "nordlingmod/jobs/index.json" : "hunter/nordlingmod/jobs/hunter_compatabillity.json",
+	  "stonehearth_ace/jobs/herbalist/recipes/foxlily_transmute_recipe.json" : "file(jobs/herbalist/recipes/foxlily_transmute_recipe.json)"
    },
    "overrides": {
       "stonehearth_ace/nordlingmod/data/loadouts/loadouts_ace_nordlings.json": "nordlingmod/data/loadouts/loadouts_ace_nordlings.json",

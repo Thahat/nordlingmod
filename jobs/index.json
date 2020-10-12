@@ -1,11 +1,11 @@
 {
    "mixins": "stonehearth:jobs:index",
    "jobs": {
-	  "mixintypes": {
-		"stonehearth:jobs:farmer" : "remove"
-	  },
       "stonehearth:jobs:archer": {
          "description": "nordlingmod:jobs:archer"
+      },
+	  "stonehearth:jobs:farmer": {
+         "description": "nordlingmod:jobs:farmer"
       },
 	  "stonehearth:jobs:blacksmith": {
          "description": "nordlingmod:jobs:blacksmith"

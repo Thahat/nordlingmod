@@ -8,10 +8,46 @@
                "file(basic_shelter.qb)"
             ]
          },
-         "sleeping": {
-            "models": [
-               "file(basic_shelter.qb)"
+		 "autumn": {
+			"models": [
+               "file(basic_shelter_autumn.qb)"
             ]
+		 },
+		 "spring": {
+			"models": [
+               "file(basic_shelter_spring.qb)"
+            ]
+		 },
+		 "winter": {
+			"models": [
+               "file(basic_shelter_winter.qb)"
+            ]
+		 }
+      },
+	  "stonehearth:seasonal_model_switcher": {
+         "stonehearth:biome:temperate": {
+            "spring": "spring",
+            "summer": "default",
+            "autumn": "autumn",
+            "winter": "winter"
+         },
+		 "stonehearth:biome:desert": {
+            "spring": "default",
+            "summer": "default",
+            "autumn": "default",
+            "winter": "autumn"
+         },
+		 "stonehearth:biome:arctic": {
+            "spring": "spring",
+            "summer": "spring",
+            "autumn": "winter",
+            "winter": "winter"
+         },
+		 "nordlingmod:biome:forest": {
+            "spring": "spring",
+            "summer": "default",
+            "autumn": "autumn",
+            "winter": "winter"
          }
       },
       "render_info": {

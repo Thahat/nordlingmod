@@ -2,7 +2,7 @@
 	"craftable_recipes": {
 		"simple_drinks": {
 			"recipes": {
-				"juice_berry": {
+				"juice_bramble": {
 					"recipe": "file(juice_bramble_recipe.json)"
 				}
 			}

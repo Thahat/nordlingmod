@@ -10,24 +10,23 @@
       "region_collision_shape": {
 		"type" : "none"
       },
-	  "stonehearth:lamp": {
-         "light_effect": "/nordlingmod/data/effects/hotspring_steam/hotspring_steam_effect.json",
-		 "light_policy": "always_on",
-		 "light_origin": { "x": 0, "y": 0, "z": 0 }
+	  "effect_list": {
+         "default": "/nordlingmod/data/effects/hotspring_steam/hotspring_steam_effect.json"
       },
 	  "stonehearth:traveler_attraction": {},
-	  "sensor_list": {
-         "sensors": {
-            "warmth": {
-               "radius": 20
-            }
-         }
-      },
-	   "stonehearth:buffs": {
+	  "stonehearth:buffs": {
 			"buffs": {
 				"stonehearth_ace:buffs:weather:warmth_source": true
 			}
-      }
+      },
+	  "sensor_list": {
+         "sensors": {
+            "warmth": {
+               "radius": 8
+            }
+         }
+      },
+	   
    },
    "entity_data": {
       "stonehearth:net_worth": {

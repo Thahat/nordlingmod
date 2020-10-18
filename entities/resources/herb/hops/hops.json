@@ -35,7 +35,12 @@
             "herb",
             "resource",
             "hops",
-            "stockpile_plant"
+            "stockpile_plant",
+			"white",
+            "green",
+            "aromatic",
+			"seasoning",
+            "flower"
          ]
       },
       "stonehearth:appeal": {

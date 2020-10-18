@@ -649,14 +649,14 @@
 					 "stonehearth:plants:snow_poppy": 4,
 					 "stonehearth:plants:violet": 1,
                      "stonehearth:plants:frostsnap": 1,
-                     "stonehearth:plants:silkweed": 1.5
+                     "stonehearth:plants:silkweed": 3
                   }
                },
                "foothills": {
                   "1": {
                      "stonehearth:plants:frostsnap": 1,
                      "stonehearth:plants:violet": 7,
-                     "stonehearth:plants:silkweed": 1,
+                     "stonehearth:plants:silkweed": 3,
                      "stonehearth:plants:sugarbell": 2,
                      "stonehearth:plants:carrot": 1,
 					 "stonehearth:plants:snow_poppy": 4
@@ -665,7 +665,7 @@
                      "stonehearth:plants:frostsnap": 2,
                      "stonehearth:plants:violet": 1,
                      "stonehearth:plants:sugarbell": 3,
-                     "stonehearth:plants:silkweed": 0.5,
+                     "stonehearth:plants:silkweed": 3,
 					 "stonehearth:plants:carrot": 0.5
                   }
                },

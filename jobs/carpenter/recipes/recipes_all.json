@@ -11,6 +11,9 @@
 			"recipes": {
 				"basic_shelter": {
 					"recipe": "file(basic_shelter_recipe.json)"
+				},
+				"basic_shelter_improved": {
+					"recipe": "file(basic_shelter_improved_recipe.json)"
 				}
 			}
 		}

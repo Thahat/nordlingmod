@@ -2818,6 +2818,11 @@
                "recipe_name": "Torch (offhand)",
                "description": "Simple light in the dark, and otherwise a stick to fend things off with!",
                "flavor": "In order for the light to shine so brightly, the darkness must be present."
+            },
+            "basic_shelter_improved": {
+               "recipe_name": "Improved Lean-to Shelter",
+               "description": "Keeps you dry when sleeping outside, improved with a warm thatching.",
+               "flavor": "\"What do you actually need? Food, clothing and shelter. Everything else is entertainment.\"  -Len Highwall"
             }
          },
          "carpenter_workbench_nordlings": {

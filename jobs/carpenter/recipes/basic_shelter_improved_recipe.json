@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 2,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.basic_shelter_improved.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.basic_shelter_improved.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.basic_shelter_improved.flavor)",
+   "portrait": "/nordlingmod/entities/furniture/basic_shelter_improved/basic_shelter_improved.png",
+   "work_effect": "work",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "uri": "nordlingmod:basic_shelter",
+         "count": 1
+      },
+	  {
+         "material": "thatch resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:basic_shelter_improved"
+      }
+   ]
+}

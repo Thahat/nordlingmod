@@ -1,6 +1,7 @@
 {
 	"population_titles": "/nordlingmod/data/titles/population_titles.json",
 	"item_titles": "/nordlingmod/data/titles/item_titles.json",
+	"starting_items_container": "stonehearth_ace:containers:embark_wagon",
 	"roles" : {
 		"default": {
 			"mixintypes": {

@@ -1765,6 +1765,12 @@
                "description": "ITS BIG",
                "iconic_description": "Mega-Onion"
             }
+         },
+         "campfire": {
+            "campfire_ghost": {
+               "display_name": "Campfire",
+               "description": "Campfire"
+            }
          }
       },
       "resources": {

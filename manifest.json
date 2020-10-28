@@ -76,6 +76,7 @@
       "color_map:rune": "file(data/materials/color_maps/rune_color_map.json)",
       "comfy_fur_bed": "file(entities/furniture/comfy_fur_bed/comfy_fur_bed.json)",
       "comfy_fur_bed_stone": "file(entities/furniture/comfy_fur_bed_stone/comfy_fur_bed_stone.json)",
+	  "campfire" : "file(entities/decoration/campfire/campfire.json)",
       "commands:toggle_job_armor_variant:nordling_archer": "file(data/commands/job_armor_variants/nordling_archer.json)",
       "commands:toggle_job_armor_variant:nordling_cleric": "file(data/commands/job_armor_variants/nordling_cleric.json)",
       "commands:toggle_job_armor_variant:nordling_footman": "file(data/commands/job_armor_variants/nordling_footman.json)",

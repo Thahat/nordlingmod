@@ -1,0 +1,40 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(campfire.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "animation_table": "/nordlingmod/data/rigs/entities/decoration/campfire/campfire.json"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "effect_list": {
+         "default": "/nordlingmod/data/rigs/entities/decoration/campfire/effects/idle.json"
+      }
+   },
+   "entity_data": {
+      "stonehearth:hide_child_entities_from_pathfinder": true,
+      "stonehearth:catalog": {
+         "portrait": "file(campfire.png)",
+         "display_name": "i18n(nordlingmod:entities.decoration.campfire.campfire_ghost.display_name)",
+         "description": "i18n(nordlingmod:entities.decoration.campfire.campfire_ghost.description)",
+         "icon": "file(campfire.png)",
+         "category": "decoration",
+         "material_tags": [
+            "campfire",
+            "light",
+            "stone",
+            "light_source",
+            "stockpile_decoration"
+         ]
+      }
+   }
+}

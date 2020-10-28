@@ -16,6 +16,9 @@
 		"items": {
 			"box_harvest_and_replant": {
 				"icon": "/nordlingmod/ui/game/start_menu/images/harvest_and_replant_cmd.png"
+			},
+			"box_forage": {
+				"icon": "/nordlingmod/ui/game/start_menu/images/box_forage_menu.png"
 			}
 		}
 	},

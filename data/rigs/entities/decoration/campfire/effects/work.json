@@ -1,0 +1,106 @@
+{
+   "type": "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "idle.json",
+         "loop": true
+      },
+      "base_embers": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/campfire_pot/campfire_pot_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.2, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "base_dense": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/campfire_pot/campfire_pot_base_dense.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.3, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "glow": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/campfire_pot/campfire_pot_glow.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.5, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "glow_extreme": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/campfire_pot/campfire_pot_glow_extreme.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.5, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/campfire_pot/campfire_pot_main.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.2, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "embers": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/campfire_pot/campfire_pot_embers.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 0.2, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "bubbling": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/campfire_pot/campfire_pot_bubbling.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1.5, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "smoke": {
+         "type": "cubemitter",
+         "cubemitter": "/trapper_plus/data/horde/particles/campfire_pot/campfire_pot_smoke.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": 0, "y": 1.6, "z": 0,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "crackle_sound": {
+         "type": "sound_effect",
+         "loop": true,
+         "start_time": 400,
+         "min_distance": 40,
+         "falloff": 2.5,
+         "volume": 60,
+         "track": "stonehearth:sounds:firepit_loop_sound"
+      },
+      "light": {
+         "type": "light",
+         "light": "/stonehearth/data/horde/animatedlights/fire/fire.animatedlight.json",
+         "transforms": { "x": 0, "y": 0.9, "z": 0 },
+         "shadows": true
+      }
+   }
+}

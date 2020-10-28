@@ -33,8 +33,7 @@
          ]
       },
       "stonehearth:mount": {
-         "mount_offset": { "x": 0.5, "y": 0.45, "z": -1 },
-         "mounted_model_variant": "sleeping"
+         "mount_offset": { "x": 0.5, "y": 0.45, "z": -1 }
       },
       "stonehearth:ownable_object": {
          "ownership_type": "bed"

@@ -89,8 +89,8 @@
             "charcoal_mound": {
                "recipe": "file(charcoal_mound_recipe.json)"
             },
-            "mixintypes": {
-               "wooden_chair": "remove"
+			"hnefetafl_board": {
+               "recipe": "file(hnefetafl_board_recipe.json)"
             }
          }
       },

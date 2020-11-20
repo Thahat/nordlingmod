@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 10,
+   "work_units": 4,
+   "recipe_name": "i18n(nordlingmod:jobs.carpenter.recipes.hnefetafl_board.recipe_name)",
+   "description": "i18n(nordlingmod:jobs.carpenter.recipes.hnefetafl_board.description)",
+   "flavor": "i18n(nordlingmod:jobs.carpenter.recipes.hnefetafl_board.flavor)",
+   "portrait": "/nordlingmod/entities/decoration/hnefetafl_board/hnefetafl_board.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "nordlingmod:decoration:hnefetafl_board"
+      }
+   ]
+}

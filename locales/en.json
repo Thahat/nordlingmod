@@ -1771,6 +1771,12 @@
                "display_name": "Campfire",
                "description": "Campfire"
             }
+         },
+         "hnefetafl_board": {
+            "hnefetafl_board_ghost": {
+               "display_name": "Hnefetafl Board",
+               "description": "Hnefetafl (The kings table) Boardgame"
+            }
          }
       },
       "resources": {

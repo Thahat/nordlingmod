@@ -1838,6 +1838,28 @@
          }
       },
       "crops": {
+	     "bramble_bush_crop": {
+            "growth_stage": {
+               "000": {
+                  "description": "Planted to grow a meager food supply.",
+                  "name": "Bramble Bush Seed"
+               },
+               "001": {
+                  "description": "Just needs some time and care.",
+                  "name": "Bramble Bush Sproutling"
+               },
+               "002": {
+                  "description": "Still growing!",
+                  "name": "Stemming Bramble Bush"
+               },
+               "003": {
+                  "description": "It's almost there!  Look, it has buds!",
+                  "name": "Budding Bramble Bush"
+               }
+            },
+            "description": "Can be harvested for a small supply of fruits",
+            "display_name": "Bramble Bush"
+         },
          "onion": {
             "onion_crop": {
                "display_name": "Onion",

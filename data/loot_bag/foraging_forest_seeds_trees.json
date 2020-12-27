@@ -1,0 +1,24 @@
+{
+   "entries": {
+      "drop": {
+         "items": {
+            "stone_pine": {
+               "uri": "nordlingmod:trees:stone_pine:seed",
+               "weight": 4
+            },
+            "pine": {
+               "uri": "stonehearth:trees:pine:seed",
+               "weight": 3
+            },
+            "juniper": {
+               "uri": "stonehearth:trees:juniper:seed",
+               "weight": 2
+            },
+            "bramble_bush": {
+               "uri": "nordlingmod:plants:bramble_bush:seed",
+               "weight": 1
+            }
+         }
+      }
+   }
+}

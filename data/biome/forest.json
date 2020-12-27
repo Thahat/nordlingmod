@@ -13,6 +13,8 @@
       "stonehearth:game_mode:hard": "file(images/forest_story_normal.png)"
    },
    "generation_file": "file(forest_generation_data.json)",
+   "growth_duration_multiplier": 1.15,
+   "decay_multiplier": 0.75,
    "applied_manifests": {
       "forest": "file(forest/manifest.json)"
    },

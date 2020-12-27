@@ -1,0 +1,14 @@
+{
+	  "type" : "index",
+      "crops": {
+	  "bramble_bush": {
+         "crop_type": "nordlingmod:crops:bramble_bush_crop",
+         "ordinal": 1.1,
+         "level_requirement": 1,
+         "destroy_on_crop_change": true,
+         "field_types": {
+            "bush_farm": true
+         }
+      }
+   }
+}

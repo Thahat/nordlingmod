@@ -278,7 +278,18 @@
       "wooden_round_shield": "file(entities/armor/wooden_round_shield/wooden_round_shield.json)",
       "worker:outfit": "file(jobs/worker/worker_outfit/worker_outfit.json)",
       "worker_outfit_fancy": "file(jobs/worker/worker_outfit_fancy/worker_outfit_fancy.json)",
-	  "decoration:hnefetafl_board" : "file(entities/decoration/hnefetafl_board/hnefetafl_board.json)"
+	  "decoration:hnefetafl_board" : "file(entities/decoration/hnefetafl_board/hnefetafl_board.json)",
+	  "crops:bramble_bush_crop":       "file(entities/crops/bramble_bush_crop/bramble_bush_crop.json)",
+      "crops:bramble_bush_crop:final": "file(entities/crops/bramble_bush_crop/bramble_bush_crop_final.json)",
+	  "terrain:foraging_spot": "file(entities/terrain/foraging_spot/foraging_spot.json)",
+      "terrain:foraging_spot:forest": "file(entities/terrain/foraging_spot_forest/foraging_spot_forest.json)",
+      "terrain:foraging_spot:forest:autumn": "file(entities/terrain/foraging_spot_forest_autumn/foraging_spot_forest_autumn.json)",
+      "terrain:foraging_spot:forest:winter": "file(entities/terrain/foraging_spot_forest_winter/foraging_spot_forest_winter.json)",
+	  "loot_bag:foraging:forest:fungi": "file(data/loot_bag/foraging_forest_fungi.json)",
+      "loot_bag:foraging:forest:herbs": "file(data/loot_bag/foraging_forest_herbs.json)",
+      "loot_bag:foraging:forest:seasonal": "file(data/loot_bag/foraging_forest_seasonal.json)",
+      "loot_bag:foraging:forest:seeds": "file(data/loot_bag/foraging_forest_seeds.json)",
+      "loot_bag:foraging:forest:seeds:trees": "file(data/loot_bag/foraging_forest_seeds_trees.json)",
    },
    "mixintos": {
 	  "hunter:jobs:hunter:dog_companion_index" : "file(jobs/hunter/dog_companion_index.json)",
@@ -423,7 +434,8 @@
 	  "extra_map_options/data/extra_map_options.json" : "file(data/extra_map_options.json)",
 	  "nordlingmod/jobs/index.json" : "stonehearth_ace/nordlingmod/jobs/ace_compatabillity.json",
 	  "nordlingmod/jobs/index.json" : "hunter/nordlingmod/jobs/hunter_compatabillity.json",
-	  "stonehearth/jobs/herbalist/recipes/foxlily_transmute_recipe.json" : "file(jobs/herbalist/recipes/foxlily_transmute_recipe.json)"
+	  "stonehearth/jobs/herbalist/recipes/foxlily_transmute_recipe.json" : "file(jobs/herbalist/recipes/foxlily_transmute_recipe.json)",
+	  "nordlingmod/services/server/farming/data/all_crops.json": "stonehearth_ace/nordlingmod/farming/all_crops_ace.json"
    },
    "overrides": {
       "stonehearth_ace/nordlingmod/data/loadouts/loadouts_ace_nordlings.json": "nordlingmod/data/loadouts/loadouts_ace_nordlings.json",
@@ -467,7 +479,8 @@
 	  "stonehearth_ace/nordlingmod/jobs/archer/nordlings_archer_description_ace.json": "nordlingmod/jobs/archer/nordlings_archer_description_ace.json",
 	  "stonehearth_ace/nordlingmod/jobs/engineer/nordlings_engineer_description_ace.json": "nordlingmod/jobs/engineer/nordlings_engineer_description_ace.json",
 	  "stonehearth_ace/nordlingmod/jobs/ace_compatabillity.json" : "nordlingmod/jobs/ace_compatabillity.json",
-	  "hunter/nordlingmod/jobs/ace_compatabillity.json" : "nordlingmod/jobs/hunter_compatabillity.json"
+	  "hunter/nordlingmod/jobs/ace_compatabillity.json" : "nordlingmod/jobs/hunter_compatabillity.json",
+	  "stonehearth_ace/nordlingmod/farming/all_crops_ace.json":           "nordlingmod/services/server/farming/data/all_crops_ace.json"
    },
    "components": {},
    "ui": {

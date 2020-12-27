@@ -1,0 +1,84 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:resource_node": {
+         "harvester_effect": "work_forage",
+         "harvest_overlay_effect": "stonehearth_ace:effects:harvest_foraging_spot_overlay_effect",
+         "description": "harvest_plant",
+         "resource_loot_table": {
+            "entries": {
+               "optional": {
+                  "items": {
+                     "nothing": {
+                        "uri": "",
+                        "weight": 20
+                     },
+					 "thatch": {
+                        "uri": "stonehearth_ace:resources:thatch_bale",
+                        "weight": 2.5
+                     },
+                     "bough": {
+                        "uri": "stonehearth_ace:resources:bough_bale",
+                        "weight": 3.5
+                     },
+                     "bough_evergreen": {
+                        "uri": "stonehearth_ace:resources:bough_bale:evergreen",
+                        "weight": 3
+                     },
+                     "honey": {
+                        "uri": "stonehearth_ace:food:honey:wild",
+                        "weight": 0.4
+                     },
+                     "duck_feathers": {
+                        "uri": "stonehearth_ace:resources:feathers:duck_feathers",
+                        "weight": 0.3
+                     },
+                     "poyo_feathers": {
+                        "uri": "stonehearth:resources:feathers:poyo_feathers",
+                        "weight": 0.3
+                     },
+                     "duckduck_feathers": {
+                        "uri": "stonehearth:resources:feathers:duckduck_feathers",
+                        "weight": 0.2
+                     },
+                     "ostrich_feathers": {
+                        "uri": "stonehearth:resources:feathers:ostrich_feathers",
+                        "weight": 0.1
+                     },
+                     "beehive": {
+                        "uri": "stonehearth_ace:beehive",
+                        "weight": 0.1
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "stonehearth:task_tracker": {
+         "destroy_if_task_canceled": "stonehearth:harvest_resource"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": 0, "y": 0, "z": 0 },
+               "max": { "x": 1, "y": 1, "z": 1 }
+            }
+         ],
+         "region_collision_type": "none"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth_ace:entities.terrain.foraging_spot.display_name)",
+         "description": "i18n(stonehearth_ace:entities.terrain.foraging_spot.description)",
+         "category": "foraging_spot"
+      },
+      "stonehearth:appeal": {
+         "appeal": 0
+      }
+   }
+}

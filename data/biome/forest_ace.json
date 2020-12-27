@@ -1,8 +1,7 @@
 {
-	"mixintypes": {
-		"growth_duration_multiplier": "remove"
-	},
    "climate": "temperate_medium",
+   	"foraging_spot_uri": "nordlingmod:terrain:foraging_spot:forest",
+	"foraging_spot_frequency": 0.0015,
    "seasons": {
       "spring": {
 			"humidity": 0.3,

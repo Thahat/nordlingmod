@@ -51,6 +51,9 @@
 	},
 	"crafter_menu" : {
 		"items": {
+			"shepherd":{
+				"icon": "/nordlingmod/jobs/shepherd/images/shepherd_menu_icon.png"
+			},
 			"brewer":{
 				"icon": "/nordlingmod/jobs/brewer/images/brewer_menu_icon.png"
 			}

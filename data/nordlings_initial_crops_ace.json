@@ -1,0 +1,15 @@
+{
+	"type": "index",
+	"crops_by_kingdom": {
+		"nordlingmod:kingdoms:nordlings": {
+			"berry_bush": true,
+			"chestnut_tree": true,
+			"apple_tree": true,
+			"plum_tree": true,
+			"pear_tree": true
+			
+		}
+	}
+
+
+}

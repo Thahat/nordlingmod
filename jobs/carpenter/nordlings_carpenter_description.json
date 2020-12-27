@@ -7,6 +7,11 @@
 		"mainhand": "file(carpenter_saw/carpenter_saw.json)"
 	},
 	"talisman_uri": "nordlingmod:carpenter:talisman",
+	"talisman_uris": {
+      "stonehearth:carpenter:talisman": true,
+      "stonehearth_ace:carpenter:talisman:bone": true,
+	  "nordlingmod:carpenter:talisman": true
+   },
    "crafter": {
       "work_effect": "saw_nordlings",
       "recipe_list": "/nordlingmod/jobs/carpenter/recipes/recipes.json"

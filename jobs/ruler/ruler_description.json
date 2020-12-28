@@ -10,6 +10,12 @@
    "description": "i18n(nordlingmod:jobs.ruler.ruler_description.description)",
    "requirements": "i18n(nordlingmod:jobs.ruler.ruler_description.requirements)",
    "talisman_uri": "nordlingmod:ruler_talisman",
+   "talisman_uris": {
+	  "nordlingmod:ruler_talisman": true,
+      "stonehearth:footman:wooden_sword_talisman": false,
+      "stonehearth_ace:footman:talisman:stone": false,
+      "stonehearth_ace:footman:talisman:clay": false
+   },
    "abilities": "file(ruler_abilities)",
    "parent_job": "stonehearth:jobs:footman",
    "parent_level_requirement": 1,

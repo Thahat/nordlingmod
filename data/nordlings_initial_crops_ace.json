@@ -6,12 +6,10 @@
 			"chestnut_tree": true,
 			"apple_tree": true,
 			"plum_tree": true,
-<<<<<<< Updated upstream
-			"pear_tree": true
-=======
 			"pear_tree": true,
 			"bramble_bush": true
->>>>>>> Stashed changes
+
+
 			
 		}
 	}

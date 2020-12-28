@@ -9,6 +9,9 @@
 	"icon": "file(images/icon.png)",
 	"display_name": "i18n(nordlingmod:jobs.cleric.cleric_description.display_name)",
     "talisman_uri": "nordlingmod:cleric:talisman",
+	"talisman_uris": {
+	  "nordlingmod:cleric:talisman": true
+   },
 	"armor_preferences": {
 		"default_armor_variant": "nordling_cleric"
 	},

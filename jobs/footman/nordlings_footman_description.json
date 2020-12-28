@@ -6,6 +6,9 @@
 		"level_data": "override"
     },
    "talisman_uri": "nordlingmod:footman:wooden_spear_talisman",
+   "talisman_uris": {
+	  "nordlingmod:footman:wooden_spear_talisman": true
+   },
    "equipment": {
 	  "mixintypes": {
          "torso": "override",

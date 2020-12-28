@@ -4,6 +4,9 @@
    "description": "i18n(nordlingmod:jobs.knight.knight_description.description)",
    "requirements": "i18n(nordlingmod:jobs.knight.knight_description.requirements)",
    "talisman_uri": "nordlingmod:hersir_talisman",
+	"talisman_uris": {
+	  "nordlingmod:hersir_talisman": true
+   },
    "armor_preferences": {
 		"default_armor_variant": "nordling_knight"
 	},
